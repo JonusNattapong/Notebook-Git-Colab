@@ -721,120 +721,39 @@ SFT ปรับโมเดลให้เป็นผู้ช่วยที�
 4.  **ผสานการทำงาน:** นำเครื่องมือจาก DeepSeek AI ไปผสานกับ Workflow ของคุณ
 
 ---
-# Awesome AI/LLM Learning Resources for 2025 (Part 6)
-#### **1. QLoRA Fine-Tuning Pipeline**
-- **GitHub**: [WeixuanJiang/Qlora-Fine-Tuning-Pipeline](https://github.com/WeixuanJiang/Qlora-Fine-Tuning-Pipeline )  
-  - **รายละเอียด**: วิธีการ Fine-Tuning LLMs ผ่าน QLoRA (Quantized Low-Rank Adaptation) พร้อม Script และ Configuration Files สำหรับการ Fine-Tuning และ Inference.  
-    - **Script ตัวอย่าง**:  
-      - [Train Script](https://github.com/WeixuanJiang/Qlora-Fine-Tuning-Pipeline/blob/main/scripts/run_training.bat )  
-      - [Merge Script](https://github.com/WeixuanJiang/Qlora-Fine-Tuning-Pipeline/blob/main/scripts/run_merge_multiple_loras.bat )  
 
-#### **2. LLM Fine-Tuning for Programming Queries**
-- **GitHub**: [Avani1297/LLM-Fine-Tuning-Project-for-Programming-Queries](https://github.com/Avani1297/LLM-Fine-Tuning-Project-for-Programming-Queries )  
-  - **รายละเอียด**: วิธีการ Fine-Tuning LLMs บน Stack Overflow datasets ผ่าน Hugging Face และ Vast.ai.  
-    - **Script ตัวอย่าง**:  
-      - [Fine-Tuning Script](https://github.com/Avani1297/LLM-Fine-Tuning-Project-for-Programming-Queries/blob/main/train.py )  
 
-#### **3. FLUX.1 Fine-Tuning**
-- **Hugging Face**: [black-forest-labs/FLUX.1-dev](https://huggingface.co/black-forest-labs/FLUX.1-dev/discussions/196 )  
-  - **รายละเอียด**: วิธีการ Fine-Tuning FLUX.1 ผ่าน AI Toolkit.  
-    - **Script ตัวอย่าง**:  
-      - [Train Script](https://github.com/ostris/ai-toolkit/blob/main/train_lora_flux_24gb.py )  
+### ตาราง Fine-Tuning AI Models (Part 6 และ Uncensored AI Models)
 
-#### **4. Llama-2 Fine-Tuning with QLoRA**
-- **GitHub**: [mert-delibalta/llama2-fine-tune-qlora](https://github.com/mert-delibalta/llama2-fine-tune-qlora )  
-  - **รายละเอียด**: วิธีการ Fine-Tuning Llama-2 ผ่าน QLoRA พร้อม Script และ Configuration Files.  
-    - **Script ตัวอย่าง**:  
-      - [Fine-Tuning Script](https://github.com/mert-delibalta/llama2-fine-tune-qlora/blob/main/train.py )  
+| ลำดับ | ชื่อ                                              | GitHub/Hugging Face                                                                                  | รายละเอียด                                                                                   | Script ตัวอย่าง                                                                                             |
+|-------|--------------------------------------------------|-----------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
+| **Part 6: Awesome AI/LLM Learning Resources for 2025** |                                                                                                     |                                                                                              |                                                                                              |                                                                                                            |
+| 1     | QLoRA Fine-Tuning Pipeline                      | [WeixuanJiang/Qlora-Fine-Tuning-Pipeline](https://github.com/WeixuanJiang/Qlora-Fine-Tuning-Pipeline) | วิธีการ Fine-Tuning LLMs ผ่าน QLoRA พร้อม Script และ Configuration Files                     | [Train Script](https://github.com/WeixuanJiang/Qlora-Fine-Tuning-Pipeline/blob/main/scripts/run_training.bat), [Merge Script](https://github.com/WeixuanJiang/Qlora-Fine-Tuning-Pipeline/blob/main/scripts/run_merge_multiple_loras.bat) |
+| 2     | LLM Fine-Tuning for Programming Queries         | [Avani1297/LLM-Fine-Tuning-Project-for-Programming-Queries](https://github.com/Avani1297/LLM-Fine-Tuning-Project-for-Programming-Queries) | วิธีการ Fine-Tuning LLMs บน Stack Overflow datasets ผ่าน Hugging Face และ Vast.ai            | [Fine-Tuning Script](https://github.com/Avani1297/LLM-Fine-Tuning-Project-for-Programming-Queries/blob/main/train.py) |
+| 3     | FLUX.1 Fine-Tuning                              | [black-forest-labs/FLUX.1-dev](https://huggingface.co/black-forest-labs/FLUX.1-dev/discussions/196) | วิธีการ Fine-Tuning FLUX.1 ผ่าน AI Toolkit                                                   | [Train Script](https://github.com/ostris/ai-toolkit/blob/main/train_lora_flux_24gb.py)                     |
+| 4     | Llama-2 Fine-Tuning with QLoRA                  | [mert-delibalta/llama2-fine-tune-qlora](https://github.com/mert-delibalta/llama2-fine-tune-qlora)   | วิธีการ Fine-Tuning Llama-2 ผ่าน QLoRA พร้อม Script และ Configuration Files                  | [Fine-Tuning Script](https://github.com/mert-delibalta/llama2-fine-tune-qlora/blob/main/train.py)          |
+| 5     | BERT Fine-Tuning with NVIDIA NGC                | [Fine-Tune and Optimize BERT](https://catalog.ngc.nvidia.com/orgs/nvidia/containers/bert_workshop)  | วิธีการ Fine-Tuning BERT ผ่าน NVIDIA NGC                                                     | [Training Notebook](https://catalog.ngc.nvidia.com/orgs/nvidia/containers/bert_workshop)                   |
+| 6     | Llama2 Fine-Tuning with QLoRA (torchtune)       | [Fine-Tuning Llama2 with QLoRA](https://pytorch.org/torchtune/stable/tutorials/qlora_finetune.html) | วิธีการ Fine-Tuning Llama2 ผ่าน QLoRA พร้อม Script และ Configuration Files                   | [Fine-Tuning Command](https://pytorch.org/torchtune/stable/tutorials/qlora_finetune.html)                  |
+| **Script สำหรับ Fine-Tuning Uncensored AI Models** |                                                                                                     |                                                                                              |                                                                                              |                                                                                                            |
+| 7     | Fine-Tuning LLMs using QLoRA                    | [georgesung/llm_qlora](https://github.com/georgesung/llm_qlora)                                     | วิธีการ Fine-Tuning LLMs ผ่าน QLoRA พร้อม Script และ Configuration Files                     | [Train Script](https://github.com/georgesung/llm_qlora/blob/main/train.py), [Config File](https://github.com/georgesung/llm_qlora/blob/main/configs/llama3_8b_chat_uncensored.yaml) |
+| 8     | Fine-Tuning LLMs with Kiln AI                   | [Kiln-AI/kiln](https://github.com/Kiln-AI/kiln)                                                     | วิธีการ Fine-Tuning LLMs ผ่าน Kiln AI พร้อม UI และ Synthetic Data Generation                 | [Fine-Tuning Guide](https://github.com/Kiln-AI/kiln/blob/main/guides/Fine%20Tuning%20LLM%20Models%20Guide.md) |
+| 9     | Fine-Tuning LLMs with Hugging Face              | [Acerkhan/generative-ai-with-MS](https://github.com/Acerkhan/generative-ai-with-MS/blob/main/18-fine-tuning/README.md) | วิธีการ Fine-Tuning LLMs ผ่าน Hugging Face Transformers พร้อม Step-by-Step Tutorial         | [Fine-Tuning Script](https://github.com/Acerkhan/generative-ai-with-MS/blob/main/18-fine-tuning/README.md) |
+| 10    | Fine-Tuning LLMs with Node-RED Flow             | [rozek/node-red-flow-gpt4all-unfiltered](https://github.com/rozek/node-red-flow-gpt4all-unfiltered) | วิธีการ Fine-Tuning GPT4All ผ่าน Node-RED Flow พร้อม Function Node                           | [Function Node](https://github.com/rozek/node-red-flow-gpt4all-unfiltered/blob/main/GPT4All-unfiltered-Function.json) |
+| 11    | Fine-Tuning LLMs with OpenAI                    | [OpenAI Fine-Tuning](https://github.com/openai/openai-python/blob/main/examples/fine_tuning.py)     | วิธีการ Fine-Tuning LLMs ผ่าน OpenAI API พร้อม Script และ Example                            | [Fine-Tuning Script](https://github.com/openai/openai-python/blob/main/examples/fine_tuning.py)            |
+| 12    | Fine-Tuning LLMs with Azure OpenAI              | [Azure OpenAI Fine-Tuning](https://github.com/Azure/azure-ai-openai/blob/main/samples/fine_tuning.ipynb) | วิธีการ Fine-Tuning LLMs ผ่าน Azure OpenAI Service พร้อม Notebook และ Example               | [Fine-Tuning Notebook](https://github.com/Azure/azure-ai-openai/blob/main/samples/fine_tuning.ipynb)       |
+| 13    | Fine-Tuning LLMs with AWS SageMaker             | [AWS SageMaker Fine-Tuning](https://github.com/aws/amazon-sagemaker-examples/blob/main/introduction_to_amazon_algorithms/transformers/transformers_fine_tuning.ipynb) | วิธีการ Fine-Tuning LLMs ผ่าน AWS SageMaker พร้อม Notebook และ Example                     | [Fine-Tuning Notebook](https://github.com/aws/amazon-sagemaker-examples/blob/main/introduction_to_amazon_algorithms/transformers/transformers_fine_tuning.ipynb) |
+| 14    | Fine-Tuning LLMs with Google AI                 | [Google AI Fine-Tuning](https://github.com/googleapis/python-aiplatform/blob/main/samples/v1beta1/fine_tune_model_sample.py) | วิธีการ Fine-Tuning LLMs ผ่าน Google AI Platform พร้อม Script และ Example                   | [Fine-Tuning Script](https://github.com/googleapis/python-aiplatform/blob/main/samples/v1beta1/fine_tune_model_sample.py) |
+| 15    | Fine-Tuning LLMs with Microsoft DeepSpeed       | [Microsoft DeepSpeed](https://github.com/microsoft/DeepSpeed/blob/main/examples/fine_tune.py)       | วิธีการ Fine-Tuning LLMs ผ่าน Microsoft DeepSpeed พร้อม Script และ Example                   | [Fine-Tuning Script](https://github.com/microsoft/DeepSpeed/blob/main/examples/fine_tune.py)               |
+| 16    | Fine-Tuning LLMs with NVIDIA Triton             | [NVIDIA Triton](https://github.com/NVIDIA/triton-inference-server/blob/main/docs/Training.md)       | วิธีการ Fine-Tuning LLMs ผ่าน NVIDIA Triton พร้อม Documentation และ Example                  | [Fine-Tuning Documentation](https://github.com/NVIDIA/triton-inference-server/blob/main/docs/Training.md)  |
 
-#### **5. BERT Fine-Tuning with NVIDIA NGC**
-- **NVIDIA NGC**: [Fine-Tune and Optimize BERT](https://catalog.ngc.nvidia.com/orgs/nvidia/containers/bert_workshop )  
-  - **รายละเอียด**: วิธีการ Fine-Tuning BERT ผ่าน NVIDIA NGC.  
-    - **Script ตัวอย่าง**:  
-      - [Training Notebook](https://catalog.ngc.nvidia.com/orgs/nvidia/containers/bert_workshop )  
-
-#### **6. Llama2 Fine-Tuning with QLoRA (torchtune)**
-- **PyTorch**: [Fine-Tuning Llama2 with QLoRA](https://pytorch.org/torchtune/stable/tutorials/qlora_finetune.html )  
-  - **รายละเอียด**: วิธีการ Fine-Tuning Llama2 ผ่าน QLoRA พร้อม Script และ Configuration Files.  
-    - **Script ตัวอย่าง**:  
-      - [Fine-Tuning Command](https://pytorch.org/torchtune/stable/tutorials/qlora_finetune.html )  
+### คำอธิบาย
+- **ลำดับ**: ตัวเลขสำหรับระบุลำดับของแต่ละเครื่องมือหรือวิธีการ
+- **ชื่อ**: ชื่อของเครื่องมือหรือวิธีการ Fine-Tuning
+- **GitHub/Hugging Face**: ลิงก์ไปยังหน้า GitHub, Hugging Face หรือแหล่งข้อมูลหลัก
+- **รายละเอียด**: คำอธิบายสั้นๆ เกี่ยวกับวิธีการและจุดเด่น
+- **Script ตัวอย่าง**: ลิงก์ไปยังตัวอย่างโค้ด, Notebook หรือเอกสารที่เกี่ยวข้อง
 
 ---
-
-### แหล่งเรียนรู้เพิ่มเติม
-- **QLoRA Fine-Tuning Pipeline**: [WeixuanJiang/Qlora-Fine-Tuning-Pipeline](https://github.com/WeixuanJiang/Qlora-Fine-Tuning-Pipeline )   
-- **LLM Fine-Tuning for Programming Queries**: [Avani1297/LLM-Fine-Tuning-Project-for-Programming-Queries](https://github.com/Avani1297/LLM-Fine-Tuning-Project-for-Programming-Queries )   
-- **FLUX.1 Fine-Tuning**: [black-forest-labs/FLUX.1-dev](https://huggingface.co/black-forest-labs/FLUX.1-dev/discussions/196 )   
-- **Llama-2 Fine-Tuning with QLoRA**: [mert-delibalta/llama2-fine-tune-qlora](https://github.com/mert-delibalta/llama2-fine-tune-qlora )   
-- **BERT Fine-Tuning with NVIDIA NGC**: [Fine-Tune and Optimize BERT](https://catalog.ngc.nvidia.com/orgs/nvidia/containers/bert_workshop )   
-- **Llama2 Fine-Tuning with QLoRA (torchtune)**: [Fine-Tuning Llama2 with QLoRA](https://pytorch.org/torchtune/stable/tutorials/qlora_finetune.html )   
-
-###  Script สำหรับ Fine-Tuning Uncensored AI Models
-
-#### **1. Fine-Tuning LLMs using QLoRA**
-- **GitHub**: [georgesung/llm_qlora](https://github.com/georgesung/llm_qlora )  
-  - **รายละเอียด**: วิธีการ Fine-Tuning LLMs ผ่าน QLoRA พร้อม Script และ Configuration Files.  
-    - **Script ตัวอย่าง**:  
-      - [Train Script](https://github.com/georgesung/llm_qlora/blob/main/train.py )  
-      - [Config File](https://github.com/georgesung/llm_qlora/blob/main/configs/llama3_8b_chat_uncensored.yaml ) 
-
-#### **2. Fine-Tuning LLMs with Kiln AI**
-- **GitHub**: [Kiln-AI/kiln](https://github.com/Kiln-AI/kiln )  
-  - **รายละเอียด**: วิธีการ Fine-Tuning LLMs ผ่าน Kiln AI พร้อม UI สำหรับการ Fine-Tuning และ Synthetic Data Generation.  
-    - **Script ตัวอย่าง**:  
-      - [Fine-Tuning Guide](https://github.com/Kiln-AI/kiln/blob/main/guides/Fine%20Tuning%20LLM%20Models%20Guide.md ) 
-
-#### **3. Fine-Tuning LLMs with Hugging Face**
-- **GitHub**: [Acerkhan/generative-ai-with-MS](https://github.com/Acerkhan/generative-ai-with-MS/blob/main/18-fine-tuning/README.md )  
-  - **รายละเอียด**: วิธีการ Fine-Tuning LLMs ผ่าน Hugging Face Transformers พร้อม Step-by-Step Tutorial.  
-    - **Script ตัวอย่าง**:  
-      - [Fine-Tuning Script](https://github.com/Acerkhan/generative-ai-with-MS/blob/main/18-fine-tuning/README.md ) 
-
-#### **4. Fine-Tuning LLMs with Node-RED Flow**
-- **GitHub**: [rozek/node-red-flow-gpt4all-unfiltered](https://github.com/rozek/node-red-flow-gpt4all-unfiltered )  
-  - **รายละเอียด**: วิธีการ Fine-Tuning GPT4All ผ่าน Node-RED Flow พร้อม Function Node สำหรับการ Inference.  
-    - **Script ตัวอย่าง**:  
-      - [Function Node](https://github.com/rozek/node-red-flow-gpt4all-unfiltered/blob/main/GPT4All-unfiltered-Function.json ) 
-
-#### **5. Fine-Tuning LLMs with OpenAI**
-- **GitHub**: [OpenAI Fine-Tuning](https://github.com/openai/openai-python/blob/main/examples/fine_tuning.py )  
-  - **รายละเอียด**: วิธีการ Fine-Tuning LLMs ผ่าน OpenAI API พร้อม Script และ Example.  
-    - **Script ตัวอย่าง**:  
-      - [Fine-Tuning Script](https://github.com/openai/openai-python/blob/main/examples/fine_tuning.py ) 
-
-#### **6. Fine-Tuning LLMs with Azure OpenAI**
-- **GitHub**: [Azure OpenAI Fine-Tuning](https://github.com/Azure/azure-ai-openai/blob/main/samples/fine_tuning.ipynb )  
-  - **รายละเอียด**: วิธีการ Fine-Tuning LLMs ผ่าน Azure OpenAI Service พร้อม Notebook และ Example.  
-    - **Script ตัวอย่าง**:  
-      - [Fine-Tuning Notebook](https://github.com/Azure/azure-ai-openai/blob/main/samples/fine_tuning.ipynb ) 
-
-#### **7. Fine-Tuning LLMs with AWS SageMaker**
-- **GitHub**: [AWS SageMaker Fine-Tuning](https://github.com/aws/amazon-sagemaker-examples/blob/main/introduction_to_amazon_algorithms/transformers/transformers_fine_tuning.ipynb )  
-  - **รายละเอียด**: วิธีการ Fine-Tuning LLMs ผ่าน AWS SageMaker พร้อม Notebook และ Example.  
-    - **Script ตัวอย่าง**:  
-      - [Fine-Tuning Notebook](https://github.com/aws/amazon-sagemaker-examples/blob/main/introduction_to_amazon_algorithms/transformers/transformers_fine_tuning.ipynb ) 
-
-#### **8. Fine-Tuning LLMs with Google AI**
-- **GitHub**: [Google AI Fine-Tuning](https://github.com/googleapis/python-aiplatform/blob/main/samples/v1beta1/fine_tune_model_sample.py )  
-  - **รายละเอียด**: วิธีการ Fine-Tuning LLMs ผ่าน Google AI Platform พร้อม Script และ Example.  
-    - **Script ตัวอย่าง**:  
-      - [Fine-Tuning Script](https://github.com/googleapis/python-aiplatform/blob/main/samples/v1beta1/fine_tune_model_sample.py ) 
-
-#### **9. Fine-Tuning LLMs with Microsoft DeepSpeed**
-- **GitHub**: [Microsoft DeepSpeed](https://github.com/microsoft/DeepSpeed/blob/main/examples/fine_tune.py )  
-  - **รายละเอียด**: วิธีการ Fine-Tuning LLMs ผ่าน Microsoft DeepSpeed พร้อม Script และ Example.  
-    - **Script ตัวอย่าง**:  
-      - [Fine-Tuning Script](https://github.com/microsoft/DeepSpeed/blob/main/examples/fine_tune.py ) 
-
-#### **10. Fine-Tuning LLMs with NVIDIA Triton**
-- **GitHub**: [NVIDIA Triton](https://github.com/NVIDIA/triton-inference-server/blob/main/docs/Training.md )  
-  - **รายละเอียด**: วิธีการ Fine-Tuning LLMs ผ่าน NVIDIA Triton พร้อม Documentation และ Example.  
-    - **Script ตัวอย่าง**:  
-      - [Fine-Tuning Documentation](https://github.com/NVIDIA/triton-inference-server/blob/main/docs/Training.md ) 
-
----
-
-ด้านล่างนี้คือตารางที่แปลงข้อมูลจากสคริปต์สำหรับ Fine-Tuning AI Models (ไม่รวม Google Cloud) และเทคนิคพิเศษที่คุณให้มา โดยจัดเป็นตารางที่มีคอลัมน์ "ลำดับ", "ชื่อ", "GitHub", "รายละเอียด", และ "Script ตัวอย่าง" เพื่อให้ดูง่ายและเป็นระเบียบ
 
 ### ตาราง Fine-Tuning AI Models และเทคนิคพิเศษ
 
@@ -867,13 +786,6 @@ SFT ปรับโมเดลให้เป็นผู้ช่วยที�
 - **GitHub**: ลิงก์ไปยังหน้า GitHub หรือเอกสารหลักของเครื่องมือ
 - **รายละเอียด**: คำอธิบายสั้นๆ เกี่ยวกับวิธีการและการใช้งาน
 - **Script ตัวอย่าง**: ลิงก์ไปยังตัวอย่างโค้ดหรือเอกสารที่เกี่ยวข้อง
-
-### หมายเหตุ
-- ตารางนี้รวมเฉพาะเครื่องมือที่ไม่เกี่ยวข้องกับ Google Cloud ตามคำขอของคุณ
-- หากต้องการเพิ่มข้อมูลหรือปรับแต่งตาราง เช่น การเพิ่มคอลัมน์ "ระดับความยาก" หรือ "ประเภททรัพยากร" สามารถแจ้งมาได้เลยครับ
-- ลิงก์บางอันอาจไม่ใช่หน้า GitHub โดยตรง แต่เป็นเอกสารทางการ (เช่น Azure หรือ AWS) ซึ่งเป็นแหล่งข้อมูลหลักสำหรับเครื่องมือนั้นๆ
-
-คุณต้องการให้ฉันปรับแต่งอะไรเพิ่มเติมในตารางนี้ไหมครับ?
 
 ---
 
