@@ -29,7 +29,7 @@ This document provides a curated list of resources for fine-tuning Large Languag
 The document also includes numerous links to resources for fine-tuning on platforms like Azure, AWS, Hugging Face, and using tools like FastAI, PyTorch Lightning, TensorFlow, Keras, ONNX Runtime, and OpenVINO. These resources cover a wide range of techniques and frameworks for fine-tuning AI models. There are also links to academic papers on arXiv related to advanced fine-tuning techniques and distributed training.
 
 ## Kimi Fine-Tuning Resources
-
+ 
 #### **1. QLoRA Fine-Tuning Pipeline**
 - **GitHub**: [WeixuanJiang/Qlora-Fine-Tuning-Pipeline](https://github.com/WeixuanJiang/Qlora-Fine-Tuning-Pipeline)  
   - **รายละเอียด**: วิธีการ Fine-Tuning LLMs ผ่าน QLoRA (Quantized Low-Rank Adaptation) พร้อม Script และ Configuration Files สำหรับการ Fine-Tuning และ Inference.  
