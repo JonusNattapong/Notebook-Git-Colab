@@ -622,112 +622,25 @@ SFT ปรับโมเดลให้เป็นผู้ช่วยที�
 
 ---
 
-# Awesome AI/LLM Learning Resources for 2025 (Part 5/5)
+### ตาราง DeepSeek AI GitHub Repositories (Part 5)
 
-*อัปเดตล่าสุด: 4 มีนาคม 2025*
-*ที่มา: [DeepSeek AI GitHub Repositories](https://github.com/orgs/deepseek-ai/repositories)*
-
-## Part 5: DeepSeek AI GitHub Repositories
-
-ส่วนนี้รวบรวมคลังเก็บ GitHub จาก DeepSeek AI ซึ่งเป็นแหล่งทรัพยากรสำหรับผู้ที่ต้องการพัฒนา AI และ Large Language Models (LLMs) โดยเน้นที่การเพิ่มประสิทธิภาพ, การกระจายการทำงาน และการใช้งานจริง
-
----
-
-### 📂 DeepSeek AI Repositories
-
-#### 1. DeepEP
-
-*   **URL:** [https://github.com/deepseek-ai/DeepEP](https://github.com/deepseek-ai/DeepEP)
-*   **Description:** ไลบรารีการสื่อสารแบบ Expert-Parallel ที่มีประสิทธิภาพสูง ช่วยจัดการการสื่อสารระหว่างโมเดลในระบบฝึก AI ขนาดใหญ่
-*   **Key Concepts:**
-    *   ใช้กลไก Expert-Parallel เพื่อแบ่งงานฝึกโมเดลให้กระจายไปยัง GPU หลายตัว ลดการติดขัดในการสื่อสารระหว่างอุปกรณ์
-*   **How to Use:**
-    *   ดาวน์โหลดโค้ด
-    *   ติดตั้ง Dependencies (เช่น PyTorch)
-    *   รวมเข้ากับ Pipeline การฝึกโมเดล โดยกำหนด Expert Modules ใน Config
-
-#### 2. 3FS
-
-*   **URL:** [https://github.com/deepseek-ai/3FS](https://github.com/deepseek-ai/3FS)
-*   **Description:** ระบบไฟล์กระจายประสิทธิภาพสูง ออกแบบมาเพื่อรองรับการฝึกและ Inference AI โดยเฉพาะ
-*   **Key Concepts:**
-    *   จัดเก็บและเข้าถึงข้อมูลแบบกระจาย (Distributed File System) เพื่อลด Latency ในงาน AI ขนาดใหญ่
-*   **How to Use:**
-    *   ติดตั้งผ่าน Docker หรือ Source Code
-    *   กำหนด Cluster Configuration
-    *   ใช้คู่กับ Framework เช่น TensorFlow หรือ PyTorch
-
-#### 3. DeepGEMM
-
-*   **URL:** [https://github.com/deepseek-ai/DeepGEMM](https://github.com/deepseek-ai/DeepGEMM)
-*   **Description:** Kernel GEMM แบบ FP8 ที่สะอาดและมีประสิทธิภาพ รองรับการปรับขนาดแบบละเอียด (Fine-grained Scaling)
-*   **Key Concepts:**
-    *   ปรับปรุงการคำนวณ Matrix Multiplication ด้วย FP8 Precision เพื่อประหยัดหน่วยความจำและเพิ่มความเร็ว
-*   **How to Use:**
-    *   รวม Kernel เข้ากับโมเดล Deep Learning
-    *   คอมไพล์ด้วย CUDA
-    *   เรียกใช้ใน Layer ที่ต้องการ GEMM
-
-#### 4. open-infra-index
-
-*   **URL:** [https://github.com/deepseek-ai/open-infra-index](https://github.com/deepseek-ai/open-infra-index)
-*   **Description:** เครื่องมือโครงสร้างพื้นฐาน AI ที่ผ่านการทดสอบใน Production เพื่อพัฒนา AGI และนวัตกรรมชุมชน
-*   **Key Concepts:**
-    *   รวบรวมเครื่องมือ Open-source ที่ผ่านการทดสอบจริงสำหรับงาน AGI
-*   **How to Use:**
-    *   เลือกเครื่องมือจาก Index
-    *   ดาวน์โหลดตามลิงก์ใน README
-    *   ปรับใช้ใน Workflow ของคุณ
-
-#### 5. profile-data
-
-*   **URL:** [https://github.com/deepseek-ai/profile-data](https://github.com/deepseek-ai/profile-data)
-*   **Description:** วิเคราะห์การทับซ้อนระหว่างการคำนวณและการสื่อสารใน DeepSeek-V3/R1
-*   **Key Concepts:**
-    *   สร้างโปรไฟล์การทำงานของ V3/R1 เพื่อหาจุดที่สามารถปรับปรุงประสิทธิภาพ
-*   **How to Use:**
-    *   รัน Script วิเคราะห์กับ Log การฝึก
-    *   ใช้ผลลัพธ์ปรับ Hyperparameters หรือ Pipeline
-
-#### 6. awesome-deepseek-integration
-
-*   **URL:** [https://github.com/deepseek-ai/awesome-deepseek-integration](https://github.com/deepseek-ai/awesome-deepseek-integration)
-*   **Description:** รวมวิธีผสาน DeepSeek API เข้ากับซอฟต์แวร์ยอดนิยม เช่น IDEs และแพลตฟอร์มอื่น ๆ
-*   **Key Concepts:**
-    *   จัดเตรียมโค้ดตัวอย่างสำหรับเชื่อมต่อ DeepSeek API กับแอปพลิเคชัน
-*   **How to Use:**
-    *   เลือกซอฟต์แวร์เป้าหมาย (เช่น VS Code)
-    *   คัดลอกโค้ดจากตัวอย่าง
-    *   ปรับแต่งด้วย API Key
-
-#### 7. smallpond
-
-*   **URL:** [https://github.com/deepseek-ai/smallpond](https://github.com/deepseek-ai/smallpond)
-*   **Description:** เฟรมเวิร์กประมวลผลข้อมูลน้ำหนักเบา สร้างบน DuckDB และ 3FS
-*   **Key Concepts:**
-    *   ใช้ DuckDB สำหรับ Query และ 3FS สำหรับจัดเก็บข้อมูลแบบกระจาย
-*   **How to Use:**
-    *   ติดตั้ง DuckDB และ 3FS
-    *   รัน Script ตัวอย่างใน README
-    *   ป้อนข้อมูลเพื่อประมวลผล
+| ลำดับ | ชื่อ                        | URL                                                                                   | รายละเอียด                                                                                   | วิธีใช้งาน                                                                                             |
+|-------|-----------------------------|---------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
+| 1     | DeepEP                     | [https://github.com/deepseek-ai/DeepEP](https://github.com/deepseek-ai/DeepEP)         | ไลบรารีการสื่อสารแบบ Expert-Parallel ที่มีประสิทธิภาพสูง ช่วยจัดการการสื่อสารระหว่างโมเดลในระบบฝึก AI ขนาดใหญ่ | ดาวน์โหลดโค้ด, ติดตั้ง Dependencies (เช่น PyTorch), รวมเข้ากับ Pipeline การฝึกโมเดล โดยกำหนด Expert Modules ใน Config |
+| 2     | 3FS                        | [https://github.com/deepseek-ai/3FS](https://github.com/deepseek-ai/3FS)               | ระบบไฟล์กระจายประสิทธิภาพสูง ออกแบบมาเพื่อรองรับการฝึกและ Inference AI โดยเฉพาะ               | ติดตั้งผ่าน Docker หรือ Source Code, กำหนด Cluster Configuration, ใช้คู่กับ Framework เช่น TensorFlow หรือ PyTorch |
+| 3     | DeepGEMM                   | [https://github.com/deepseek-ai/DeepGEMM](https://github.com/deepseek-ai/DeepGEMM)     | Kernel GEMM แบบ FP8 ที่สะอาดและมีประสิทธิภาพ รองรับการปรับขนาดแบบละเอียด (Fine-grained Scaling) | รวม Kernel เข้ากับโมเดล Deep Learning, คอมไพล์ด้วย CUDA, เรียกใช้ใน Layer ที่ต้องการ GEMM                |
+| 4     | open-infra-index           | [https://github.com/deepseek-ai/open-infra-index](https://github.com/deepseek-ai/open-infra-index) | เครื่องมือโครงสร้างพื้นฐาน AI ที่ผ่านการทดสอบใน Production เพื่อพัฒนา AGI และนวัตกรรมชุมชน     | เลือกเครื่องมือจาก Index, ดาวน์โหลดตามลิงก์ใน README, ปรับใช้ใน Workflow ของคุณ                           |
+| 5     | profile-data               | [https://github.com/deepseek-ai/profile-data](https://github.com/deepseek-ai/profile-data) | วิเคราะห์การทับซ้อนระหว่างการคำนวณและการสื่อสารใน DeepSeek-V3/R1                              | รัน Script วิเคราะห์กับ Log การฝึก, ใช้ผลลัพธ์ปรับ Hyperparameters หรือ Pipeline                      |
+| 6     | awesome-deepseek-integration | [https://github.com/deepseek-ai/awesome-deepseek-integration](https://github.com/deepseek-ai/awesome-deepseek-integration) | รวมวิธีผสาน DeepSeek API เข้ากับซอฟต์แวร์ยอดนิยม เช่น IDEs และแพลตฟอร์มอื่น ๆ              | เลือกซอฟต์แวร์เป้าหมาย (เช่น VS Code), คัดลอกโค้ดจากตัวอย่าง, ปรับแต่งด้วย API Key                    |
+| 7     | smallpond                  | [https://github.com/deepseek-ai/smallpond](https://github.com/deepseek-ai/smallpond)   | เฟรมเวิร์กประมวลผลข้อมูลน้ำหนักเบา สร้างบน DuckDB และ 3FS                                     | ติดตั้ง DuckDB และ 3FS, รัน Script ตัวอย่างใน README, ป้อนข้อมูลเพื่อประมวลผล                         |
 
 ---
-
-### 🚀 How to Proceed
-
-1.  **สำรวจ Repositories:** เลือก Repository ที่สนใจตามประเภทงาน
-2.  **อ่าน README:** ศึกษา `README.md` ของแต่ละ Repository เพื่อทำความเข้าใจหลักการทำงาน
-3.  **ทดลอง:** ลองรันโค้ดตัวอย่างและปรับแต่งตามความต้องการ
-4.  **ผสานการทำงาน:** นำเครื่องมือจาก DeepSeek AI ไปผสานกับ Workflow ของคุณ
-
----
-
 
 ### ตาราง Fine-Tuning AI Models (Part 6 และ Uncensored AI Models)
 
 | ลำดับ | ชื่อ                                              | GitHub/Hugging Face                                                                                  | รายละเอียด                                                                                   | Script ตัวอย่าง                                                                                             |
 |-------|--------------------------------------------------|-----------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
-|                                                                                                       |                                                                                              |                                                                                              |                                                                                                            |
+|  |                                                                                                     |                                                                                              |                                                                                              |                                                                                                            |
 | 1     | QLoRA Fine-Tuning Pipeline                      | [WeixuanJiang/Qlora-Fine-Tuning-Pipeline](https://github.com/WeixuanJiang/Qlora-Fine-Tuning-Pipeline) | วิธีการ Fine-Tuning LLMs ผ่าน QLoRA พร้อม Script และ Configuration Files                     | [Train Script](https://github.com/WeixuanJiang/Qlora-Fine-Tuning-Pipeline/blob/main/scripts/run_training.bat), [Merge Script](https://github.com/WeixuanJiang/Qlora-Fine-Tuning-Pipeline/blob/main/scripts/run_merge_multiple_loras.bat) |
 | 2     | LLM Fine-Tuning for Programming Queries         | [Avani1297/LLM-Fine-Tuning-Project-for-Programming-Queries](https://github.com/Avani1297/LLM-Fine-Tuning-Project-for-Programming-Queries) | วิธีการ Fine-Tuning LLMs บน Stack Overflow datasets ผ่าน Hugging Face และ Vast.ai            | [Fine-Tuning Script](https://github.com/Avani1297/LLM-Fine-Tuning-Project-for-Programming-Queries/blob/main/train.py) |
 | 3     | FLUX.1 Fine-Tuning                              | [black-forest-labs/FLUX.1-dev](https://huggingface.co/black-forest-labs/FLUX.1-dev/discussions/196) | วิธีการ Fine-Tuning FLUX.1 ผ่าน AI Toolkit                                                   | [Train Script](https://github.com/ostris/ai-toolkit/blob/main/train_lora_flux_24gb.py)                     |
@@ -745,13 +658,6 @@ SFT ปรับโมเดลให้เป็นผู้ช่วยที�
 | 14    | Fine-Tuning LLMs with Google AI                 | [Google AI Fine-Tuning](https://github.com/googleapis/python-aiplatform/blob/main/samples/v1beta1/fine_tune_model_sample.py) | วิธีการ Fine-Tuning LLMs ผ่าน Google AI Platform พร้อม Script และ Example                   | [Fine-Tuning Script](https://github.com/googleapis/python-aiplatform/blob/main/samples/v1beta1/fine_tune_model_sample.py) |
 | 15    | Fine-Tuning LLMs with Microsoft DeepSpeed       | [Microsoft DeepSpeed](https://github.com/microsoft/DeepSpeed/blob/main/examples/fine_tune.py)       | วิธีการ Fine-Tuning LLMs ผ่าน Microsoft DeepSpeed พร้อม Script และ Example                   | [Fine-Tuning Script](https://github.com/microsoft/DeepSpeed/blob/main/examples/fine_tune.py)               |
 | 16    | Fine-Tuning LLMs with NVIDIA Triton             | [NVIDIA Triton](https://github.com/NVIDIA/triton-inference-server/blob/main/docs/Training.md)       | วิธีการ Fine-Tuning LLMs ผ่าน NVIDIA Triton พร้อม Documentation และ Example                  | [Fine-Tuning Documentation](https://github.com/NVIDIA/triton-inference-server/blob/main/docs/Training.md)  |
-
-### คำอธิบาย
-- **ลำดับ**: ตัวเลขสำหรับระบุลำดับของแต่ละเครื่องมือหรือวิธีการ
-- **ชื่อ**: ชื่อของเครื่องมือหรือวิธีการ Fine-Tuning
-- **GitHub/Hugging Face**: ลิงก์ไปยังหน้า GitHub, Hugging Face หรือแหล่งข้อมูลหลัก
-- **รายละเอียด**: คำอธิบายสั้นๆ เกี่ยวกับวิธีการและจุดเด่น
-- **Script ตัวอย่าง**: ลิงก์ไปยังตัวอย่างโค้ด, Notebook หรือเอกสารที่เกี่ยวข้อง
 
 ---
 
@@ -780,78 +686,23 @@ SFT ปรับโมเดลให้เป็นผู้ช่วยที�
 | 19    | AWS Inferentia                                  | [aws-samples/inferentia-training](https://github.com/aws-samples/inferentia-training)   | วิธีการ Fine-Tuning AI Models ผ่าน AWS Inferentia                                            | [Fine-Tuning Code](https://github.com/aws-samples/inferentia-training/blob/main/docs/Training.md)          |
 | 20    | Microsoft ONNX Runtime                          | [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime)                       | วิธีการ Fine-Tuning AI Models ผ่าน ONNX Runtime                                              | [Fine-Tuning Code](https://github.com/microsoft/onnxruntime/blob/main/docs/Training.md)                    |
 
-### คำอธิบาย
-- **ลำดับ**: ตัวเลขสำหรับระบุลำดับของแต่ละเครื่องมือหรือวิธีการ
-- **ชื่อ**: ชื่อของเครื่องมือหรือแพลตฟอร์มที่ใช้ในการ Fine-Tuning
-- **GitHub**: ลิงก์ไปยังหน้า GitHub หรือเอกสารหลักของเครื่องมือ
-- **รายละเอียด**: คำอธิบายสั้นๆ เกี่ยวกับวิธีการและการใช้งาน
-- **Script ตัวอย่าง**: ลิงก์ไปยังตัวอย่างโค้ดหรือเอกสารที่เกี่ยวข้อง
-
 ---
+ด้านล่างนี้คือตารางที่แปลงข้อมูลจาก "Script สำหรับ Fine-Tuning AI บน Google Cloud และเทคนิคพิเศษ" ที่คุณให้มา โดยจัดเป็นตารางที่มีคอลัมน์ "ลำดับ", "ชื่อ", "GitHub/Link", "รายละเอียด", และ "Script ตัวอย่าง" เพื่อให้ดูง่ายและครอบคลุมเนื้อหาทั้งหมด
 
-###  Script สำหรับ Fine-Tuning AI บน Google Cloud และเทคนิคพิเศษ
+### ตาราง Fine-Tuning AI Models บน Google Cloud และเทคนิคพิเศษ
 
-#### **1. Vertex AI LLM Fine-Tuning Examples (GitHub)**  
-- **GitHub**: [arunpshankar/VAI-FineTuning-LLMs](https://github.com/arunpshankar/VAI-FineTuning-LLMs )  
-  - **รายละเอียด**: คลังเก็บ Script สำหรับ Fine-Tuning LLMs บน Vertex AI 例如 Gemini 1.5 Pro, Llama 3.1, และ Gemma 2.  
-    - **Script ตัวอย่าง**:  
-      - [Gemini 1.5 Pro Fine-Tuning](https://github.com/arunpshankar/VAI-FineTuning-LLMs/tree/main/src/models/gemini_1_5 )  
-      - [Llama 3.1 Fine-Tuning](https://github.com/arunpshankar/VAI-FineTuning-LLMs/tree/main/src/models/llama_3_1 )  
-
-#### **2. Fine-Tuning Large Language Models with Vertex AI (Codelab)**  
-- **GitHub**: [llm-finetuning-supervised](https://github.com/leodeveloper/fine-tune-with-google-cloud )  
-  - **รายละเอียด**: Tutorial สำหรับ Fine-Tuning LLMs บน Google Cloud ผ่าน Vertex AI SDK.  
-    - **Script ตัวอย่าง**:  
-      - [Fine-Tuning Code](https://github.com/leodeveloper/fine-tune-with-google-cloud/blob/main/fine_tune_vertex_ai.ipynb )  
-
-#### **3. Fine-Tuning Large Language Models: How Vertex AI Takes LLMs to the Next Level (Medium)**  
-- **Link**: [Medium Article](https://medium.com/google-cloud/fine-tuning-large-language-models-how-vertex-ai-takes-llms-to-the-next-level-3c113f4007da )  
-  - **รายละเอียด**: วิธีการ Fine-Tuning LLMs ผ่าน Vertex AI SDK พร้อม Code Example.  
-    - **Script ตัวอย่าง**:  
-      - [Fine-Tuning Code](https://medium.com/google-cloud/fine-tuning-large-language-models-how-vertex-ai-takes-llms-to-the-next-level-3c113f4007da )  
-
-#### **4. Keras AI/ML/DL Script Examples**  
-- **GitHub**: [keras/examples](https://keras.io/examples/ )  
-  - **รายละเอียด**: คลังเก็บ Script สำหรับ AI/ML/DL  проект多种 เช่น Image Classification, NLP, และ Generative AI.  
-    - **Script ตัวอย่าง**:  
-      - [Image Classification with EfficientNet](https://keras.io/examples/vision/image_classification_efficientnet/ )  
-      - [Text Classification with Transformer](https://keras.io/examples/nlp/text_classification_with_transformer/ )  
-
-#### **5. Fine-Tuning AI Models on Google Cloud (Advanced Scripts)**  
-- **GitHub**: [google-cloud-aiplatform](https://github.com/googleapis/python-aiplatform )  
-  - **รายละเอียด**: คลังเก็บ Script สำหรับการใช้งาน Vertex AI SDK 例如 Fine-Tuning, Hyperparameter Tuning, และ Model Deployment.  
-    - **Script ตัวอย่าง**:  
-      - [Fine-Tuning Script](https://github.com/googleapis/python-aiplatform/blob/main/samples/v1beta1/fine_tune_model_sample.py )  
-
-#### **6. Fine-Tuning AI Models with Google Cloud Vertex AI (Tutorial)**  
-- **GitHub**: [vertex-ai-samples](https://github.com/GoogleCloudPlatform/vertex-ai-samples )  
-  - **รายละเอียด**: คลังเก็บ Script และ Tutorial สำหรับการใช้งาน Vertex AI 例如 Fine-Tuning และ Model Deployment.  
-    - **Script ตัวอย่าง**:  
-      - [Fine-Tuning LLMs](https://github.com/GoogleCloudPlatform/vertex-ai-samples/blob/main/notebooks/llm_fine_tuning.ipynb )  
-
-#### **7. Fine-Tuning AI Models with Google Cloud AI Platform (Legacy)**  
-- **GitHub**: [google-cloud-aiplatform](https://github.com/googleapis/python-aiplatform )  
-  - **รายละเอียด**: คลังเก็บ Script สำหรับการใช้งาน Google Cloud AI Platform 例如 Fine-Tuning และ Model Training.  
-    - **Script ตัวอย่าง**:  
-      - [Fine-Tuning Script](https://github.com/googleapis/python-aiplatform/blob/main/samples/v1beta1/fine_tune_model_sample.py )  
-
-#### **8. Fine-Tuning AI Models with Google Cloud AutoML**  
-- **GitHub**: [automl-samples](https://github.com/GoogleCloudPlatform/automl-samples )  
-  - **รายละเอียด**: คลังเก็บ Script และ Tutorial สำหรับการใช้งาน AutoML 例如 Fine-Tuning และ Model Deployment.  
-    - **Script ตัวอย่าง**:  
-      - [Fine-Tuning Script](https://github.com/GoogleCloudPlatform/automl-samples/blob/main/vision/image_classification/fine_tune_model.py )  
-
-#### **9. Fine-Tuning AI Models with Google Cloud TPU**  
-- **GitHub**: [tpu-examples](https://github.com/tensorflow/tpu )  
-  - **รายละเอียด**: คลังเก็บ Script สำหรับการใช้งาน TPU 例如 Fine-Tuning และ Model Training.  
-    - **Script ตัวอย่าง**:  
-      - [Fine-Tuning Script](https://github.com/tensorflow/tpu/blob/main/models/official/vision/image_classification/fine_tune.py )  
-
-#### **10. Fine-Tuning AI Models with Google Cloud AI Platform Pipelines**  
-- **GitHub**: [ai-platform-pipelines](https://github.com/GoogleCloudPlatform/ai-platform-pipelines )  
-  - **รายละเอียด**: คลังเก็บ Script และ Tutorial สำหรับการใช้งาน AI Platform Pipelines 例如 Fine-Tuning และ Model Deployment.  
-    - **Script ตัวอย่าง**:  
-      - [Fine-Tuning Script](https://github.com/GoogleCloudPlatform/ai-platform-pipelines/blob/main/samples/fine_tune_model.py )  
+| ลำดับ | ชื่อ                                              | GitHub/Link                                                                                  | รายละเอียด                                                                                   | Script ตัวอย่าง                                                                                             |
+|-------|--------------------------------------------------|---------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
+| 1     | Vertex AI LLM Fine-Tuning Examples              | [arunpshankar/VAI-FineTuning-LLMs](https://github.com/arunpshankar/VAI-FineTuning-LLMs)     | คลังเก็บ Script สำหรับ Fine-Tuning LLMs บน Vertex AI เช่น Gemini 1.5 Pro, Llama 3.1, และ Gemma 2 | [Gemini 1.5 Pro Fine-Tuning](https://github.com/arunpshankar/VAI-FineTuning-LLMs/tree/main/src/models/gemini_1_5), [Llama 3.1 Fine-Tuning](https://github.com/arunpshankar/VAI-FineTuning-LLMs/tree/main/src/models/llama_3_1) |
+| 2     | Fine-Tuning Large Language Models with Vertex AI (Codelab) | [llm-finetuning-supervised](https://github.com/leodeveloper/fine-tune-with-google-cloud)    | Tutorial สำหรับ Fine-Tuning LLMs บน Google Cloud ผ่าน Vertex AI SDK                          | [Fine-Tuning Code](https://github.com/leodeveloper/fine-tune-with-google-cloud/blob/main/fine_tune_vertex_ai.ipynb) |
+| 3     | Fine-Tuning Large Language Models: How Vertex AI Takes LLMs to the Next Level | [Medium Article](https://medium.com/google-cloud/fine-tuning-large-language-models-how-vertex-ai-takes-llms-to-the-next-level-3c113f4007da) | วิธีการ Fine-Tuning LLMs ผ่าน Vertex AI SDK พร้อม Code Example                              | [Fine-Tuning Code](https://medium.com/google-cloud/fine-tuning-large-language-models-how-vertex-ai-takes-llms-to-the-next-level-3c113f4007da) |
+| 4     | Keras AI/ML/DL Script Examples                  | [keras/examples](https://keras.io/examples/)                                                | คลังเก็บ Script สำหรับ AI/ML/DL โปรเจกต์ต่างๆ เช่น Image Classification, NLP, และ Generative AI | [Image Classification with EfficientNet](https://keras.io/examples/vision/image_classification_efficientnet/), [Text Classification with Transformer](https://keras.io/examples/nlp/text_classification_with_transformer/) |
+| 5     | Fine-Tuning AI Models on Google Cloud (Advanced Scripts) | [google-cloud-aiplatform](https://github.com/googleapis/python-aiplatform)                 | คลังเก็บ Script สำหรับการใช้งาน Vertex AI SDK เช่น Fine-Tuning, Hyperparameter Tuning, และ Model Deployment | [Fine-Tuning Script](https://github.com/googleapis/python-aiplatform/blob/main/samples/v1beta1/fine_tune_model_sample.py) |
+| 6     | Fine-Tuning AI Models with Google Cloud Vertex AI (Tutorial) | [vertex-ai-samples](https://github.com/GoogleCloudPlatform/vertex-ai-samples)             | คลังเก็บ Script และ Tutorial สำหรับการใช้งาน Vertex AI เช่น Fine-Tuning และ Model Deployment  | [Fine-Tuning LLMs](https://github.com/GoogleCloudPlatform/vertex-ai-samples/blob/main/notebooks/llm_fine_tuning.ipynb) |
+| 7     | Fine-Tuning AI Models with Google Cloud AI Platform (Legacy) | [google-cloud-aiplatform](https://github.com/googleapis/python-aiplatform)                 | คลังเก็บ Script สำหรับการใช้งาน Google Cloud AI Platform เช่น Fine-Tuning และ Model Training  | [Fine-Tuning Script](https://github.com/googleapis/python-aiplatform/blob/main/samples/v1beta1/fine_tune_model_sample.py) |
+| 8     | Fine-Tuning AI Models with Google Cloud AutoML  | [automl-samples](https://github.com/GoogleCloudPlatform/automl-samples)                     | คลังเก็บ Script และ Tutorial สำหรับการใช้งาน AutoML เช่น Fine-Tuning และ Model Deployment     | [Fine-Tuning Script](https://github.com/GoogleCloudPlatform/automl-samples/blob/main/vision/image_classification/fine_tune_model.py) |
+| 9     | Fine-Tuning AI Models with Google Cloud TPU     | [tpu-examples](https://github.com/tensorflow/tpu)                                           | คลังเก็บ Script สำหรับการใช้งาน TPU เช่น Fine-Tuning และ Model Training                      | [Fine-Tuning Script](https://github.com/tensorflow/tpu/blob/main/models/official/vision/image_classification/fine_tune.py) |
+| 10    | Fine-Tuning AI Models with Google Cloud AI Platform Pipelines | [ai-platform-pipelines](https://github.com/GoogleCloudPlatform/ai-platform-pipelines)       | คลังเก็บ Script และ Tutorial สำหรับการใช้งาน AI Platform Pipelines เช่น Fine-Tuning และ Model Deployment | [Fine-Tuning Script](https://github.com/GoogleCloudPlatform/ai-platform-pipelines/blob/main/samples/fine_tune_model.py) |
 
 ---
 
