@@ -1,381 +1,22 @@
-# Notebook-Git-Colab
-
-## Description
-A collaborative notebook system integrating Git version control for efficient note-taking and team collaboration.
-
-## Features
-- Git-based version control for notebooks
-- Collaborative editing capabilities
-- File structure organization
-- Change tracking and history
-
-## Project Structure
-```
-- .gitignore
-- LICENSE
-- README.md
-- update_readme.py
-```
-
-## Installation
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/Notebook-Git-Colab.git
-cd Notebook-Git-Colab
-```
-
-2. Install dependencies (if any):
-```bash
-# Add any specific installation steps here
-```
-
-## Usage
-Detailed usage instructions will be added as the project develops.
-
-## Development
-The project is under active development. More features and documentation will be added soon.
-
-## License
-MIT
-
-## Last Updated
-2025-03-03
-
-## Data
-#### Content from originshq_com_20250228_191540.md:
-
-# Untitled Page
-URL: https://originshq.com/blog/top-ai-llm-learning-resource-in-2025/
-Crawled: 2025-02-28 19:15:39
-
-## Content
-### Json_ld
-[{'@context': 'https://schema.org', '@graph': [{'@type': 'Article', '@id': 'https://originshq.com/blog/top-ai-llm-learning-resource-in-2025/#article', 'isPartOf': {'@id': 'https://originshq.com/blog/top-ai-llm-learning-resource-in-2025/'}, 'author': {'name': 'apoorvakumar169', '@id': 'https://originshq.com/#/schema/person/869d7b4ea4b0b180bc50c9cd77084880'}, 'headline': 'Top AI/LLM learning resource in 2025', 'datePublished': '2025-01-18T15:11:10+00:00', 'dateModified': '2025-01-18T16:57:40+00:00', 'mainEntityOfPage': {'@id': 'https://originshq.com/blog/top-ai-llm-learning-resource-in-2025/'}, 'wordCount': 3658, 'publisher': {'@id': 'https://originshq.com/#organization'}, 'image': {'@id': 'https://originshq.com/blog/top-ai-llm-learning-resource-in-2025/#primaryimage'}, 'thumbnailUrl': 'https://originshq.com/wp-content/uploads/2025/01/top_learning_resource_ai_llm_in_2025.jpg', 'articleSection': ['Blog'], 'inLanguage': 'en-US'}, {'@type': 'WebPage', '@id': 'https://originshq.com/blog/top-ai-llm-learning-resource-in-2025/', 'url': 'https://originshq.com/blog/top-ai-llm-learning-resource-in-2025/', 'name': 'Top AI/LLM learning resource in 2025 - Origins AI', 'isPartOf': {'@id': 'https://originshq.com/#website'}, 'primaryImageOfPage': {'@id': 'https://originshq.com/blog/top-ai-llm-learning-resource-in-2025/#primaryimage'}, 'image': {'@id': 'https://originshq.com/blog/top-ai-llm-learning-resource-in-2025/#primaryimage'}, 'thumbnailUrl': 'https://originshq.com/wp-content/uploads/2025/01/top_learning_resource_ai_llm_in_2025.jpg', 'datePublished': '2025-01-18T15:11:10+00:00', 'dateModified': '2025-01-18T16:57:40+00:00', 'breadcrumb': {'@id': 'https://originshq.com/blog/top-ai-llm-learning-resource-in-2025/#breadcrumb'}, 'inLanguage': 'en-US', 'potentialAction': [{'@type': 'ReadAction', 'target': ['https://originshq.com/blog/top-ai-llm-learning-resource-in-2025/']}]}, {'@type': 'ImageObject', 'inLanguage': 'en-US', '@id': 'https://originshq.com/blog/top-ai-llm-learning-resource-in-2025/#primaryimage', 'url': 'https://originshq.com/wp-content/uploads/2025/01/top_learning_resource_ai_llm_in_2025.jpg', 'contentUrl': 'https://originshq.com/wp-content/uploads/2025/01/top_learning_resource_ai_llm_in_2025.jpg', 'width': 1680, 'height': 945, 'caption': 'Top AI/LLM learning resource in 2025'}, {'@type': 'BreadcrumbList', '@id': 'https://originshq.com/blog/top-ai-llm-learning-resource-in-2025/#breadcrumb', 'itemListElement': [{'@type': 'ListItem', 'position': 1, 'name': 'Home', 'item': 'https://originshq.com/'}, {'@type': 'ListItem', 'position': 2, 'name': 'Top AI/LLM learning resource in 2025'}]}, {'@type': 'WebSite', '@id': 'https://originshq.com/#website', 'url': 'https://originshq.com/', 'name': 'The AI', 'description': 'Bringing Trust and Speed back in Software Services', 'publisher': {'@id': 'https://originshq.com/#organization'}, 'potentialAction': [{'@type': 'SearchAction', 'target': {'@type': 'EntryPoint', 'urlTemplate': 'https://originshq.com/?s={search_term_string}'}, 'query-input': {'@type': 'PropertyValueSpecification', 'valueRequired': True, 'valueName': 'search_term_string'}}], 'inLanguage': 'en-US'}, {'@type': 'Organization', '@id': 'https://originshq.com/#organization', 'name': 'Origins', 'url': 'https://originshq.com/', 'logo': {'@type': 'ImageObject', 'inLanguage': 'en-US', '@id': 'https://originshq.com/#/schema/logo/image/', 'url': 'https://originshq.com/wp-content/uploads/2024/01/logo.png', 'contentUrl': 'https://originshq.com/wp-content/uploads/2024/01/logo.png', 'width': 330, 'height': 177, 'caption': 'Origins'}, 'image': {'@id': 'https://originshq.com/#/schema/logo/image/'}, 'sameAs': ['https://x.com/origins_hq']}, {'@type': 'Person', '@id': 'https://originshq.com/#/schema/person/869d7b4ea4b0b180bc50c9cd77084880', 'name': 'apoorvakumar169', 'image': {'@type': 'ImageObject', 'inLanguage': 'en-US', '@id': 'https://originshq.com/#/schema/person/image/', 'url': 'https://secure.gravatar.com/avatar/5d4369d278794ab490a2fd55bf7524c9?s=96&d=mm&r=g', 'contentUrl': 'https://secure.gravatar.com/avatar/5d4369d278794ab490a2fd55bf7524c9?s=96&d=mm&r=g', 'caption': 'apoorvakumar169'}, 'sameAs': ['https://originshq.com/blog'], 'url': 'https://originshq.com/author/apoorvakumar169/'}]}]
-
-### Structured
-{}
-
-### Microdata
-{}
-
-
-## Links
-- [](https://originshq.com/) (internal)
-- [Home](https://originshq.com/blog/top-ai-llm-learning-resource-in-2025/) (internal)
-- [Blog](https://originshq.com/blog) (internal)
-- [Devops](https://originshq.com/services-devops/) (internal)
-- [Cloud](https://originshq.com/services-cloud/) (internal)
-- [Data](https://originshq.com/services-data/) (internal)
-- [App Development](https://originshq.com/services-mobileapp/) (internal)
-- [AI Services](https://originshq.com/services-ai/) (internal)
-- [Tech Consulting](https://originshq.com/services-tech-consulting/) (internal)
-- [Raga AI – AI Platform](https://originshq.com/our-works/building-an-ai-testing-platform/) (internal)
-- [Samsung – IOT](https://originshq.com/our-works/samsung-iot-development-and-user-verification/) (internal)
-- [Amazon – Cost Reduction](https://originshq.com/our-works/cost-reduction-at-amazon/) (internal)
-- [Nucash – Building Platform](https://originshq.com/our-works/building-platform-at-nucash/) (internal)
-- [FrontPage – Scalability Issues](https://originshq.com/our-works/helping-frontpage-scale/) (internal)
-- [YesMadam – Digital Transformation](https://originshq.com/our-works/transforming-yesmadam-into-a-tech-company/) (internal)
-- [Contact Us](https://originshq.com/book-a-call/) (internal)
-- [Notebook](https://colab.research.google.com/drive/1Igs3WZuXAIv9X0vwqiE90QlEPys8e8Oa?usp=sharing) (external)
-- [Notebook](https://colab.research.google.com/drive/1obulZ1ROXHjYLn6PPZJwRR6GzgQogxxb?usp=sharing) (external)
-- [Notebook](https://colab.research.google.com/drive/1TsDKNo2riwVmU55gjuBgB1AXVtRRfRHW?usp=sharing) (external)
-- [Notebook](https://colab.research.google.com/drive/1b6nqC7UZVt8bx4MksX7s656GXPM-eWw4?usp=sharing) (external)
-- [Notebook](https://colab.research.google.com/drive/1s2eQlolcI1VGgDhqWIANfkfKvcKrMyNr?usp=sharing) (external)
-- [Notebook](https://colab.research.google.com/drive/1LcVUW5wsJTO2NGmozjji5CkC--646LgC) (external)
-- [Article](https://originshq.com/blog/fine-tune-llama-3-1-ultra-efficiently-with-unsloth/) (internal)
-- [Notebook](https://colab.research.google.com/drive/164cg_O7SV7G8kZr_JXqLd6VC7pd86-1Z?usp=sharing) (external)
-- [Article](https://originshq.com/blog/fine-tune-llama-3-with-orpo/) (internal)
-- [Notebook](https://colab.research.google.com/drive/1eHNWg9gnaXErdAa8_mcvjMupbSS6rDvi) (external)
-- [Article](https://originshq.com/blog/boost-the-performance-of-supervised-fine-tuned-models-with-dpo/) (internal)
-- [Notebook](https://colab.research.google.com/drive/15iFBr1xWgztXvhrj5I9fBv20c7CFOPBE?usp=sharing) (external)
-- [Notebook](https://colab.research.google.com/drive/1o_w0KastmEJNVwT5GoqMCciH-18ca5WS?usp=sharing) (external)
-- [Article](https://originshq.com/blog/end-to-end-guide-to-the-state-of-the-art-tool-for-fine-tuning/) (internal)
-- [Notebook](https://colab.research.google.com/drive/1Xu0BrCB7IShwSWKVcfAfhehwjDrDMH5m?usp=sharing) (external)
-- [Article](https://originshq.com/blog/step-by-step-guide-to-supervised-fine-tune-llama-2-in-google-colab/) (internal)
-- [Notebook](https://colab.research.google.com/drive/1PEQyJO1-f6j0S_XJ8DV50NkpzasXkrzd?usp=sharing) (external)
-- [Article](https://originshq.com/blog/introduction-to-weight-quantization/) (internal)
-- [Notebook](https://colab.research.google.com/drive/1DPr4mUQ92Cc-xf4GgAaB6dFcFnWIvqYi?usp=sharing) (external)
-- [Article](https://originshq.com/blog/4-bit-llm-quantization-with-gptq/) (internal)
-- [Notebook](https://colab.research.google.com/drive/1lSvVDaRgqQp_mWK_jC9gydz6_-y6Aq4A?usp=sharing) (external)
-- [Article](https://originshq.com/blog/quantize-llama-models-with-gguf-and-llama-cpp/) (internal)
-- [Notebook](https://colab.research.google.com/drive/1pL8k7m04mgE5jo2NrjGi8atB0j_37aDD?usp=sharing) (external)
-- [Article](https://originshq.com/blog/exllamav2-the-fastest-library-to-run-llms/) (internal)
-- [Notebook](https://colab.research.google.com/drive/1yrq4XBlxiA0fALtMoT2dwiACVc77PHou?usp=sharing) (external)
-- [Article](https://originshq.com/blog/merge-large-language-models-with-mergekit/) (internal)
-- [Notebook](https://colab.research.google.com/drive/1_JS7JKJAQozD48-LhYdegcuuZ2ddgXfr?usp=sharing) (external)
-- [Article](https://originshq.com/blog/create-mixtures-of-experts-with-mergekit/) (internal)
-- [Notebook](https://colab.research.google.com/drive/1obulZ1ROXHjYLn6PPZJwRR6GzgQogxxb?usp=sharing) (external)
-- [Article](https://originshq.com/blog/uncensor-any-llm-with-abliteration/) (internal)
-- [Notebook](https://colab.research.google.com/drive/1VYm3hOcvCpbGiqKZb141gJwjdmmCcVpR?usp=sharing) (external)
-- [Article](https://originshq.com/blog/improve-chatgpt-with-knowledge-graphs/) (internal)
-- [Notebook](https://colab.research.google.com/drive/1mwhOSw9Y9bgEaIFKT4CLi0n18pXRM4cj?usp=sharing) (external)
-- [Article](https://originshq.com/blog/decoding-strategies-in-large-language-models/) (internal)
-- [Notebook](https://colab.research.google.com/drive/19CJlOS5lI29g-B3dziNn93Enez1yiHk2?usp=sharing) (external)
-- [3Blue1Brown – The Essence of Linear Algebra](https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) (external)
-- [StatQuest with Josh Starmer – Statistics Fundamentals](https://www.youtube.com/watch?v=qBigTkBLU6g&list=PLblh5JKOoLUK0FLuzwntyYI10UQFUhsY9) (external)
-- [AP Statistics Intuition by Ms Aerin](https://automata88.medium.com/list/cacc224d5e7d) (external)
-- [Immersive Linear Algebra](https://immersivemath.com/ila/learnmore.html) (external)
-- [Khan Academy – Linear Algebra](https://www.khanacademy.org/math/linear-algebra) (external)
-- [Khan Academy – Calculus](https://www.khanacademy.org/math/calculus-1) (external)
-- [Khan Academy – Probability and Statistics](https://www.khanacademy.org/math/statistics-probability) (external)
-- [Real Python](https://realpython.com/) (external)
-- [freeCodeCamp – Learn Python](https://www.youtube.com/watch?v=rfscVS0vtbw) (external)
-- [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/) (external)
-- [freeCodeCamp – Machine Learning for Everybody](https://youtu.be/i_LwzRVP7bg) (external)
-- [Udacity – Intro to Machine Learning](https://www.udacity.com/course/intro-to-machine-learning--ud120) (external)
-- [3Blue1Brown – But what is a Neural Network?](https://www.youtube.com/watch?v=aircAruvnKk) (external)
-- [freeCodeCamp – Deep Learning Crash Course](https://www.youtube.com/watch?v=VyWAvY2CF9c) (external)
-- [Fast.ai – Practical Deep Learning](https://course.fast.ai/) (external)
-- [Patrick Loeber – PyTorch Tutorials](https://www.youtube.com/playlist?list=PLqnslRFeH2UrcDBWF5mfPGpqQDSta6VK4) (external)
-- [Lena Voita – Word Embeddings](https://lena-voita.github.io/nlp_course/word_embeddings.html) (external)
-- [RealPython – NLP with spaCy in Python](https://realpython.com/natural-language-processing-spacy-python/) (external)
-- [Kaggle – NLP Guide](https://www.kaggle.com/learn-guide/natural-language-processing) (external)
-- [Jay Alammar – The Illustration Word2Vec](https://jalammar.github.io/illustrated-word2vec/) (external)
-- [Jake Tae – PyTorch RNN from Scratch](https://jaketae.github.io/study/pytorch-rnn/) (external)
-- [colah’s blog – Understanding LSTM Networks](https://colah.github.io/posts/2015-08-Understanding-LSTMs/) (external)
-- [Visual intro to Transformers](https://www.youtube.com/watch?v=wjZofJX0v4M) (external)
-- [LLM Visualization](https://bbycroft.net/llm) (external)
-- [nanoGPT](https://www.youtube.com/watch?v=kCc8FmEb1nY) (external)
-- [here](https://www.youtube.com/watch?v=zduSFxRajkE) (external)
-- [Attention? Attention!](https://lilianweng.github.io/posts/2018-06-24-attention/) (external)
-- [Decoding Strategies in LLMs](https://mlabonne.github.io/blog/posts/2023-06-07-Decoding_strategies.html) (external)
-- [Llama 3.1](https://arxiv.org/abs/2307.09288) (external)
-- [FineWeb](https://huggingface.co/spaces/HuggingFaceFW/blogpost-fineweb-v1) (external)
-- [RedPajama v2](https://www.together.ai/blog/redpajama-data-v2) (external)
-- [nanotron](https://github.com/huggingface/nanotron) (external)
-- [SmolLM2](https://github.com/huggingface/smollm) (external)
-- [Parallel Training](https://www.andrew.cmu.edu/course/11-667/lectures/W10L2%20Scaling%20Up%20Parallel%20Training.pdf) (external)
-- [Distributed Training](https://arxiv.org/abs/2407.20018) (external)
-- [OLMo 2](https://allenai.org/olmo) (external)
-- [LLM360](https://www.llm360.ai/) (external)
-- [💾 LLM Datasets](https://github.com/mlabonne/llm-datasets) (external)
-- [Auto-Evol](https://arxiv.org/abs/2406.00770) (external)
-- [Synthetic Data Generator](https://huggingface.co/spaces/argilla/synthetic-data-generator) (external)
-- [LLM Datasets](https://github.com/mlabonne/llm-datasets) (external)
-- [NeMo-Curator](https://github.com/NVIDIA/NeMo-Curator) (external)
-- [Distilabel](https://distilabel.argilla.io/dev/sections/pipeline_samples/) (external)
-- [Semhash](https://github.com/MinishLab/semhash) (external)
-- [Chat Template](https://huggingface.co/docs/transformers/main/en/chat_templating) (external)
-- [Fine-tune Llama 3.1 Ultra-Efficiently with Unsloth](https://huggingface.co/blog/mlabonne/sft-llama3) (external)
-- [Axolotl – Documentation](https://axolotl-ai-cloud.github.io/axolotl/) (external)
-- [Mastering LLMs](https://parlance-labs.com/education/) (external)
-- [LoRA insights](https://lightning.ai/pages/community/lora-insights/) (external)
-- [Direct Preference Optimization](https://arxiv.org/abs/2305.18290) (external)
-- [Proximal Policy Optimization](https://arxiv.org/abs/1707.06347) (external)
-- [Illustrating RLHF](https://huggingface.co/blog/rlhf) (external)
-- [LLM Training: RLHF and Its Alternatives](https://magazine.sebastianraschka.com/p/llm-training-rlhf-and-its-alternatives) (external)
-- [Preference Tuning LLMs](https://huggingface.co/blog/pref-tuning) (external)
-- [Fine-tune Mistral-7b with DPO](https://mlabonne.github.io/blog/posts/Fine_tune_Mistral_7b_with_DPO.html) (external)
-- [DPO Wandb logs](https://wandb.ai/alexander-vishnevskiy/dpo/reports/TRL-Original-DPO--Vmlldzo1NjI4MTc4) (external)
-- [Evaluation Guidebook](https://github.com/huggingface/evaluation-guidebook) (external)
-- [Open LLM Leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard) (external)
-- [Language Model Evaluation Harness](https://github.com/EleutherAI/lm-evaluation-harness) (external)
-- [Lighteval](https://github.com/huggingface/lighteval) (external)
-- [Chatbot Arena](https://lmarena.ai/) (external)
-- [llama.cpp](https://github.com/ggerganov/llama.cpp) (external)
-- [GPTQ](https://arxiv.org/abs/2210.17323) (external)
-- [EXL2](https://github.com/turboderp/exllamav2) (external)
-- [AWQ](https://arxiv.org/abs/2306.00978) (external)
-- [Introduction to Quantization](https://mlabonne.github.io/blog/posts/Introduction_to_Weight_Quantization.html) (external)
-- [Quantize Llama models with llama.cpp](https://mlabonne.github.io/blog/posts/Quantize_Llama_2_models_using_ggml.html) (external)
-- [4-bit LLM Quantization with GPTQ](https://mlabonne.github.io/blog/posts/4_bit_Quantization_with_GPTQ.html) (external)
-- [Understanding Activation-Aware Weight Quantization](https://medium.com/friendliai/understanding-activation-aware-weight-quantization-awq-boosting-inference-serving-efficiency-in-10bb0faf63a8) (external)
-- [SmoothQuant on Llama 2 7B](https://github.com/mit-han-lab/smoothquant/blob/main/examples/smoothquant_llama_demo.ipynb) (external)
-- [DeepSpeed Model Compression](https://www.deepspeed.ai/tutorials/model-compression/) (external)
-- [mergekit](https://github.com/cg123/mergekit) (external)
-- [DARE](https://arxiv.org/abs/2311.03099) (external)
-- [TIES](https://arxiv.org/abs/2311.03099) (external)
-- [CLIP](https://openai.com/research/clip) (external)
-- [Stable Diffusion](https://stability.ai/stable-image) (external)
-- [LLaVA](https://llava-vl.github.io/) (external)
-- [Merge LLMs with mergekit](https://mlabonne.github.io/blog/posts/2024-01-08_Merge_LLMs_with_mergekit.html) (external)
-- [Smol Vision](https://github.com/merveenoyan/smol-vision) (external)
-- [Large Multimodal Models](https://huyenchip.com/2023/10/10/multimodal.html) (external)
-- [Uncensor any LLM with abliteration](https://huggingface.co/blog/mlabonne/abliteration) (external)
-- [Intuitive Explanation of SAEs](https://adamkarvonen.github.io/machine_learning/2024/06/11/sae-intuitions.html) (external)
-- [Scaling test-time compute](https://huggingface.co/spaces/HuggingFaceH4/blogpost-scaling-test-time-compute) (external)
-- [OpenAI](https://platform.openai.com/) (external)
-- [Google](https://cloud.google.com/vertex-ai/docs/generative-ai/learn/overview) (external)
-- [Anthropic](https://docs.anthropic.com/claude/reference/getting-started-with-the-api) (external)
-- [Cohere](https://docs.cohere.com/docs) (external)
-- [OpenRouter](https://openrouter.ai/) (external)
-- [Hugging Face](https://huggingface.co/inference-api) (external)
-- [Together AI](https://www.together.ai/) (external)
-- [Hugging Face Hub](https://huggingface.co/models) (external)
-- [Hugging Face Spaces](https://chatgpt.com/) (external)
-- [LM Studio](https://lmstudio.ai/) (external)
-- [llama.cpp](https://github.com/ggerganov/llama.cpp) (external)
-- [Ollama](https://ollama.ai/) (external)
-- [LMQL](https://lmql.ai/) (external)
-- [Outlines](https://github.com/outlines-dev/outlines) (external)
-- [Guidance](https://github.com/guidance-ai/guidance) (external)
-- [Run an LLM locally with LM Studio](https://www.kdnuggets.com/run-an-llm-locally-with-lm-studio) (external)
-- [Prompt engineering guide](https://www.promptingguide.ai/) (external)
-- [Outlines – Quickstart](https://outlines-dev.github.io/outlines/quickstart/) (external)
-- [LMQL – Overview](https://lmql.ai/docs/language/overview.html) (external)
-- [Chroma](https://www.trychroma.com/) (external)
-- [Pinecone](https://www.pinecone.io/) (external)
-- [Milvus](https://milvus.io/) (external)
-- [FAISS](https://faiss.ai/) (external)
-- [Annoy](https://github.com/spotify/annoy) (external)
-- [LangChain – Text splitters](https://python.langchain.com/docs/modules/data_connection/document_transformers/) (external)
-- [Sentence Transformers library](https://www.sbert.net/) (external)
-- [MTEB Leaderboard](https://huggingface.co/spaces/mteb/leaderboard) (external)
-- [The Top 5 Vector Databases](https://www.datacamp.com/blog/the-top-5-vector-databases) (external)
-- [LangChain](https://python.langchain.com/docs/get_started/introduction) (external)
-- [LlamaIndex](https://docs.llamaindex.ai/en/stable/) (external)
-- [FastRAG](https://github.com/IntelLabs/fastRAG) (external)
-- [HyDE](https://arxiv.org/abs/2212.10496) (external)
-- [Ragas](https://github.com/explodinggradients/ragas/tree/main) (external)
-- [DeepEval](https://github.com/confident-ai/deepeval) (external)
-- [Llamaindex – High-level concepts](https://docs.llamaindex.ai/en/stable/getting_started/concepts.html) (external)
-- [Pinecone – Retrieval Augmentation](https://www.pinecone.io/learn/series/langchain/langchain-retrieval-augmentation/) (external)
-- [LangChain – Q&A with RAG](https://python.langchain.com/docs/use_cases/question_answering/quickstart) (external)
-- [LangChain – Memory types](https://python.langchain.com/docs/modules/memory/types/) (external)
-- [RAG pipeline – Metrics](https://docs.ragas.io/en/stable/concepts/metrics/index.html) (external)
-- [RAG-fusion](https://github.com/Raudaschl/rag-fusion) (external)
-- [DSPy](https://github.com/stanfordnlp/dspy) (external)
-- [LangChain – Query Construction](https://blog.langchain.dev/query-construction/) (external)
-- [LangChain – SQL](https://python.langchain.com/docs/use_cases/qa_structured/sql) (external)
-- [Pinecone – LLM agents](https://www.pinecone.io/learn/series/langchain/langchain-agents/) (external)
-- [LLM Powered Autonomous Agents](https://lilianweng.github.io/posts/2023-06-23-agent/) (external)
-- [LangChain – OpenAI’s RAG](https://blog.langchain.dev/applying-openai-rag/) (external)
-- [DSPy in 8 Steps](https://dspy-docs.vercel.app/docs/building-blocks/solving_your_task) (external)
-- [Multi-Query Attention](https://arxiv.org/abs/1911.02150) (external)
-- [Grouped-Query Attention](https://arxiv.org/abs/2305.13245) (external)
-- [GPU Inference](https://huggingface.co/docs/transformers/main/en/perf_infer_gpu_one) (external)
-- [LLM Inference](https://www.databricks.com/blog/llm-inference-performance-engineering-best-practices) (external)
-- [Optimizing LLMs for Speed and Memory](https://huggingface.co/docs/transformers/main/en/llm_tutorial_optimization) (external)
-- [Assisted Generation](https://huggingface.co/blog/assisted-generation) (external)
-- [LM Studio](https://lmstudio.ai/) (external)
-- [Ollama](https://ollama.ai/) (external)
-- [oobabooga](https://github.com/oobabooga/text-generation-webui) (external)
-- [kobold.cpp](https://github.com/LostRuins/koboldcpp) (external)
-- [Gradio](https://www.gradio.app/) (external)
-- [Streamlit](https://docs.streamlit.io/) (external)
-- [Hugging Face Spaces](https://huggingface.co/spaces) (external)
-- [TGI](https://github.com/huggingface/text-generation-inference) (external)
-- [vLLM](https://github.com/vllm-project/vllm/tree/main) (external)
-- [MLC LLM](https://github.com/mlc-ai/mlc-llm) (external)
-- [mnn-llm](https://github.com/wangzhaode/mnn-llm/blob/master/README_en.md) (external)
-- [Streamlit – Build a basic LLM app](https://docs.streamlit.io/knowledge-base/tutorials/build-conversational-apps) (external)
-- [HF LLM Inference Container](https://huggingface.co/blog/sagemaker-huggingface-llm) (external)
-- [Philschmid blog](https://www.philschmid.de/) (external)
-- [Optimizing Latency](https://hamel.dev/notes/llm/inference/03_inference.html) (external)
-- [garak](https://github.com/leondz/garak/) (external)
-- [langfuse](https://github.com/langfuse/langfuse) (external)
-- [OWASP LLM Top 10](https://owasp.org/www-project-top-10-for-large-language-model-applications/) (external)
-- [Prompt Injection Primer](https://github.com/jthack/PIPE) (external)
-- [LLM Security](https://llmsecurity.net/) (external)
-- [@llm_sec](https://twitter.com/llm_sec) (external)
-- [Red teaming LLMs](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/red-teaming) (external)
-- [Previous](https://originshq.com/blog/improve-chatgpt-with-knowledge-graphs/) (internal)
-- [Next](https://originshq.com/blog/how-to-pick-between-data-science-and-other-data-roles/) (internal)
-- [Book Call Now](https://originshq.com/book-a-call-ai/) (internal)
-- [Book Call Now](https://originshq.com/book-a-call-ai/) (internal)
-- [Origins AI](https://originshq.com) (internal)
-- [No text](https://www.googletagmanager.com/ns.html?id=GTM-PBFJT6T6) (iframe)
-
-## Images
-![fbpx](https://www.facebook.com/tr?id=579348431287229&ev=PageView&noscript=1)
-![](https://www.facebook.com/tr?id=579348431287229&ev=PageView&noscript=1)
-![](https://originshq.com/wp-content/uploads/2024/03/Origins-AI-500x250-1.png)
-![Top AI/LLM learning resource in 2025](https://originshq.com/wp-content/uploads/2025/01/top_learning_resource_ai_llm_in_2025.jpg)
-
-## Documents
-- [Parallel Training](https://www.andrew.cmu.edu/course/11-667/lectures/W10L2%20Scaling%20Up%20Parallel%20Training.pdf) (pdf)
-
-
-#### Content from originshq_com_20250303_155557.md:
-
-# Top AI/LLM learning resource in 2025
-
-Jan 24, 2025
-
-The Blog is organized into three main segments:
-
-1. **LLM Fundamentals** (optional) – Covers essential topics such as mathematics, Python, and neural networks.
-2. **The LLM Scientist** – Concentrates on creating the best-performing LLMs using state-of-the-art techniques.
-3. **The LLM Engineer** – Focuses on building applications based on LLMs and deploying them.
-
-* * *
-
-### 📝 Notebooks
-
-Below is a collection of notebooks and articles dedicated to LLMs.
-
-### Tools
-| Notebook Name | Description | Notebook |
-|---|---|---|
-| **🧐 LLM AutoEval** | Evaluate your LLMs automatically using RunPod | [Notebook](https://colab.research.google.com/drive/1Igs3WZuXAIv9X0vwqiE90QlEPys8e8Oa?usp=sharing) |
-| **🥱 LazyMergekit** | Merge models effortlessly using MergeKit with a single click | [Notebook](https://colab.research.google.com/drive/1obulZ1ROXHjYLn6PPZJwRR6GzgQogxxb?usp=sharing) |
-| **🦎 LazyAxolotl** | Fine-tune models in the cloud with Axolotl in just one click | [Notebook](https://colab.research.google.com/drive/1TsDKNo2riwVmU55gjuBgB1AXVtRRfRHW?usp=sharing) |
-| **⚡ AutoQuant** | Quantize LLMs into GGUF, GPTQ, EXL2, AWQ, and HQQ formats in one click | [Notebook](https://colab.research.google.com/drive/1b6nqC7UZVt8bx4MksX7s656GXPM-eWw4?usp=sharing) |
-| **🌳 Model Family Tree** | Visualize the lineage of merged models | [Notebook](https://colab.research.google.com/drive/1s2eQlolcI1VGgDhqWIANfkfKvcKrMyNr?usp=sharing) |
-| **🚀 ZeroSpace** | Instantly create a Gradio chat interface using a free ZeroGPU | [Notebook](https://colab.research.google.com/drive/1LcVUW5wsJTO2NGmozjji5CkC--646LgC) |
-
-
-### Fine-tuning
-| Notebook Name | Description | Article | Notebook |
-|---|---|---|---|
-| **Fine-tune Llama 3.1 with Unsloth** | Perform ultra-efficient supervised fine-tuning in Google Colab | [Article](https://originshq.com/blog/fine-tune-llama-3-1-ultra-efficiently-with-unsloth/) | [Notebook](https://colab.research.google.com/drive/164cg_O7SV7G8kZr_JXqLd6VC7pd86-1Z?usp=sharing) |
-| **Fine-tune Llama 3 with ORPO** | Achieve cheaper and faster fine-tuning in a single stage with ORPO | [Article](https://originshq.com/blog/fine-tune-llama-3-with-orpo/) | [Notebook](https://colab.research.google.com/drive/1eHNWg9gnaXErdAa8_mcvjMupbSS6rDvi) |
-| **Fine-tune Mistral-7b with DPO** | Enhance the performance of supervised fine-tuned models using DPO | [Article](https://originshq.com/blog/boost-the-performance-of-supervised-fine-tuned-models-with-dpo/) | [Notebook](https://colab.research.google.com/drive/15iFBr1xWgztXvhrj5I9fBv20c7CFOPBE?usp=sharing) |
-| **Fine-tune Mistral-7b with QLoRA** | Supervised fine-tuning of Mistral-7b in a free-tier Google Colab using TRL |  | [Notebook](https://colab.research.google.com/drive/1o_w0KastmEJNVwT5GoqMCciH-18ca5WS?usp=sharing) |
-| **Fine-tune CodeLlama using Axolotl** | A comprehensive guide to fine-tune with the state-of-the-art Axolotl tool | [Article](https://originshq.com/blog/end-to-end-guide-to-the-state-of-the-art-tool-for-fine-tuning/) | [Notebook](https://colab.research.google.com/drive/1Xu0BrCB7IShwSWKVcfAfhehwjDrDMH5m?usp=sharing) |
-| **Fine-tune Llama 2 with QLoRA** | A step-by-step guide to supervised fine-tuning of Llama 2 in Google Colab | [Article](https://originshq.com/blog/step-by-step-guide-to-supervised-fine-tune-llama-2-in-google-colab/) | [Notebook](https://colab.research.google.com/drive/1PEQyJO1-f6j0S_XJ8DV50NkpzasXkrzd?usp=sharing) |
-
-
-### Quantization
-| Notebook Name | Description | Article | Notebook |
-|---|---|---|---|
-| **Introduction to Quantization** | An overview of optimizing large language models using 8-bit quantization | [Article](https://originshq.com/blog/introduction-to-weight-quantization/) | [Notebook](https://colab.research.google.com/drive/1DPr4mUQ92Cc-xf4GgAaB6dFcFnWIvqYi?usp=sharing) |
-| **4-bit Quantization using GPTQ** | Learn to quantize your open-source LLMs for consumer hardware using GPTQ | [Article](https://originshq.com/blog/4-bit-llm-quantization-with-gptq/) | [Notebook](https://colab.research.google.com/drive/1lSvVDaRgqQp_mWK_jC9gydz6_-y6Aq4A?usp=sharing) |
-| **Quantization with GGUF and llama.cpp** | Quantize Llama 2 models with llama.cpp and upload their GGUF versions to the HF Hub | [Article](https://originshq.com/blog/quantize-llama-models-with-gguf-and-llama-cpp/) | [Notebook](https://colab.research.google.com/drive/1pL8k7m04mgE5jo2NrjGi8atB0j_37aDD?usp=sharing) |
-| **ExLlamaV2: The Fastest Library to Run LLMs** | Quantize and run EXL2 models, then upload them to the HF Hub | [Article](https://originshq.com/blog/exllamav2-the-fastest-library-to-run-llms/) | [Notebook](https://colab.research.google.com/drive/1yrq4XBlxiA0fALtMoT2dwiACVc77PHou?usp=sharing) |
-
-
-### Other
-| Notebook Name | Description | Article | Notebook |
-|---|---|---|---|
-| **Merge LLMs with MergeKit** | Easily create your own models without needing a GPU | [Article](https://originshq.com/blog/merge-large-language-models-with-mergekit/) | [Notebook](https://colab.research.google.com/drive/1_JS7JKJAQozD48-LhYdegcuuZ2ddgXfr?usp=sharing) |
-| **Create MoEs with MergeKit** | Combine multiple experts into a single frankenMoE | [Article](https://originshq.com/blog/create-mixtures-of-experts-with-mergekit/) | [Notebook](https://colab.research.google.com/drive/1obulZ1ROXHjYLn6PPZJwRR6GzgQogxxb?usp=sharing) |
-| **Uncensor any LLM with abliteration** | Fine-tuning strategies without retraining the model | [Article](https://originshq.com/blog/uncensor-any-llm-with-abliteration/) | [Notebook](https://colab.research.google.com/drive/1VYm3hOcvCpbGiqKZb141gJwjdmmCcVpR?usp=sharing) |
-| **Improve ChatGPT with Knowledge Graphs** | Augment ChatGPT's responses using knowledge graphs | [Article](https://originshq.com/blog/improve-chatgpt-with-knowledge-graphs/) | [Notebook](https://colab.research.google.com/drive/1mwhOSw9Y9bgEaIFKT4CLi0n18pXRM4cj?usp=sharing) |
-| **Decoding Strategies in Large Language Models** | A comprehensive guide covering text generation methods from beam search to nucleus sampling | [Article](https://originshq.com/blog/decoding-strategies-in-large-language-models/) | [Notebook](https://colab.research.google.com/drive/19CJlOS5lI29g-B3dziNn93Enez1yiHk2?usp=sharing) |
-
-* * *
-
-
-#### Content from scraped_20250303_145359.md:
-
-# README.md
-
-URL: https://github.com/amrzv/awesome-colab-notebooks/raw/main/README.md
-
-Crawled at: 2025-03-03T14:53:59.055954
-
-## Summary
-
-Please open [README.md](https://github.com/amrzv/awesome-colab-notebooks/blob/main/README.md) file directly
-
-# Awesome colab notebooks collection for ML experiments
-
-## Trending
-
-| repositories | papers | packages |
-
-|---|---|---|
-
-| <ul><li>TabPFN	[! [Open In Colab](images/colab.svg)](https://colab.research.google.com/github/google/jax/blob/main/docs/notebooks/autodiff_cookbook.ipynb) | 20.09.2024 |
-
-| Machine Learning Simplified | A Gentle Introduction to Supervised Learning | [Andrew Wolf](https://5x12.ai/) | [! [Open In Colab](images/colab.svg)](https://colab.research.google.com/github/Yorko/mlcourse.ai/blob/main/jupyter_english/topic01_pandas_data_analysis/topic1_pandas_data_analysis.ipynb) | 19.08.2024 |
-
-| Deep RL Course | The Hugging Face Deep Reinforcement Learning Course | <ul><li>[Thomas Simonini](https://www.simoninithomas.com/)</li> <li>[Omar Sanseviero](https://osanseviero.github.io/hackerllama/)</li> <li>[Sayak Paul](https://sayak.dev/)</li></ul> | [! [Open In Colab](images/colab.svg)](https://colab.research.google.com/github/facebookresearch/co-tracker/blob/main/notebooks/demo.ipynb) | 16.10.2024 |
-
-| PIFu | Pixel-Aligned Implicit Function for High-Resolution Clothed Human Digitization | <ul><li>[Ryota Natsume](https://github.com/nanopoteto)</li> <li>[Shunsuke Saito](https://shunsukesaito.github.io/)</li> <li>[Zeng Huang](https://zeng.science/)</li> <li>[Angjoo Kanazawa](https://people.eecs.berkeley.edu/~kanazawa/)</li> <li>[Hao Li](http://hao.li)</li></ul> | [! [](https://img.shields.io/github/stars/Vahe1994/AQLM?style=social)](https://github.com/Vahe1994/AQLM) <ul><li>[<img src="images/arxiv.svg" alt="arxiv" height=20/>](https://arxiv.org/abs/2401.06118)</li><li>[<img src="images/hf.svg" alt="hf" height=20/>](https://huggingface.co/docs/datasets/main/en/cache#cache-directory), [<img src="images/hf.svg" alt="hf" height=20/>](https://huggingface.co/datasets/togethercomputer/RedPajama-Data-1T-Sample), [<img src="images/hf.svg" alt="hf" height=20/>](https://huggingface.co/datasets/Vahe1994/AQLM)</li><li>[<img src="images/reddit.svg" alt="reddit" height=20/>](https://www.reddit.com/r/LearningMachines/comments/1atvrnl/240106118_extreme_compression_of_large_language/)</li><li>[<img src="images/yt.svg" alt="yt" height=20/>](https://youtu.be/Qx8PNk4OkUA), [<img src="images/yt.svg" alt="yt" height=20/>](https://youtu.be/hAHBKAXO-88)</li></ul> | [!
-
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/amrzv/awesome-colab-notebooks)](https://hits.seeyoufarm.com)
+# Dynamically Generated README
+## Data from originshq_com_20250228_191540.json
+| Category | Value |
+|---|---|
+| url | https://originshq.com/blog/top-ai-llm-learning-resource-in-2025/ |
+| timestamp | 1740744939.4103155 |
+| content.json_ld | [{'@context': 'https://schema.org', '@graph': [{'@type': 'Article', '@id': 'https://originshq.com/blog/top-ai-llm-learning-resource-in-2025/#article', 'isPartOf': {'@id': 'https://originshq.com/blog/top-ai-llm-learning-resource-in-2025/'}, 'author': {'name': 'apoorvakumar169', '@id': 'https://originshq.com/#/schema/person/869d7b4ea4b0b180bc50c9cd77084880'}, 'headline': 'Top AI/LLM learning resource in 2025', 'datePublished': '2025-01-18T15:11:10+00:00', 'dateModified': '2025-01-18T16:57:40+00:00', 'mainEntityOfPage': {'@id': 'https://originshq.com/blog/top-ai-llm-learning-resource-in-2025/'}, 'wordCount': 3658, 'publisher': {'@id': 'https://originshq.com/#organization'}, 'image': {'@id': 'https://originshq.com/blog/top-ai-llm-learning-resource-in-2025/#primaryimage'}, 'thumbnailUrl': 'https://originshq.com/wp-content/uploads/2025/01/top_learning_resource_ai_llm_in_2025.jpg', 'articleSection': ['Blog'], 'inLanguage': 'en-US'}, {'@type': 'WebPage', '@id': 'https://originshq.com/blog/top-ai-llm-learning-resource-in-2025/', 'url': 'https://originshq.com/blog/top-ai-llm-learning-resource-in-2025/', 'name': 'Top AI/LLM learning resource in 2025 - Origins AI', 'isPartOf': {'@id': 'https://originshq.com/#website'}, 'primaryImageOfPage': {'@id': 'https://originshq.com/blog/top-ai-llm-learning-resource-in-2025/#primaryimage'}, 'image': {'@id': 'https://originshq.com/blog/top-ai-llm-learning-resource-in-2025/#primaryimage'}, 'thumbnailUrl': 'https://originshq.com/wp-content/uploads/2025/01/top_learning_resource_ai_llm_in_2025.jpg', 'datePublished': '2025-01-18T15:11:10+00:00', 'dateModified': '2025-01-18T16:57:40+00:00', 'breadcrumb': {'@id': 'https://originshq.com/blog/top-ai-llm-learning-resource-in-2025/#breadcrumb'}, 'inLanguage': 'en-US', 'potentialAction': [{'@type': 'ReadAction', 'target': ['https://originshq.com/blog/top-ai-llm-learning-resource-in-2025/']}]}, {'@type': 'ImageObject', 'inLanguage': 'en-US', '@id': 'https://originshq.com/blog/top-ai-llm-learning-resource-in-2025/#primaryimage', 'url': 'https://originshq.com/wp-content/uploads/2025/01/top_learning_resource_ai_llm_in_2025.jpg', 'contentUrl': 'https://originshq.com/wp-content/uploads/2025/01/top_learning_resource_ai_llm_in_2025.jpg', 'width': 1680, 'height': 945, 'caption': 'Top AI/LLM learning resource in 2025'}, {'@type': 'BreadcrumbList', '@id': 'https://originshq.com/blog/top-ai-llm-learning-resource-in-2025/#breadcrumb', 'itemListElement': [{'@type': 'ListItem', 'position': 1, 'name': 'Home', 'item': 'https://originshq.com/'}, {'@type': 'ListItem', 'position': 2, 'name': 'Top AI/LLM learning resource in 2025'}]}, {'@type': 'WebSite', '@id': 'https://originshq.com/#website', 'url': 'https://originshq.com/', 'name': 'The AI', 'description': 'Bringing Trust and Speed back in Software Services', 'publisher': {'@id': 'https://originshq.com/#organization'}, 'potentialAction': [{'@type': 'SearchAction', 'target': {'@type': 'EntryPoint', 'urlTemplate': 'https://originshq.com/?s={search_term_string}'}, 'query-input': {'@type': 'PropertyValueSpecification', 'valueRequired': True, 'valueName': 'search_term_string'}}], 'inLanguage': 'en-US'}, {'@type': 'Organization', '@id': 'https://originshq.com/#organization', 'name': 'Origins', 'url': 'https://originshq.com/', 'logo': {'@type': 'ImageObject', 'inLanguage': 'en-US', '@id': 'https://originshq.com/#/schema/logo/image/', 'url': 'https://originshq.com/wp-content/uploads/2024/01/logo.png', 'contentUrl': 'https://originshq.com/wp-content/uploads/2024/01/logo.png', 'width': 330, 'height': 177, 'caption': 'Origins'}, 'image': {'@id': 'https://originshq.com/#/schema/logo/image/'}, 'sameAs': ['https://x.com/origins_hq']}, {'@type': 'Person', '@id': 'https://originshq.com/#/schema/person/869d7b4ea4b0b180bc50c9cd77084880', 'name': 'apoorvakumar169', 'image': {'@type': 'ImageObject', 'inLanguage': 'en-US', '@id': 'https://originshq.com/#/schema/person/image/', 'url': 'https://secure.gravatar.com/avatar/5d4369d278794ab490a2fd55bf7524c9?s=96&d=mm&r=g', 'contentUrl': 'https://secure.gravatar.com/avatar/5d4369d278794ab490a2fd55bf7524c9?s=96&d=mm&r=g', 'caption': 'apoorvakumar169'}, 'sameAs': ['https://originshq.com/blog'], 'url': 'https://originshq.com/author/apoorvakumar169/'}]}] |
+| content.structured | {} |
+| content.microdata | {} |
+| links | {'url': 'https://originshq.com/', 'text': '', 'type': 'internal', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://originshq.com/blog/top-ai-llm-learning-resource-in-2025/', 'text': 'Home', 'type': 'internal', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://originshq.com/blog', 'text': 'Blog', 'type': 'internal', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://originshq.com/services-devops/', 'text': 'Devops', 'type': 'internal', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://originshq.com/services-cloud/', 'text': 'Cloud', 'type': 'internal', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://originshq.com/services-data/', 'text': 'Data', 'type': 'internal', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://originshq.com/services-mobileapp/', 'text': 'App Development', 'type': 'internal', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://originshq.com/services-ai/', 'text': 'AI Services', 'type': 'internal', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://originshq.com/services-tech-consulting/', 'text': 'Tech Consulting', 'type': 'internal', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://originshq.com/our-works/building-an-ai-testing-platform/', 'text': 'Raga AI – AI Platform', 'type': 'internal', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://originshq.com/our-works/samsung-iot-development-and-user-verification/', 'text': 'Samsung – IOT', 'type': 'internal', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://originshq.com/our-works/cost-reduction-at-amazon/', 'text': 'Amazon – Cost Reduction', 'type': 'internal', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://originshq.com/our-works/building-platform-at-nucash/', 'text': 'Nucash – Building Platform', 'type': 'internal', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://originshq.com/our-works/helping-frontpage-scale/', 'text': 'FrontPage – Scalability Issues', 'type': 'internal', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://originshq.com/our-works/transforming-yesmadam-into-a-tech-company/', 'text': 'YesMadam – Digital Transformation', 'type': 'internal', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://originshq.com/book-a-call/', 'text': 'Contact Us', 'type': 'internal', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://colab.research.google.com/drive/1Igs3WZuXAIv9X0vwqiE90QlEPys8e8Oa?usp=sharing', 'text': 'Notebook', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://colab.research.google.com/drive/1obulZ1ROXHjYLn6PPZJwRR6GzgQogxxb?usp=sharing', 'text': 'Notebook', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://colab.research.google.com/drive/1TsDKNo2riwVmU55gjuBgB1AXVtRRfRHW?usp=sharing', 'text': 'Notebook', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://colab.research.google.com/drive/1b6nqC7UZVt8bx4MksX7s656GXPM-eWw4?usp=sharing', 'text': 'Notebook', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://colab.research.google.com/drive/1s2eQlolcI1VGgDhqWIANfkfKvcKrMyNr?usp=sharing', 'text': 'Notebook', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://colab.research.google.com/drive/1LcVUW5wsJTO2NGmozjji5CkC--646LgC', 'text': 'Notebook', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://originshq.com/blog/fine-tune-llama-3-1-ultra-efficiently-with-unsloth/', 'text': 'Article', 'type': 'internal', 'title': '', 'rel': ['noreferrer', 'noopener'], 'target': '_blank'}, {'url': 'https://colab.research.google.com/drive/164cg_O7SV7G8kZr_JXqLd6VC7pd86-1Z?usp=sharing', 'text': 'Notebook', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://originshq.com/blog/fine-tune-llama-3-with-orpo/', 'text': 'Article', 'type': 'internal', 'title': '', 'rel': ['noreferrer', 'noopener'], 'target': '_blank'}, {'url': 'https://colab.research.google.com/drive/1eHNWg9gnaXErdAa8_mcvjMupbSS6rDvi', 'text': 'Notebook', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://originshq.com/blog/boost-the-performance-of-supervised-fine-tuned-models-with-dpo/', 'text': 'Article', 'type': 'internal', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://colab.research.google.com/drive/15iFBr1xWgztXvhrj5I9fBv20c7CFOPBE?usp=sharing', 'text': 'Notebook', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://colab.research.google.com/drive/1o_w0KastmEJNVwT5GoqMCciH-18ca5WS?usp=sharing', 'text': 'Notebook', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://originshq.com/blog/end-to-end-guide-to-the-state-of-the-art-tool-for-fine-tuning/', 'text': 'Article', 'type': 'internal', 'title': '', 'rel': ['noreferrer', 'noopener'], 'target': '_blank'}, {'url': 'https://colab.research.google.com/drive/1Xu0BrCB7IShwSWKVcfAfhehwjDrDMH5m?usp=sharing', 'text': 'Notebook', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://originshq.com/blog/step-by-step-guide-to-supervised-fine-tune-llama-2-in-google-colab/', 'text': 'Article', 'type': 'internal', 'title': '', 'rel': ['noreferrer', 'noopener'], 'target': '_blank'}, {'url': 'https://colab.research.google.com/drive/1PEQyJO1-f6j0S_XJ8DV50NkpzasXkrzd?usp=sharing', 'text': 'Notebook', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://originshq.com/blog/introduction-to-weight-quantization/', 'text': 'Article', 'type': 'internal', 'title': '', 'rel': ['noreferrer', 'noopener'], 'target': '_blank'}, {'url': 'https://colab.research.google.com/drive/1DPr4mUQ92Cc-xf4GgAaB6dFcFnWIvqYi?usp=sharing', 'text': 'Notebook', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://originshq.com/blog/4-bit-llm-quantization-with-gptq/', 'text': 'Article', 'type': 'internal', 'title': '', 'rel': ['noreferrer', 'noopener'], 'target': '_blank'}, {'url': 'https://colab.research.google.com/drive/1lSvVDaRgqQp_mWK_jC9gydz6_-y6Aq4A?usp=sharing', 'text': 'Notebook', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://originshq.com/blog/quantize-llama-models-with-gguf-and-llama-cpp/', 'text': 'Article', 'type': 'internal', 'title': '', 'rel': ['noreferrer', 'noopener'], 'target': '_blank'}, {'url': 'https://colab.research.google.com/drive/1pL8k7m04mgE5jo2NrjGi8atB0j_37aDD?usp=sharing', 'text': 'Notebook', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://originshq.com/blog/exllamav2-the-fastest-library-to-run-llms/', 'text': 'Article', 'type': 'internal', 'title': '', 'rel': ['noreferrer', 'noopener'], 'target': '_blank'}, {'url': 'https://colab.research.google.com/drive/1yrq4XBlxiA0fALtMoT2dwiACVc77PHou?usp=sharing', 'text': 'Notebook', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://originshq.com/blog/merge-large-language-models-with-mergekit/', 'text': 'Article', 'type': 'internal', 'title': '', 'rel': ['noreferrer', 'noopener'], 'target': '_blank'}, {'url': 'https://colab.research.google.com/drive/1_JS7JKJAQozD48-LhYdegcuuZ2ddgXfr?usp=sharing', 'text': 'Notebook', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://originshq.com/blog/create-mixtures-of-experts-with-mergekit/', 'text': 'Article', 'type': 'internal', 'title': '', 'rel': ['noreferrer', 'noopener'], 'target': '_blank'}, {'url': 'https://colab.research.google.com/drive/1obulZ1ROXHjYLn6PPZJwRR6GzgQogxxb?usp=sharing', 'text': 'Notebook', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://originshq.com/blog/uncensor-any-llm-with-abliteration/', 'text': 'Article', 'type': 'internal', 'title': '', 'rel': ['noreferrer', 'noopener'], 'target': '_blank'}, {'url': 'https://colab.research.google.com/drive/1VYm3hOcvCpbGiqKZb141gJwjdmmCcVpR?usp=sharing', 'text': 'Notebook', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://originshq.com/blog/improve-chatgpt-with-knowledge-graphs/', 'text': 'Article', 'type': 'internal', 'title': '', 'rel': ['noreferrer', 'noopener'], 'target': '_blank'}, {'url': 'https://colab.research.google.com/drive/1mwhOSw9Y9bgEaIFKT4CLi0n18pXRM4cj?usp=sharing', 'text': 'Notebook', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://originshq.com/blog/decoding-strategies-in-large-language-models/', 'text': 'Article', 'type': 'internal', 'title': '', 'rel': ['noreferrer', 'noopener'], 'target': '_blank'}, {'url': 'https://colab.research.google.com/drive/19CJlOS5lI29g-B3dziNn93Enez1yiHk2?usp=sharing', 'text': 'Notebook', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab', 'text': '3Blue1Brown – The Essence of Linear Algebra', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://www.youtube.com/watch?v=qBigTkBLU6g&list=PLblh5JKOoLUK0FLuzwntyYI10UQFUhsY9', 'text': 'StatQuest with Josh Starmer – Statistics Fundamentals', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://automata88.medium.com/list/cacc224d5e7d', 'text': 'AP Statistics Intuition by Ms Aerin', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://immersivemath.com/ila/learnmore.html', 'text': 'Immersive Linear Algebra', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://www.khanacademy.org/math/linear-algebra', 'text': 'Khan Academy – Linear Algebra', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://www.khanacademy.org/math/calculus-1', 'text': 'Khan Academy – Calculus', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://www.khanacademy.org/math/statistics-probability', 'text': 'Khan Academy – Probability and Statistics', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://realpython.com/', 'text': 'Real Python', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://www.youtube.com/watch?v=rfscVS0vtbw', 'text': 'freeCodeCamp – Learn Python', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://jakevdp.github.io/PythonDataScienceHandbook/', 'text': 'Python Data Science Handbook', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://youtu.be/i_LwzRVP7bg', 'text': 'freeCodeCamp – Machine Learning for Everybody', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://www.udacity.com/course/intro-to-machine-learning--ud120', 'text': 'Udacity – Intro to Machine Learning', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://www.youtube.com/watch?v=aircAruvnKk', 'text': '3Blue1Brown – But what is a Neural Network?', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://www.youtube.com/watch?v=VyWAvY2CF9c', 'text': 'freeCodeCamp – Deep Learning Crash Course', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://course.fast.ai/', 'text': 'Fast.ai – Practical Deep Learning', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://www.youtube.com/playlist?list=PLqnslRFeH2UrcDBWF5mfPGpqQDSta6VK4', 'text': 'Patrick Loeber – PyTorch Tutorials', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://lena-voita.github.io/nlp_course/word_embeddings.html', 'text': 'Lena Voita – Word Embeddings', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://realpython.com/natural-language-processing-spacy-python/', 'text': 'RealPython – NLP with spaCy in Python', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://www.kaggle.com/learn-guide/natural-language-processing', 'text': 'Kaggle – NLP Guide', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://jalammar.github.io/illustrated-word2vec/', 'text': 'Jay Alammar – The Illustration Word2Vec', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://jaketae.github.io/study/pytorch-rnn/', 'text': 'Jake Tae – PyTorch RNN from Scratch', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://colah.github.io/posts/2015-08-Understanding-LSTMs/', 'text': 'colah’s blog – Understanding LSTM Networks', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://www.youtube.com/watch?v=wjZofJX0v4M', 'text': 'Visual intro to Transformers', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://bbycroft.net/llm', 'text': 'LLM Visualization', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://www.youtube.com/watch?v=kCc8FmEb1nY', 'text': 'nanoGPT', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://www.youtube.com/watch?v=zduSFxRajkE', 'text': 'here', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://lilianweng.github.io/posts/2018-06-24-attention/', 'text': 'Attention? Attention!', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://mlabonne.github.io/blog/posts/2023-06-07-Decoding_strategies.html', 'text': 'Decoding Strategies in LLMs', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://arxiv.org/abs/2307.09288', 'text': 'Llama 3.1', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://huggingface.co/spaces/HuggingFaceFW/blogpost-fineweb-v1', 'text': 'FineWeb', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://www.together.ai/blog/redpajama-data-v2', 'text': 'RedPajama v2', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://github.com/huggingface/nanotron', 'text': 'nanotron', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://github.com/huggingface/smollm', 'text': 'SmolLM2', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://www.andrew.cmu.edu/course/11-667/lectures/W10L2%20Scaling%20Up%20Parallel%20Training.pdf', 'text': 'Parallel Training', 'type': 'external', 'title': '', 'rel': [], 'target': '_self', 'is_document': True, 'document_type': 'pdf'}, {'url': 'https://arxiv.org/abs/2407.20018', 'text': 'Distributed Training', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://allenai.org/olmo', 'text': 'OLMo 2', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://www.llm360.ai/', 'text': 'LLM360', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://github.com/mlabonne/llm-datasets', 'text': '💾 LLM Datasets', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://arxiv.org/abs/2406.00770', 'text': 'Auto-Evol', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://huggingface.co/spaces/argilla/synthetic-data-generator', 'text': 'Synthetic Data Generator', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://github.com/mlabonne/llm-datasets', 'text': 'LLM Datasets', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://github.com/NVIDIA/NeMo-Curator', 'text': 'NeMo-Curator', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://distilabel.argilla.io/dev/sections/pipeline_samples/', 'text': 'Distilabel', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://github.com/MinishLab/semhash', 'text': 'Semhash', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://huggingface.co/docs/transformers/main/en/chat_templating', 'text': 'Chat Template', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://huggingface.co/blog/mlabonne/sft-llama3', 'text': 'Fine-tune Llama 3.1 Ultra-Efficiently with Unsloth', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://axolotl-ai-cloud.github.io/axolotl/', 'text': 'Axolotl – Documentation', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://parlance-labs.com/education/', 'text': 'Mastering LLMs', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://lightning.ai/pages/community/lora-insights/', 'text': 'LoRA insights', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://arxiv.org/abs/2305.18290', 'text': 'Direct Preference Optimization', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://arxiv.org/abs/1707.06347', 'text': 'Proximal Policy Optimization', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://huggingface.co/blog/rlhf', 'text': 'Illustrating RLHF', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://magazine.sebastianraschka.com/p/llm-training-rlhf-and-its-alternatives', 'text': 'LLM Training: RLHF and Its Alternatives', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://huggingface.co/blog/pref-tuning', 'text': 'Preference Tuning LLMs', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://mlabonne.github.io/blog/posts/Fine_tune_Mistral_7b_with_DPO.html', 'text': 'Fine-tune Mistral-7b with DPO', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://wandb.ai/alexander-vishnevskiy/dpo/reports/TRL-Original-DPO--Vmlldzo1NjI4MTc4', 'text': 'DPO Wandb logs', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://github.com/huggingface/evaluation-guidebook', 'text': 'Evaluation Guidebook', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard', 'text': 'Open LLM Leaderboard', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://github.com/EleutherAI/lm-evaluation-harness', 'text': 'Language Model Evaluation Harness', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://github.com/huggingface/lighteval', 'text': 'Lighteval', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://lmarena.ai/', 'text': 'Chatbot Arena', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://github.com/ggerganov/llama.cpp', 'text': 'llama.cpp', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://arxiv.org/abs/2210.17323', 'text': 'GPTQ', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://github.com/turboderp/exllamav2', 'text': 'EXL2', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://arxiv.org/abs/2306.00978', 'text': 'AWQ', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://mlabonne.github.io/blog/posts/Introduction_to_Weight_Quantization.html', 'text': 'Introduction to Quantization', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://mlabonne.github.io/blog/posts/Quantize_Llama_2_models_using_ggml.html', 'text': 'Quantize Llama models with llama.cpp', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://mlabonne.github.io/blog/posts/4_bit_Quantization_with_GPTQ.html', 'text': '4-bit LLM Quantization with GPTQ', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://medium.com/friendliai/understanding-activation-aware-weight-quantization-awq-boosting-inference-serving-efficiency-in-10bb0faf63a8', 'text': 'Understanding Activation-Aware Weight Quantization', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://github.com/mit-han-lab/smoothquant/blob/main/examples/smoothquant_llama_demo.ipynb', 'text': 'SmoothQuant on Llama 2 7B', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://www.deepspeed.ai/tutorials/model-compression/', 'text': 'DeepSpeed Model Compression', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://github.com/cg123/mergekit', 'text': 'mergekit', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://arxiv.org/abs/2311.03099', 'text': 'DARE', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://arxiv.org/abs/2311.03099', 'text': 'TIES', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://openai.com/research/clip', 'text': 'CLIP', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://stability.ai/stable-image', 'text': 'Stable Diffusion', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://llava-vl.github.io/', 'text': 'LLaVA', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://mlabonne.github.io/blog/posts/2024-01-08_Merge_LLMs_with_mergekit.html', 'text': 'Merge LLMs with mergekit', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://github.com/merveenoyan/smol-vision', 'text': 'Smol Vision', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://huyenchip.com/2023/10/10/multimodal.html', 'text': 'Large Multimodal Models', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://huggingface.co/blog/mlabonne/abliteration', 'text': 'Uncensor any LLM with abliteration', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://adamkarvonen.github.io/machine_learning/2024/06/11/sae-intuitions.html', 'text': 'Intuitive Explanation of SAEs', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://huggingface.co/spaces/HuggingFaceH4/blogpost-scaling-test-time-compute', 'text': 'Scaling test-time compute', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://platform.openai.com/', 'text': 'OpenAI', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://cloud.google.com/vertex-ai/docs/generative-ai/learn/overview', 'text': 'Google', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://docs.anthropic.com/claude/reference/getting-started-with-the-api', 'text': 'Anthropic', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://docs.cohere.com/docs', 'text': 'Cohere', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://openrouter.ai/', 'text': 'OpenRouter', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://huggingface.co/inference-api', 'text': 'Hugging Face', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://www.together.ai/', 'text': 'Together AI', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://huggingface.co/models', 'text': 'Hugging Face Hub', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://chatgpt.com/', 'text': 'Hugging Face Spaces', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://lmstudio.ai/', 'text': 'LM Studio', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://github.com/ggerganov/llama.cpp', 'text': 'llama.cpp', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://ollama.ai/', 'text': 'Ollama', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://lmql.ai/', 'text': 'LMQL', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://github.com/outlines-dev/outlines', 'text': 'Outlines', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://github.com/guidance-ai/guidance', 'text': 'Guidance', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://www.kdnuggets.com/run-an-llm-locally-with-lm-studio', 'text': 'Run an LLM locally with LM Studio', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://www.promptingguide.ai/', 'text': 'Prompt engineering guide', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://outlines-dev.github.io/outlines/quickstart/', 'text': 'Outlines – Quickstart', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://lmql.ai/docs/language/overview.html', 'text': 'LMQL – Overview', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://www.trychroma.com/', 'text': 'Chroma', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://www.pinecone.io/', 'text': 'Pinecone', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://milvus.io/', 'text': 'Milvus', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://faiss.ai/', 'text': 'FAISS', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://github.com/spotify/annoy', 'text': 'Annoy', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://python.langchain.com/docs/modules/data_connection/document_transformers/', 'text': 'LangChain – Text splitters', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://www.sbert.net/', 'text': 'Sentence Transformers library', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://huggingface.co/spaces/mteb/leaderboard', 'text': 'MTEB Leaderboard', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://www.datacamp.com/blog/the-top-5-vector-databases', 'text': 'The Top 5 Vector Databases', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://python.langchain.com/docs/get_started/introduction', 'text': 'LangChain', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://docs.llamaindex.ai/en/stable/', 'text': 'LlamaIndex', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://github.com/IntelLabs/fastRAG', 'text': 'FastRAG', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://arxiv.org/abs/2212.10496', 'text': 'HyDE', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://github.com/explodinggradients/ragas/tree/main', 'text': 'Ragas', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://github.com/confident-ai/deepeval', 'text': 'DeepEval', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://docs.llamaindex.ai/en/stable/getting_started/concepts.html', 'text': 'Llamaindex – High-level concepts', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://www.pinecone.io/learn/series/langchain/langchain-retrieval-augmentation/', 'text': 'Pinecone – Retrieval Augmentation', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://python.langchain.com/docs/use_cases/question_answering/quickstart', 'text': 'LangChain – Q&A with RAG', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://python.langchain.com/docs/modules/memory/types/', 'text': 'LangChain – Memory types', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://docs.ragas.io/en/stable/concepts/metrics/index.html', 'text': 'RAG pipeline – Metrics', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://github.com/Raudaschl/rag-fusion', 'text': 'RAG-fusion', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://github.com/stanfordnlp/dspy', 'text': 'DSPy', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://blog.langchain.dev/query-construction/', 'text': 'LangChain – Query Construction', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://python.langchain.com/docs/use_cases/qa_structured/sql', 'text': 'LangChain – SQL', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://www.pinecone.io/learn/series/langchain/langchain-agents/', 'text': 'Pinecone – LLM agents', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://lilianweng.github.io/posts/2023-06-23-agent/', 'text': 'LLM Powered Autonomous Agents', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://blog.langchain.dev/applying-openai-rag/', 'text': 'LangChain – OpenAI’s RAG', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://dspy-docs.vercel.app/docs/building-blocks/solving_your_task', 'text': 'DSPy in 8 Steps', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://arxiv.org/abs/1911.02150', 'text': 'Multi-Query Attention', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://arxiv.org/abs/2305.13245', 'text': 'Grouped-Query Attention', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://huggingface.co/docs/transformers/main/en/perf_infer_gpu_one', 'text': 'GPU Inference', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://www.databricks.com/blog/llm-inference-performance-engineering-best-practices', 'text': 'LLM Inference', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://huggingface.co/docs/transformers/main/en/llm_tutorial_optimization', 'text': 'Optimizing LLMs for Speed and Memory', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://huggingface.co/blog/assisted-generation', 'text': 'Assisted Generation', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://lmstudio.ai/', 'text': 'LM Studio', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://ollama.ai/', 'text': 'Ollama', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://github.com/oobabooga/text-generation-webui', 'text': 'oobabooga', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://github.com/LostRuins/koboldcpp', 'text': 'kobold.cpp', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://www.gradio.app/', 'text': 'Gradio', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://docs.streamlit.io/', 'text': 'Streamlit', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://huggingface.co/spaces', 'text': 'Hugging Face Spaces', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://github.com/huggingface/text-generation-inference', 'text': 'TGI', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://github.com/vllm-project/vllm/tree/main', 'text': 'vLLM', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://github.com/mlc-ai/mlc-llm', 'text': 'MLC LLM', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://github.com/wangzhaode/mnn-llm/blob/master/README_en.md', 'text': 'mnn-llm', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://docs.streamlit.io/knowledge-base/tutorials/build-conversational-apps', 'text': 'Streamlit – Build a basic LLM app', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://huggingface.co/blog/sagemaker-huggingface-llm', 'text': 'HF LLM Inference Container', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://www.philschmid.de/', 'text': 'Philschmid blog', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://hamel.dev/notes/llm/inference/03_inference.html', 'text': 'Optimizing Latency', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://github.com/leondz/garak/', 'text': 'garak', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://github.com/langfuse/langfuse', 'text': 'langfuse', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://owasp.org/www-project-top-10-for-large-language-model-applications/', 'text': 'OWASP LLM Top 10', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://github.com/jthack/PIPE', 'text': 'Prompt Injection Primer', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://llmsecurity.net/', 'text': 'LLM Security', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://twitter.com/llm_sec', 'text': '@llm_sec', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/red-teaming', 'text': 'Red teaming LLMs', 'type': 'external', 'title': '', 'rel': [], 'target': '_self'}, {'url': 'https://originshq.com/blog/improve-chatgpt-with-knowledge-graphs/', 'text': 'Previous', 'type': 'internal', 'title': '', 'rel': ['prev'], 'target': '_self'}, {'url': 'https://originshq.com/blog/how-to-pick-between-data-science-and-other-data-roles/', 'text': 'Next', 'type': 'internal', 'title': '', 'rel': ['next'], 'target': '_self'}, {'url': 'https://originshq.com/book-a-call-ai/', 'text': 'Book Call Now', 'type': 'internal', 'title': '', 'rel': ['follow', 'noopener'], 'target': '_blank'}, {'url': 'https://originshq.com/book-a-call-ai/', 'text': 'Book Call Now', 'type': 'internal', 'title': '', 'rel': ['follow', 'noopener'], 'target': '_blank'}, {'url': 'https://originshq.com', 'text': 'Origins AI', 'type': 'internal', 'title': '', 'rel': ['home'], 'target': '_self'}, {'url': 'https://www.googletagmanager.com/ns.html?id=GTM-PBFJT6T6', 'type': 'iframe', 'title': ''} |
+| media.images | [{'url': 'https://www.facebook.com/tr?id=579348431287229&ev=PageView&noscript=1', 'alt': 'fbpx', 'title': '', 'loading': 'eager', 'srcset': []}, {'url': 'https://www.facebook.com/tr?id=579348431287229&ev=PageView&noscript=1', 'alt': '', 'title': '', 'loading': 'eager', 'srcset': []}, {'url': 'https://originshq.com/wp-content/uploads/2024/03/Origins-AI-500x250-1.png', 'alt': '', 'title': '', 'loading': 'eager', 'srcset': [{'url': 'https://originshq.com/wp-content/uploads/2024/03/Origins-AI-500x250-1.png', 'size': '500w'}, {'url': 'https://originshq.com/wp-content/uploads/2024/03/Origins-AI-500x250-1-300x150.png', 'size': '300w'}]}, {'url': 'https://originshq.com/wp-content/uploads/2025/01/top_learning_resource_ai_llm_in_2025.jpg', 'alt': 'Top AI/LLM learning resource in 2025', 'title': '', 'loading': 'eager', 'srcset': [{'url': 'https://originshq.com/wp-content/uploads/2025/01/top_learning_resource_ai_llm_in_2025.jpg', 'size': '1680w'}, {'url': 'https://originshq.com/wp-content/uploads/2025/01/top_learning_resource_ai_llm_in_2025-300x169.jpg', 'size': '300w'}, {'url': 'https://originshq.com/wp-content/uploads/2025/01/top_learning_resource_ai_llm_in_2025-1024x576.jpg', 'size': '1024w'}, {'url': 'https://originshq.com/wp-content/uploads/2025/01/top_learning_resource_ai_llm_in_2025-768x432.jpg', 'size': '768w'}, {'url': 'https://originshq.com/wp-content/uploads/2025/01/top_learning_resource_ai_llm_in_2025-1536x864.jpg', 'size': '1536w'}]}] |
+| media.videos | [] |
+| media.audio | [] |
+| media.documents | [{'url': 'https://www.andrew.cmu.edu/course/11-667/lectures/W10L2%20Scaling%20Up%20Parallel%20Training.pdf', 'text': 'Parallel Training', 'type': 'pdf'}] |
+## Data from scraped_20250303_145359.json
+| Category | Value |
+|---|---|
+| title | README.md |
+| text | [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/amrzv/awesome-colab-notebooks)](https://hits.seeyoufarm.com)
 
 ![awesome-colab-notebooks](https://count.getloli.com/get/@awesome-colab-notebooks?theme=rule34)
 
@@ -1545,9 +1186,23 @@ The page might not be rendered properly. Please open [README.md](https://github.
 
 [![Stargazers over time](https://starchart.cc/amrzv/awesome-colab-notebooks.svg?variant=adaptive)](https://starchart.cc/amrzv/awesome-colab-notebooks)
 
-(generated by [generate_markdown.py](generate_markdown.py) based on [research.json](data/research.json), [tutorials.json](data/tutorials.json), [cources.json](data/cources.json))
+(generated by [generate_markdown.py](generate_markdown.py) based on [research.json](data/research.json), [tutorials.json](data/tutorials.json), [cources.json](data/cources.json)) |
+| metadata.url | https://github.com/amrzv/awesome-colab-notebooks/raw/main/README.md |
+| metadata.crawled_at | 2025-03-03T14:53:59.055954 |
+| summary | Please open [README.md](https://github.com/amrzv/awesome-colab-notebooks/blob/main/README.md) file directly
 
+# Awesome colab notebooks collection for ML experiments
 
+## Trending
 
----
-Note: This README is automatically generated using update_readme.py
+| repositories | papers | packages |
+
+|---|---|---|
+
+| <ul><li>TabPFN	[! [Open In Colab](images/colab.svg)](https://colab.research.google.com/github/google/jax/blob/main/docs/notebooks/autodiff_cookbook.ipynb) | 20.09.2024 |
+
+| Machine Learning Simplified | A Gentle Introduction to Supervised Learning | [Andrew Wolf](https://5x12.ai/) | [! [Open In Colab](images/colab.svg)](https://colab.research.google.com/github/Yorko/mlcourse.ai/blob/main/jupyter_english/topic01_pandas_data_analysis/topic1_pandas_data_analysis.ipynb) | 19.08.2024 |
+
+| Deep RL Course | The Hugging Face Deep Reinforcement Learning Course | <ul><li>[Thomas Simonini](https://www.simoninithomas.com/)</li> <li>[Omar Sanseviero](https://osanseviero.github.io/hackerllama/)</li> <li>[Sayak Paul](https://sayak.dev/)</li></ul> | [! [Open In Colab](images/colab.svg)](https://colab.research.google.com/github/facebookresearch/co-tracker/blob/main/notebooks/demo.ipynb) | 16.10.2024 |
+
+| PIFu | Pixel-Aligned Implicit Function for High-Resolution Clothed Human Digitization | <ul><li>[Ryota Natsume](https://github.com/nanopoteto)</li> <li>[Shunsuke Saito](https://shunsukesaito.github.io/)</li> <li>[Zeng Huang](https://zeng.science/)</li> <li>[Angjoo Kanazawa](https://people.eecs.berkeley.edu/~kanazawa/)</li> <li>[Hao Li](http://hao.li)</li></ul> | [! [](https://img.shields.io/github/stars/Vahe1994/AQLM?style=social)](https://github.com/Vahe1994/AQLM) <ul><li>[<img src="images/arxiv.svg" alt="arxiv" height=20/>](https://arxiv.org/abs/2401.06118)</li><li>[<img src="images/hf.svg" alt="hf" height=20/>](https://huggingface.co/docs/datasets/main/en/cache#cache-directory), [<img src="images/hf.svg" alt="hf" height=20/>](https://huggingface.co/datasets/togethercomputer/RedPajama-Data-1T-Sample), [<img src="images/hf.svg" alt="hf" height=20/>](https://huggingface.co/datasets/Vahe1994/AQLM)</li><li>[<img src="images/reddit.svg" alt="reddit" height=20/>](https://www.reddit.com/r/LearningMachines/comments/1atvrnl/240106118_extreme_compression_of_large_language/)</li><li>[<img src="images/yt.svg" alt="yt" height=20/>](https://youtu.be/Qx8PNk4OkUA), [<img src="images/yt.svg" alt="yt" height=20/>](https://youtu.be/hAHBKAXO-88)</li></ul> | [! |
