@@ -1,0 +1,7 @@
+type,name,author,description,url
+Book,Deep Learning Book,Ian Goodfellow,Comprehensive deep learning theory,https://www.deeplearningbook.org
+Book,Hands-on ML,Aurélien Géron,Practical ML implementation,https://github.com/ageron/handson-ml2
+Video,CS50 AI,Harvard,Introduction to AI concepts,https://cs50.harvard.edu/ai
+Video,Fast.ai Course,Jeremy Howard,Practical deep learning,https://course.fast.ai
+Community,Papers with Code,Meta AI,ML papers with implementations,https://paperswithcode.com
+Community,AI Research Weekly,Import AI,AI research newsletter,https://jack-clark.net

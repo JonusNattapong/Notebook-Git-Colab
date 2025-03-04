@@ -1,0 +1,7 @@
+category,title,platform,description,link
+Basics,ML Fundamentals,Google Colab,Introduction to machine learning concepts,https://colab.research.google.com/ml-fundamentals
+Basics,Deep Learning 101,Kaggle,Deep learning fundamentals with PyTorch,https://kaggle.com/notebooks/deep-learning-101
+Advanced,LLM Fine-tuning,Google Colab,Fine-tuning LLMs with minimal resources,https://colab.research.google.com/llm-fine-tuning
+Advanced,Transformer Models,Kaggle,Understanding transformer architectures,https://kaggle.com/notebooks/transformer-models
+Projects,NLP Applications,Google Colab,Building NLP applications with LLMs,https://colab.research.google.com/nlp-applications
+Projects,Computer Vision,Kaggle,Computer vision projects and applications,https://kaggle.com/notebooks/computer-vision

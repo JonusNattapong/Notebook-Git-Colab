@@ -1,0 +1,4 @@
+resource_type,resource_name,resource_url,description
+Dataset,Kaggle Datasets,https://www.kaggle.com/datasets,คลัง Dataset สำหรับฝึกฝน
+Dataset,NLP Datasets,https://github.com/awwsmm/nlp-datasets,100+ ชุดข้อมูล NLP
+Library,Hugging Face Transformers,https://github.com/huggingface/transformers,"Library สำหรับ Fine-Tuning BERT, GPT"

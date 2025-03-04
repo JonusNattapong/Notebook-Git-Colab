@@ -1,0 +1,7 @@
+level,name,provider,duration,url
+Beginner,ML Crash Course,Google,15 hours,https://developers.google.com/machine-learning/crash-course
+Intermediate,Deep Learning Specialization,Coursera,5 months,https://www.coursera.org/specializations/deep-learning
+Advanced,Advanced AI Engineering,Stanford,12 weeks,https://stanford.edu/cs234
+Beginner,Python for AI,Microsoft,20 hours,https://microsoft.com/learn/ai-fundamentals
+Intermediate,NLP with Transformers,Hugging Face,3 months,https://huggingface.co/course
+Advanced,LLM Systems Design,MIT,16 weeks,https://mit.edu/llm-systems
