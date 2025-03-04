@@ -1,5 +1,7 @@
 <div align="center">
 
+![Project Logo](./public/Zom.png)
+
 # Notebook-Git-Colab
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/downloads/)
