@@ -1,4 +1,15 @@
-#  AI/LLM Learning and Resources by zombitx64 TH
+<div align="center">
+
+# Notebook-Git-Colab
+
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/downloads/)
+[![License](https://img.shields.io/badge/Apache-2.0-green.svg)](LICENSE)
+[![GitHub Package](https://img.shields.io/badge/GitHub-Package-green.svg)](https://github.com/features/packages)
+[![GitHub Stars](https://img.shields.io/github/stars/JonusNattapong/Notebook-Git-Colab.svg?style=social)](https://github.com/JonusNattapong/Notebook-Git-Colab/stargazers)
+
+*AI/LLM Learning and Resources by zombitx64 TH*
+
+</div>
 
 *อัปเดตล่าสุด: 4 มีนาคม 2025*
 
@@ -1285,3 +1296,5 @@ Notebooks ช่วยให้ผู้เริ่มต้นฝึกฝน�
   - [Discord - Unsloth](https://discord.gg/unsloth) - ชุมชนสำหรับถาม-ตอบ  
 
 ---
+
+[![Star History Chart](https://api.star-history.com/svg?repos=JonusNattapong/Notebook-Git-Colab&type=Date)](https://star-history.com/#JonusNattapong/Notebook-Git-Colab&Date)
