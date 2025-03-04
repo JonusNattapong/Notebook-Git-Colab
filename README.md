@@ -545,4 +545,6 @@ Notebooks ช่วยให้ผู้เริ่มต้นฝึกฝน�
 
 ---
 
+## Star History
+
 [![Star History Chart](https://api.star-history.com/svg?repos=JonusNattapong/Notebook-Git-Colab&type=Date)](https://star-history.com/#JonusNattapong/Notebook-Git-Colab&Date)
