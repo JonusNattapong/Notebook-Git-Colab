@@ -834,128 +834,46 @@ SFT ปรับโมเดลให้เป็นผู้ช่วยที�
 
 ---
 
-###  Script สำหรับ Fine-Tuning AI **(ไม่ใช้ Google Cloud)** และเทคนิคพิเศษ
+ด้านล่างนี้คือตารางที่แปลงข้อมูลจากสคริปต์สำหรับ Fine-Tuning AI Models (ไม่รวม Google Cloud) และเทคนิคพิเศษที่คุณให้มา โดยจัดเป็นตารางที่มีคอลัมน์ "ลำดับ", "ชื่อ", "GitHub", "รายละเอียด", และ "Script ตัวอย่าง" เพื่อให้ดูง่ายและเป็นระเบียบ
 
-#### **1. Fine-Tuning AI Models ด้วย Azure OpenAI Service**
-- **GitHub**: [Azure OpenAI Fine-Tuning](https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/fine-tuning )  
-  - **รายละเอียด**: วิธีการ Fine-Tuning AI Models ผ่าน Azure OpenAI Service พร้อม Code Example และการตั้งค่า Environment.  
-    - **Script ตัวอย่าง**:  
-      - [Fine-Tuning Code](https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/fine-tuning#create-a-custom-model )  
-      - [Upload Training Data](https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/fine-tuning#upload-your-training-data )  
+### ตาราง Fine-Tuning AI Models และเทคนิคพิเศษ
 
-#### **2. Fine-Tuning AI Models ด้วย AWS SageMaker**
-- **GitHub**: [AWS SageMaker Fine-Tuning](https://docs.aws.amazon.com/sagemaker/latest/dg/fine-tuning.html )  
-  - **รายละเอียด**: วิธีการ Fine-Tuning AI Models ผ่าน AWS SageMaker พร้อม Code Example และการตั้งค่า Environment.  
-    - **Script ตัวอย่าง**:  
-      - [Fine-Tuning Code](https://docs.aws.amazon.com/sagemaker/latest/dg/fine-tuning.html#create-a-fine-tuning-job )  
+| ลำดับ | ชื่อ                                              | GitHub                                                                                  | รายละเอียด                                                                                   | Script ตัวอย่าง                                                                                             |
+|-------|--------------------------------------------------|-----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
+| 1     | Azure OpenAI Service                            | [Azure OpenAI Fine-Tuning](https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/fine-tuning) | วิธีการ Fine-Tuning AI Models ผ่าน Azure OpenAI Service พร้อม Code Example และการตั้งค่า Environment | [Fine-Tuning Code](https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/fine-tuning#create-a-custom-model), [Upload Training Data](https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/fine-tuning#upload-your-training-data) |
+| 2     | AWS SageMaker                                   | [AWS SageMaker Fine-Tuning](https://docs.aws.amazon.com/sagemaker/latest/dg/fine-tuning.html) | วิธีการ Fine-Tuning AI Models ผ่าน AWS SageMaker พร้อม Code Example และการตั้งค่า Environment | [Fine-Tuning Code](https://docs.aws.amazon.com/sagemaker/latest/dg/fine-tuning.html#create-a-fine-tuning-job) |
+| 3     | Hugging Face Transformers                       | [huggingface/transformers](https://github.com/huggingface/transformers)                 | Library สำหรับ Fine-Tuning AI Models เช่น BERT, GPT, และ Llama ผ่าน PyTorch/TensorFlow         | [Fine-Tuning Code](https://huggingface.co/docs/transformers/main/en/training)                              |
+| 4     | Microsoft Phi Models                            | [microsoft/Phi-3](https://github.com/microsoft/Phi-3)                                   | วิธีการ Fine-Tuning Phi Models ผ่าน Azure AI Foundry หรือ ONNX Runtime                       | [Fine-Tuning Code](https://github.com/microsoft/Phi-3/blob/main/README.md#fine-tuning)                     |
+| 5     | Llama Factory                                   | [Llama Factory](https://github.com/ai-forever/Llama-Factory)                            | วิธีการ Fine-Tuning Llama Models ผ่าน LoRA และ P-Tuning                                      | [Fine-Tuning Code](https://github.com/ai-forever/Llama-Factory/blob/main/README.md#fine-tuning)            |
+| 6     | FastAI                                          | [fastai/fastai](https://github.com/fastai/fastai)                                       | Framework สำหรับ Fine-Tuning AI Models ผ่าน PyTorch                                         | [Fine-Tuning Code](https://github.com/fastai/fastai/blob/main/tutorial/fine_tuning.ipynb)                  |
+| 7     | PyTorch Lightning                               | [pytorch-lightning/pytorch-lightning](https://github.com/pytorch-lightning/pytorch-lightning) | Framework สำหรับ Fine-Tuning AI Models ผ่าน PyTorch Lightning                              | [Fine-Tuning Code](https://github.com/pytorch-lightning/pytorch-lightning/blob/main/examples/domain_templates/fine_tuning.ipynb) |
+| 8     | TensorFlow                                      | [tensorflow/models](https://github.com/tensorflow/models)                               | คลังเก็บ Script สำหรับ Fine-Tuning AI Models ผ่าน TensorFlow                                | [Fine-Tuning Code](https://github.com/tensorflow/models/tree/main/official/vision)                         |
+| 9     | Keras                                           | [keras-team/keras](https://github.com/keras-team/keras)                                 | Library สำหรับ Fine-Tuning AI Models ผ่าน Keras                                             | [Fine-Tuning Code](https://keras.io/examples/vision/image_classification_efficientnet/)                    |
+| 10    | ONNX Runtime                                    | [onnx/onnx](https://github.com/onnx/onnx)                                               | วิธีการ Fine-Tuning AI Models ผ่าน ONNX Runtime                                              | [Fine-Tuning Code](https://github.com/onnx/onnx/blob/main/docs/Training.md)                                |
+| 11    | OpenVINO Toolkit                                | [intel/openvino](https://github.com/intel/openvino)                                     | วิธีการ Fine-Tuning AI Models ผ่าน OpenVINO Toolkit                                          | [Fine-Tuning Code](https://github.com/intel/openvino/blob/main/docs/Training.md)                           |
+| 12    | TPU                                             | [tensorflow/tpu](https://github.com/tensorflow/tpu)                                     | วิธีการ Fine-Tuning AI Models ผ่าน TPU                                                       | [Fine-Tuning Code](https://github.com/tensorflow/tpu/blob/main/models/official/vision/image_classification/fine_tune.py) |
+| 13    | AWS Neuron                                      | [aws-neuron/aws-neuron-sdk](https://github.com/aws-neuron/aws-neuron-sdk)               | วิธีการ Fine-Tuning AI Models ผ่าน AWS Neuron                                                | [Fine-Tuning Code](https://github.com/aws-neuron/aws-neuron-sdk/blob/main/docs/Training.md)                |
+| 14    | Azure ML                                        | [Azure/azure-ml-samples](https://github.com/Azure/azure-ml-samples)                     | วิธีการ Fine-Tuning AI Models ผ่าน Azure ML                                                  | [Fine-Tuning Code](https://github.com/Azure/azure-ml-samples/blob/main/notebooks/python/finetune_model.ipynb) |
+| 15    | AWS SageMaker Neo                               | [aws-samples/sagemaker-neo](https://github.com/aws-samples/sagemaker-neo)               | วิธีการ Fine-Tuning AI Models ผ่าน AWS SageMaker Neo                                         | [Fine-Tuning Code](https://github.com/aws-samples/sagemaker-neo/blob/main/docs/Training.md)                |
+| 16    | Microsoft DeepSpeed                             | [microsoft/DeepSpeed](https://github.com/microsoft/DeepSpeed)                           | วิธีการ Fine-Tuning AI Models ผ่าน DeepSpeed                                                 | [Fine-Tuning Code](https://github.com/microsoft/DeepSpeed/blob/main/examples/fine_tune.py)                 |
+| 17    | NVIDIA Triton                                   | [NVIDIA/triton-inference-server](https://github.com/NVIDIA/triton-inference-server)     | วิธีการ Fine-Tuning AI Models ผ่าน NVIDIA Triton                                            | [Fine-Tuning Code](https://github.com/NVIDIA/triton-inference-server/blob/main/docs/Training.md)           |
+| 18    | Intel Optimization for Transformers             | [intel/transformers](https://github.com/intel/transformers)                             | วิธีการ Fine-Tuning AI Models ผ่าน Intel Optimization                                        | [Fine-Tuning Code](https://github.com/intel/transformers/blob/main/examples/fine_tune.py)                  |
+| 19    | AWS Inferentia                                  | [aws-samples/inferentia-training](https://github.com/aws-samples/inferentia-training)   | วิธีการ Fine-Tuning AI Models ผ่าน AWS Inferentia                                            | [Fine-Tuning Code](https://github.com/aws-samples/inferentia-training/blob/main/docs/Training.md)          |
+| 20    | Microsoft ONNX Runtime                          | [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime)                       | วิธีการ Fine-Tuning AI Models ผ่าน ONNX Runtime                                              | [Fine-Tuning Code](https://github.com/microsoft/onnxruntime/blob/main/docs/Training.md)                    |
 
-#### **3. Fine-Tuning AI Models ด้วย Hugging Face Transformers**
-- **GitHub**: [huggingface/transformers](https://github.com/huggingface/transformers )  
-  - **รายละเอียด**: Library สำหรับ Fine-Tuning AI Models 例如 BERT, GPT, และ Llama ผ่าน PyTorch/TensorFlow.  
-    - **Script ตัวอย่าง**:  
-      - [Fine-Tuning Code](https://huggingface.co/docs/transformers/main/en/training )  
+### คำอธิบาย
+- **ลำดับ**: ตัวเลขสำหรับระบุลำดับของแต่ละเครื่องมือหรือวิธีการ
+- **ชื่อ**: ชื่อของเครื่องมือหรือแพลตฟอร์มที่ใช้ในการ Fine-Tuning
+- **GitHub**: ลิงก์ไปยังหน้า GitHub หรือเอกสารหลักของเครื่องมือ
+- **รายละเอียด**: คำอธิบายสั้นๆ เกี่ยวกับวิธีการและการใช้งาน
+- **Script ตัวอย่าง**: ลิงก์ไปยังตัวอย่างโค้ดหรือเอกสารที่เกี่ยวข้อง
 
-#### **4. Fine-Tuning AI Models ด้วย Microsoft Phi Models**
-- **GitHub**: [microsoft/Phi-3](https://github.com/microsoft/Phi-3 )  
-  - **รายละเอียด**: วิธีการ Fine-Tuning Phi Models ผ่าน Azure AI Foundry หรือ ONNX Runtime.  
-    - **Script ตัวอย่าง**:  
-      - [Fine-Tuning Code](https://github.com/microsoft/Phi-3/blob/main/README.md#fine-tuning )  
+### หมายเหตุ
+- ตารางนี้รวมเฉพาะเครื่องมือที่ไม่เกี่ยวข้องกับ Google Cloud ตามคำขอของคุณ
+- หากต้องการเพิ่มข้อมูลหรือปรับแต่งตาราง เช่น การเพิ่มคอลัมน์ "ระดับความยาก" หรือ "ประเภททรัพยากร" สามารถแจ้งมาได้เลยครับ
+- ลิงก์บางอันอาจไม่ใช่หน้า GitHub โดยตรง แต่เป็นเอกสารทางการ (เช่น Azure หรือ AWS) ซึ่งเป็นแหล่งข้อมูลหลักสำหรับเครื่องมือนั้นๆ
 
-#### **5. Fine-Tuning AI Models ด้วย Llama Factory**
-- **GitHub**: [Llama Factory](https://github.com/ai-forever/Llama-Factory )  
-  - **รายละเอียด**: วิธีการ Fine-Tuning Llama Models ผ่าน LoRA และ P-Tuning.  
-    - **Script ตัวอย่าง**:  
-      - [Fine-Tuning Code](https://github.com/ai-forever/Llama-Factory/blob/main/README.md#fine-tuning )  
-
-#### **6. Fine-Tuning AI Models ด้วย FastAI**
-- **GitHub**: [fastai/fastai](https://github.com/fastai/fastai )  
-  - **รายละเอียด**: Framework สำหรับ Fine-Tuning AI Models ผ่าน PyTorch.  
-    - **Script ตัวอย่าง**:  
-      - [Fine-Tuning Code](https://github.com/fastai/fastai/blob/main/tutorial/fine_tuning.ipynb )  
-
-#### **7. Fine-Tuning AI Models ด้วย PyTorch Lightning**
-- **GitHub**: [pytorch-lightning/pytorch-lightning](https://github.com/pytorch-lightning/pytorch-lightning )  
-  - **รายละเอียด**: Framework สำหรับ Fine-Tuning AI Models ผ่าน PyTorch Lightning.  
-    - **Script ตัวอย่าง**:  
-      - [Fine-Tuning Code](https://github.com/pytorch-lightning/pytorch-lightning/blob/main/examples/domain_templates/fine_tuning.ipynb )  
-
-#### **8. Fine-Tuning AI Models ด้วย TensorFlow**
-- **GitHub**: [tensorflow/models](https://github.com/tensorflow/models )  
-  - **รายละเอียด**: คลังเก็บ Script สำหรับ Fine-Tuning AI Models ผ่าน TensorFlow.  
-    - **Script ตัวอย่าง**:  
-      - [Fine-Tuning Code](https://github.com/tensorflow/models/tree/main/official/vision )  
-
-#### **9. Fine-Tuning AI Models ด้วย Keras**
-- **GitHub**: [keras-team/keras](https://github.com/keras-team/keras )  
-  - **รายละเอียด**: Library สำหรับ Fine-Tuning AI Models ผ่าน Keras.  
-    - **Script ตัวอย่าง**:  
-      - [Fine-Tuning Code](https://keras.io/examples/vision/image_classification_efficientnet/ )  
-
-#### **10. Fine-Tuning AI Models ด้วย ONNX Runtime**
-- **GitHub**: [onnx/onnx](https://github.com/onnx/onnx )  
-  - **รายละเอียด**: วิธีการ Fine-Tuning AI Models ผ่าน ONNX Runtime.  
-    - **Script ตัวอย่าง**:  
-      - [Fine-Tuning Code](https://github.com/onnx/onnx/blob/main/docs/Training.md )  
-
-#### **11. Fine-Tuning AI Models ด้วย OpenVINO Toolkit**
-- **GitHub**: [intel/openvino](https://github.com/intel/openvino )  
-  - **รายละเอียด**: วิธีการ Fine-Tuning AI Models ผ่าน OpenVINO Toolkit.  
-    - **Script ตัวอย่าง**:  
-      - [Fine-Tuning Code](https://github.com/intel/openvino/blob/main/docs/Training.md )  
-
-#### **12. Fine-Tuning AI Models ด้วย TPU**
-- **GitHub**: [tensorflow/tpu](https://github.com/tensorflow/tpu )  
-  - **รายละเอียด**: วิธีการ Fine-Tuning AI Models ผ่าน TPU.  
-    - **Script ตัวอย่าง**:  
-      - [Fine-Tuning Code](https://github.com/tensorflow/tpu/blob/main/models/official/vision/image_classification/fine_tune.py )  
-
-#### **13. Fine-Tuning AI Models ด้วย AWS Neuron**
-- **GitHub**: [aws-neuron/aws-neuron-sdk](https://github.com/aws-neuron/aws-neuron-sdk )  
-  - **รายละเอียด**: วิธีการ Fine-Tuning AI Models ผ่าน AWS Neuron.  
-    - **Script ตัวอย่าง**:  
-      - [Fine-Tuning Code](https://github.com/aws-neuron/aws-neuron-sdk/blob/main/docs/Training.md )  
-
-#### **14. Fine-Tuning AI Models ด้วย Azure ML**
-- **GitHub**: [Azure/azure-ml-samples](https://github.com/Azure/azure-ml-samples )  
-  - **รายละเอียด**: วิธีการ Fine-Tuning AI Models ผ่าน Azure ML.  
-    - **Script ตัวอย่าง**:  
-      - [Fine-Tuning Code](https://github.com/Azure/azure-ml-samples/blob/main/notebooks/python/finetune_model.ipynb )  
-
-#### **15. Fine-Tuning AI Models ด้วย AWS SageMaker Neo**
-- **GitHub**: [aws-samples/sagemaker-neo](https://github.com/aws-samples/sagemaker-neo )  
-  - **รายละเอียด**: วิธีการ Fine-Tuning AI Models ผ่าน AWS SageMaker Neo.  
-    - **Script ตัวอย่าง**:  
-      - [Fine-Tuning Code](https://github.com/aws-samples/sagemaker-neo/blob/main/docs/Training.md )  
-
-#### **16. Fine-Tuning AI Models ด้วย Microsoft DeepSpeed**
-- **GitHub**: [microsoft/DeepSpeed](https://github.com/microsoft/DeepSpeed )  
-  - **รายละเอียด**: วิธีการ Fine-Tuning AI Models ผ่าน DeepSpeed.  
-    - **Script ตัวอย่าง**:  
-      - [Fine-Tuning Code](https://github.com/microsoft/DeepSpeed/blob/main/examples/fine_tune.py )  
-
-#### **17. Fine-Tuning AI Models ด้วย NVIDIA Triton**
-- **GitHub**: [NVIDIA/triton-inference-server](https://github.com/NVIDIA/triton-inference-server )  
-  - **รายละเอียด**: วิธีการ Fine-Tuning AI Models ผ่าน NVIDIA Triton.  
-    - **Script ตัวอย่าง**:  
-      - [Fine-Tuning Code](https://github.com/NVIDIA/triton-inference-server/blob/main/docs/Training.md )  
-
-#### **18. Fine-Tuning AI Models ด้วย Intel Optimization for Transformers**
-- **GitHub**: [intel/transformers](https://github.com/intel/transformers )  
-  - **รายละเอียด**: วิธีการ Fine-Tuning AI Models ผ่าน Intel Optimization.  
-    - **Script ตัวอย่าง**:  
-      - [Fine-Tuning Code](https://github.com/intel/transformers/blob/main/examples/fine_tune.py )  
-
-#### **19. Fine-Tuning AI Models ด้วย AWS Inferentia**
-- **GitHub**: [aws-samples/inferentia-training](https://github.com/aws-samples/inferentia-training )  
-  - **รายละเอียด**: วิธีการ Fine-Tuning AI Models ผ่าน AWS Inferentia.  
-    - **Script ตัวอย่าง**:  
-      - [Fine-Tuning Code](https://github.com/aws-samples/inferentia-training/blob/main/docs/Training.md )  
-
-#### **20. Fine-Tuning AI Models ด้วย Microsoft ONNX Runtime**
-- **GitHub**: [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime )  
-  - **รายละเอียด**: วิธีการ Fine-Tuning AI Models ผ่าน ONNX Runtime.  
-    - **Script ตัวอย่าง**:  
-      - [Fine-Tuning Code](https://github.com/microsoft/onnxruntime/blob/main/docs/Training.md )  
+คุณต้องการให้ฉันปรับแต่งอะไรเพิ่มเติมในตารางนี้ไหมครับ?
 
 ---
 
