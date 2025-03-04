@@ -1,4 +1,4 @@
-#  AI/LLM Learning Resources 2025 Create by zombitx64
+#  AI/LLM Learning Resources 2025 by zombitx64
 
 *อัปเดตล่าสุด: 4 มีนาคม 2025*
 
@@ -688,11 +688,6 @@ SFT ปรับโมเดลให้เป็นผู้ช่วยที�
    - รันบน Hardware ที่เหมาะสม (GPU แนะนำสำหรับงานหนัก)  
 
 #### ตัวอย่างการรัน QLoRA Fine-Tuning  
-```bash
-git clone https://github.com/georgesung/llm_qlora
-cd llm_qlora
-pip install -r requirements.txt
-python train.py --model_name "meta-llama/Llama-3-8B" --dataset "alpaca"
 
 # Awesome AI/LLM Learning Resources for 2025 (Part 5/5)
 
@@ -700,8 +695,6 @@ python train.py --model_name "meta-llama/Llama-3-8B" --dataset "alpaca"
 *ที่มา: [DeepSeek AI GitHub Repositories](https://github.com/orgs/deepseek-ai/repositories)*
 
 ## Part 5: DeepSeek AI GitHub Repositories
-
----
 
 ### 📂 DeepSeek AI Repositories
 
@@ -889,12 +882,6 @@ python train.py --model_name "meta-llama/Llama-3-8B" --dataset "alpaca"
 4. **ทดลอง**: ใช้ Script หรือ API ตามตัวอย่าง, ปรับแต่งตามความต้องการ  
 5. **Hardware**: เตรียม GPU (แนะนำ 16GB+ VRAM) หรือใช้ Cloud เช่น Colab Pro  
 
-#### ตัวอย่างการรัน DeepSeek-Coder  
-```bash
-git clone https://github.com/deepseek-ai/DeepSeek-Coder
-cd DeepSeek-Coder
-pip install -r requirements.txt
-python inference.py --prompt "Write a Python function to sort a list"
 
 ### 5-10 ลิ้งค์ Script สำหรับ Fine-Tuning Uncensored AI Models
 
