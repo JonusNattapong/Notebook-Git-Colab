@@ -1,7 +1,0 @@
-category,name,use_case,description,link
-Framework,TensorFlow,ML/DL Development,Production-ready ML framework,https://tensorflow.org
-Framework,PyTorch,Research/Prototyping,Flexible deep learning framework,https://pytorch.org
-Library,Hugging Face,NLP/Transformers,State-of-the-art NLP tools,https://huggingface.co
-Library,Scikit-learn,Classical ML,Traditional ML algorithms,https://scikit-learn.org
-Tool,Weights & Biases,Experiment Tracking,ML experiment management,https://wandb.ai
-Tool,Ray,Distributed Computing,Scalable ML computing,https://ray.io

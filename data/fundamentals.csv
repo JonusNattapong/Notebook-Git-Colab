@@ -1,9 +1,0 @@
-section,topic,description,resource,url
-Mathematics,Linear Algebra,"Vectors, matrices, calculus essentials for ML",Mathematics for Machine Learning (Cambridge),https://mml-book.github.io/
-Mathematics,Statistics,"Probability, distributions, hypothesis testing",Statistics and Probability (Khan Academy),https://www.khanacademy.org/math/statistics-probability
-Python,Core Python,"Variables, functions, data structures",Python for Data Science (Coursera),https://www.coursera.org/python-data-science
-Python,ML Libraries,"NumPy, Pandas, Matplotlib, TensorFlow",Python ML Libraries Guide (RealPython),https://realpython.com/learning-paths/data-science-python/
-Neural Networks,Fundamentals,Neural network architecture and components,Neural Networks from Scratch (Manning),https://www.manning.com/books/neural-networks-from-scratch
-Neural Networks,Training,"Loss functions, optimizers, regularization",Deep Learning Specialization (Coursera),https://www.coursera.org/specializations/deep-learning
-NLP,Text Processing,"Tokenization, embeddings, preprocessing",NLP with Python (O'Reilly),https://www.oreilly.com/library/nlp-python/
-NLP,Advanced NLP,"Transformers, attention mechanisms",Transformers Guide (Hugging Face),https://huggingface.co/course/chapter1/1
