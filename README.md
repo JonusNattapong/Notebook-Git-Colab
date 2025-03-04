@@ -1,4 +1,4 @@
-#  AI/LLM Learning Resources 2025 by zombitx64
+#  AI/LLM Learning and Resources by zombitx64 TH
 
 *อัปเดตล่าสุด: 4 มีนาคม 2025*
 
