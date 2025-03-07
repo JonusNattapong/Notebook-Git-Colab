@@ -1373,3 +1373,7 @@
 - **ทดลองกับ notebooks**: ใช้ Colab Notebooks เพื่อทดลองและปรับแต่งโค้ดตามความต้องการ  
 - **ศึกษาเทคนิคใหม่ๆ**: อ่านบทความและ papers ที่เกี่ยวข้องเพื่อเข้าใจบริบทและแนวโน้มล่าสุด  
 - **เข้าร่วมชุมชน**: เข้าร่วมชุมชนออนไลน์ เช่น Reddit หรือ GitHub discussions เพื่อแลกเปลี่ยนความรู้
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=JonusNattapong/Notebook-Git-Colab&type=Date)](https://star-history.com/#JonusNattapong/Notebook-Git-Colab&Date)
