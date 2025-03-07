@@ -575,6 +575,64 @@
 - บางโมเดลหรือชุดข้อมูลอาจต้องขอสิทธิ์หรือลงทะเบียนก่อนดาวน์โหลด
 - แนะนำให้มีเครื่องที่มี GPU ถ้าต้องการฝึกโมเดลขนาดใหญ่ในเครื่อง
 
+## ส่วนที่ 8: การ deploy LLM ใน Production (Deploying LLMs in Production)
+
+*ส่วนนี้เน้นการนำ LLM ไปใช้งานจริงในระบบ production เช่น บนเซิร์ฟเวอร์หรือแอปพลิเคชัน รวมถึงเครื่องมือและขั้นตอนที่จำเป็น*
+
+### 8.1 เครื่องมือสำหรับ Deployment
+
+| เครื่องมือ                             | คำอธิบาย                                                                                     | ลิงก์                                                                                           |
+| :------------------------------------ | :------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------- |
+| Hugging Face Inference API            | API สำเร็จรูปสำหรับรันโมเดลบนคลาวด์ของ Hugging Face                                       | [Inference API](https://huggingface.co/inference-api)                                          |
+| Text Generation Inference (TGI)       | Container จาก Hugging Face สำหรับ inference LLM ขนาดใหญ่                                 | [TGI](https://github.com/huggingface/text-generation-inference)                                |
+| vLLM                                  | ไลบรารีสำหรับ inference ที่รวดเร็ว รองรับ PagedAttention                                  | [vLLM](https://github.com/vllm-project/vllm)                                                  |
+| FastAPI                               | เฟรมเวิร์ก Python สำหรับสร้าง API เพื่อ serve LLM                                       | [FastAPI](https://fastapi.tiangolo.com/)                                                      |
+| Docker                                | เครื่องมือสร้าง container เพื่อ deploy LLM ได้ทุกที่                                      | [Docker](https://www.docker.com/)                                                             |
+| AWS SageMaker                         | บริการคลาวด์จาก AWS สำหรับฝึกและ deploy โมเดล ML/LLM                                     | [SageMaker](https://aws.amazon.com/sagemaker/)                                                |
+
+### 8.2 ขั้นตอนการ Deploy LLM
+
+1. **เลือกโมเดลและ optimize:**
+   - เลือกโมเดลที่เหมาะสม เช่น Mistral 7B หรือ Llama 3
+   - ใช้ quantization (เช่น BitsAndBytes) เพื่อลดขนาดโมเดล
+   - ทดสอบ inference บนเครื่องท้องถิ่นก่อน
+
+2. **เตรียมสภาพแวดล้อม:**
+   - ติดตั้ง dependencies เช่น PyTorch, Transformers
+   - ใช้ Docker เพื่อสร้าง container ที่สม่ำเสมอ
+
+3. **สร้าง API:**
+   - ใช้ FastAPI หรือ Flask เพื่อสร้าง endpoint เช่น `/generate`
+   - ตัวอย่างโค้ด: [FastAPI Example](https://github.com/tiangolo/fastapi/tree/master/docs/en/docs/tutorial)
+
+4. **Deploy บนคลาวด์:**
+   - อัปโหลด container ไปยัง AWS, GCP หรือ Azure
+   - ตั้งค่า load balancer ถ้ามีผู้ใช้จำนวนมาก
+
+5. **ทดสอบและปรับปรุง:**
+   - วัด latency และ throughput
+   - ปรับ batch size หรือใช้ vLLM เพื่อเพิ่มประสิทธิภาพ
+
+### 8.3 ตัวอย่าง Deployment
+
+| ตัวอย่าง                               | รายละเอียด                                                                                     | ลิงก์/แหล่งข้อมูล                                                                      |
+| :------------------------------------ | :------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------- |
+| Deploy Llama 3 on AWS                 | สอน deploy Llama 3 ด้วย SageMaker                                                  | [AWS Tutorial](https://aws.amazon.com/blogs/machine-learning/deploy-llama-3-on-aws/)   |
+| Chatbot API with FastAPI              | ตัวอย่างโค้ด FastAPI สำหรับ serve LLM เป็นแชทบอท                                  | [GitHub](https://github.com/fastapi-users/fastapi-llm-example)                        |
+| TGI on Docker                         | คู่มือรัน TGI container บน Docker                                                 | [TGI Docker](https://huggingface.co/docs/text-generation-inference/quicktour)         |
+
+### 8.4 แนวทางการเรียนรู้ (How to Proceed)
+
+1. **เริ่มจากเครื่องท้องถิ่น:** ลองรันโมเดลเล็ก เช่น GPT-2 ด้วย FastAPI บนเครื่องของคุณ `[Intermediate]`
+2. **ทดลอง Docker:** สร้าง container ง่ายๆ ด้วย Docker และ deploy โมเดล `[Intermediate/Advanced]`
+3. **ใช้คลาวด์ฟรี:** ลอง deploy บน Hugging Face Spaces หรือ AWS Free Tier `[Intermediate]`
+4. **เพิ่มประสิทธิภาพ:** ใช้ vLLM หรือ TGI เพื่อลด latency และรองรับผู้ใช้มากขึ้น `[Advanced]`
+5. **ตรวจสอบความปลอดภัย:** ตั้งค่า authentication และป้องกัน prompt injection `[Advanced]`
+
+**ข้อควรจำ:**
+- ทดสอบ load และ scalability ก่อนปล่อยให้ผู้ใช้จริง
+- คำนึงถึงค่าใช้จ่าย ถ้าใช้คลาวด์ เช่น AWS หรือ GCP
+- อัปเดตโมเดลและ API เป็นระยะ เพื่อให้ทันสมัย
 
 ## Star History
 
