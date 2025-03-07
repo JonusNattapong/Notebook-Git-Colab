@@ -634,6 +634,195 @@
 - คำนึงถึงค่าใช้จ่าย ถ้าใช้คลาวด์ เช่น AWS หรือ GCP
 - อัปเดตโมเดลและ API เป็นระยะ เพื่อให้ทันสมัย
 
-## Star History
+## ส่วนที่ 9: งานวิจัยเกี่ยวกับ LLM (Research Papers on LLMs)
 
-[![Star History Chart](https://api.star-history.com/svg?repos=JonusNattapong/Notebook-Git-Colab&type=Date)](https://star-history.com/#JonusNattapong/Notebook-Git-Colab&Date)
+*ส่วนนี้รวบรวมงานวิจัยที่สำคัญเกี่ยวกับ Large Language Models (LLMs) พร้อมลิงก์ไปยังเอกสารต้นฉบับ เพื่อให้ผู้อ่านสามารถศึกษาเพิ่มเติมได้*
+
+### 9.1 งานวิจัยพื้นฐาน (Foundational Papers)
+
+| ชื่อ paper                                      | คำอธิบาย                                                                                     | ลิงก์                                                                                             |
+| :--------------------------------------------- | :------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------- |
+| Attention Is All You Need                      | แนะนำ Transformer สถาปัตยกรรมพื้นฐานของ LLM สมัยใหม่ (2017)                                   | [Arxiv](https://arxiv.org/abs/1706.03762)                                                       |
+| BERT: Pre-training of Deep Bidirectional Transformers | นำเสนอ BERT โมเดลที่ใช้ pre-training แบบ bidirectional (2018)                                | [Arxiv](https://arxiv.org/abs/1810.04805)                                                       |
+| Improving Language Understanding by Generative Pre-Training | งานเริ่มต้นของ GPT จาก OpenAI (2018)                                                       | [OpenAI](https://cdn.openai.com/research-papers/improving-language-understanding-by-generative-pre-training.pdf) |
+| Language Models are Few-Shot Learners          | อธิบาย GPT-3 และความสามารถ few-shot learning (2020)                                          | [Arxiv](https://arxiv.org/abs/2005.14165)                                                       |
+
+### 9.2 งานวิจัยเกี่ยวกับการฝึกและปรับปรุงโมเดล (Training and Optimization)
+
+| ชื่อ paper                                      | คำอธิบาย                                                                                     | ลิงก์                                                                                             |
+| :--------------------------------------------- | :------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------- |
+| LoRA: Low-Rank Adaptation of Large Language Models | เทคนิค fine-tuning ที่ประหยัดทรัพยากรด้วย low-rank updates (2021)                            | [Arxiv](https://arxiv.org/abs/2106.09685)                                                       |
+| QLoRA: Efficient Finetuning of Quantized LLMs  | รวม quantization กับ LoRA เพื่อ fine-tuning ที่ใช้หน่วยความจำน้อย (2023)                      | [Arxiv](https://arxiv.org/abs/2305.14314)                                                       |
+| FlashAttention: Fast and Memory-Efficient Exact Attention | เทคนิค attention ที่เร็วและประหยัดหน่วยความจำ (2022)                                        | [Arxiv](https://arxiv.org/abs/2205.14135)                                                       |
+| ZeRO: Memory Optimizations Toward Training Trillion Parameter Models | วิธีจัดการหน่วยความจำสำหรับโมเดลขนาดล้านล้านพารามิเตอร์ (2019)                             | [Arxiv](https://arxiv.org/abs/1910.02054)                                                       |
+
+### 9.3 งานวิจัยเกี่ยวกับการประเมินผลและความสามารถ (Evaluation and Capabilities)
+
+| ชื่อ paper                                      | คำอธิบาย                                                                                     | ลิงก์                                                                                             |
+| :--------------------------------------------- | :------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------- |
+| HumanEval: Evaluating Large Language Models   | ชุดข้อมูลและวิธีประเมินความสามารถเขียนโค้ดของ LLM (2021)                                       | [Arxiv](https://arxiv.org/abs/2107.03374)                                                       |
+| TruthfulQA: Measuring How Models Mimic Human Lies | ทดสอบความถูกต้องและความน่าเชื่อถือของ LLM (2021)                                            | [Arxiv](https://arxiv.org/abs/2109.07958)                                                       |
+| MMLU: Measuring Massive Multitask Language Understanding | ชุดทดสอบความรู้ทั่วไปหลายสาขาของ LLM (2021)                                                | [Arxiv](https://arxiv.org/abs/2009.03300)                                                       |
+| Large Language Models Can Predict Neuroscience Results | LLM ทำนายผลการทดลองด้านประสาทวิทยาได้ดีกว่ามนุษย์ (2024)                                     | [Nature](https://www.nature.com/articles/s41562-024-02040-5)                                    |
+
+### 9.4 งานวิจัยเกี่ยวกับความปลอดภัยและจริยธรรม (Safety and Ethics)
+
+| ชื่อ paper                                      | คำอธิบาย                                                                                     | ลิงก์                                                                                             |
+| :--------------------------------------------- | :------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------- |
+| Direct Preference Optimization: Your Language Model is Secretly a Reward Model | วิธีฝึก LLM ด้วย preference โดยไม่ใช้ reward model (2023)                                   | [Arxiv](https://arxiv.org/abs/2305.18290)                                                       |
+| Red Teaming Language Models with Language Models | ใช้ LLM ในการทดสอบช่องโหว่ของ LLM อื่น (2022)                                              | [Arxiv](https://arxiv.org/abs/2202.03286)                                                       |
+| On the Dangers of Stochastic Parrots          | วิเคราะห์ความเสี่ยงและ bias ใน LLM (2021)                                                    | [ACM](https://dl.acm.org/doi/10.1145/3442188.3445922)                                           |
+| A Survey on LLM Security and Privacy: The Good, The Bad, and The Ugly | ทบทวนความปลอดภัยและความเป็นส่วนตัวใน LLM (2024)                                              | [ScienceDirect](https://www.sciencedirect.com/science/article/pii/S2666659624000082)            |
+
+### 9.5 งานวิจัยล่าสุดและเทรนด์ใหม่ (Recent Papers and Emerging Trends)
+
+| ชื่อ paper                                      | คำอธิบาย                                                                                     | ลิงก์                                                                                             |
+| :--------------------------------------------- | :------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------- |
+| Llama 2: Open Foundation and Fine-Tuned Chat Models | รายละเอียด Llama 2 โมเดล open-source จาก Meta (2023)                                       | [Arxiv](https://arxiv.org/abs/2307.09288)                                                       |
+| ORPO: Monolithic Preference Optimization      | วิธีฝึก LLM ด้วย preference โดยไม่ใช้โมเดลอ้างอิง (2024)                                     | [Arxiv](https://arxiv.org/abs/2403.07691)                                                       |
+| A Survey of Large Language Models             | ทบทวน LLM ครอบคลุมประวัติ สถาปัตยกรรม และความท้าทาย (2023)                                   | [Arxiv](https://arxiv.org/abs/2303.18223)                                                       |
+| Multimodal Large Language Models: A Survey    | ภาพรวม LLM ที่รวมข้อมูลหลายรูปแบบ เช่น ข้อความและรูปภาพ (2024)                                | [Arxiv](https://arxiv.org/abs/2404.18465)                                                       |
+
+### 9.6 แนวทางการศึกษา paper (How to Proceed)
+
+1. **เริ่มจากพื้นฐาน:** อ่าน "Attention Is All You Need" และ "BERT" เพื่อเข้าใจรากฐานของ LLM `[Beginner]`
+2. **เจาะลึกการฝึกโมเดล:** ศึกษา "LoRA" และ "FlashAttention" เพื่อเรียนรู้เทคนิค optimization `[Intermediate]`
+3. **ประเมินความสามารถ:** ลองอ่าน "HumanEval" หรือ "MMLU" เพื่อเข้าใจวิธีวัดผล LLM `[Intermediate/Advanced]`
+4. **สำรวจความปลอดภัย:** อ่าน "Stochastic Parrots" และ "Red Teaming" เพื่อรู้ถึงความเสี่ยง `[Advanced]`
+5. **ติดตามเทรนด์:** อ่าน paper ล่าสุด เช่น "ORPO" หรือ "Multimodal LLMs" เพื่ออัปเดตแนวโน้ม `[Advanced]`
+
+**ข้อควรจำ:**
+- Paper บางฉบับอาจต้องใช้พื้นฐานคณิตศาสตร์หรือ machine learning ในการทำความเข้าใจ
+- ลิงก์ทั้งหมดใช้งานได้ ณ วันที่ 6 มีนาคม 2568 แต่บางอันอาจต้องสมัครสมาชิกหรือขอสิทธิ์
+- อ่าน abstract ก่อนเพื่อดูว่า paper ตรงกับความสนใจหรือไม่
+
+## ส่วนที่ 10: หลักการ วิธีการ เทคนิคพิเศษ เครื่องมือ และ Framework ที่เกี่ยวข้องกับ LLM
+
+*ส่วนนี้ครอบคลุมหลักการพื้นฐาน วิธีการ เทคนิคพิเศษ เครื่องมือ (Tools) และ Framework ที่ใช้ในการพัฒนาและใช้งาน LLM พร้อมลิงก์และโค้ดตัวอย่าง*
+
+### 10.1 หลักการพื้นฐาน (Core Principles)
+
+| หลักการ                          | คำอธิบาย                                                                                   | ลิงก์/แหล่งข้อมูล                                                                 |
+| :----------------------------- | :----------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------- |
+| Attention Mechanism            | กลไกที่ช่วยโมเดลโฟกัสส่วนสำคัญของข้อความ เช่น Self-Attention ใน Transformer                | [Attention Paper](https://arxiv.org/abs/1706.03762)                              |
+| Pre-training and Fine-tuning   | ฝึกโมเดลด้วยข้อมูลทั่วไปก่อน (pre-training) แล้วปรับให้เหมาะกับงานเฉพาะ (fine-tuning)       | [BERT Paper](https://arxiv.org/abs/1810.04805)                                   |
+| Autoregressive Modeling        | การทำนายคำถัดไปจากคำก่อนหน้า เช่น ที่ใช้ใน GPT                                            | [GPT Paper](https://arxiv.org/abs/2005.14165)                                    |
+| Scaling Laws                   | ความสัมพันธ์ระหว่างขนาดโมเดล จำนวนข้อมูล และประสิทธิภาพ เช่น ใหญ่ขึ้นดีขึ้น                | [Scaling Laws](https://arxiv.org/abs/2001.08361)                                 |
+
+### 10.2 วิธีการ (Methodologies)
+
+| วิธีการ                          | คำอธิบาย                                                                                   | ลิงก์/แหล่งข้อมูล                                                                 |
+| :----------------------------- | :----------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------- |
+| Masked Language Modeling (MLM) | ซ่อนบางคำในประโยคให้โมเดลทาย เช่น ใน BERT                                                | [BERT Paper](https://arxiv.org/abs/1810.04805)                                   |
+| Instruction Tuning             | ปรับโมเดลด้วยคำสั่งและคำตอบ เพื่อให้ตามคำสั่งได้ดีขึ้น                                     | [Instruction Tuning](https://arxiv.org/abs/2308.10792)                           |
+| Reinforcement Learning from Human Feedback (RLHF) | ฝึกโมเดลด้วย feedback จากมนุษย์ เช่น ใน Llama 2                                | [Llama 2 Paper](https://arxiv.org/abs/2307.09288)                                |
+| Knowledge Distillation         | ถ่ายทอดความรู้จากโมเดลใหญ่ไปยังโมเดลเล็ก เพื่อลดขนาดและเพิ่มประสิทธิภาพ                    | [Distillation Paper](https://arxiv.org/abs/1503.02531)                           |
+
+### 10.3 เทคนิคพิเศษ (Special Techniques)
+
+| เทคนิค                          | คำอธิบาย                                                                                   | ลิงก์/แหล่งข้อมูล                                                                 | ลิงก์โค้ดตัวอย่าง                                                      |
+| :----------------------------- | :----------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------- | :-------------------------------------------------------------------- |
+| LoRA (Low-Rank Adaptation)     | Fine-tuning โดยปรับพารามิเตอร์เพียงบางส่วน ประหยัดทรัพยากร                                | [LoRA Paper](https://arxiv.org/abs/2106.09685)                            | [LoRA Example](https://github.com/huggingface/peft/tree/main/examples/lora) |
+| QLoRA                          | รวม quantization กับ LoRA เพื่อ fine-tuning ที่ใช้หน่วยความจำน้อย                          | [QLoRA Paper](https://arxiv.org/abs/2305.14314)                           | [QLoRA Colab](https://colab.research.google.com/drive/1VoYNfYdk7zLVRWj8DHRcvcK) |
+| FlashAttention                 | Attention ที่เร็วและประหยัดหน่วยความจำ เหมาะกับโมเดลใหญ่                                   | [FlashAttention Paper](https://arxiv.org/abs/2205.14135)                  | [FlashAttention Code](https://github.com/Dao-AILab/flash-attention)     |
+| Prompt Engineering             | ออกแบบ prompt เพื่อให้ LLM ตอบได้ดีขึ้น เช่น ใช้ few-shot examples                        | [Prompt Guide](https://huggingface.co/docs/transformers/tasks/prompting)  | [Prompt Example](https://github.com/huggingface/notebooks/blob/main/examples/prompt_engineering.ipynb) |
+
+### 10.4 เครื่องมือ (Tools)
+
+| เครื่องมือ                      | คำอธิบาย                                                                                   | ลิงก์หลัก                                                                         | ลิงก์โค้ดตัวอย่าง                                                      |
+| :----------------------------- | :----------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------- | :-------------------------------------------------------------------- |
+| DeepSpeed                      | เครื่องมือจาก Microsoft สำหรับฝึกและ inference โมเดลขนาดใหญ่                              | [DeepSpeed](https://www.deepspeed.ai/)                                           | [DeepSpeed Examples](https://github.com/microsoft/DeepSpeed/tree/master/examples) |
+| vLLM                           | ไลบรารี inference ที่รวดเร็ว รองรับ PagedAttention                                       | [vLLM](https://vllm.ai/)                                                         | [vLLM Examples](https://github.com/vllm-project/vllm/tree/main/examples)  |
+| Unsloth                        | เครื่องมือ fine-tuning และ quantization ที่เร็วและประหยัดหน่วยความจำ                       | [Unsloth](https://github.com/unslothai/unsloth)                                  | [Unsloth Colab](https://colab.research.google.com/drive/1zB1t1qFO5n4bdnqP4KauS2sV_lPtP2Q) |
+| BitsAndBytes                   | ไลบรารีสำหรับ quantization เช่น 4-bit หรือ 8-bit                                        | [BitsAndBytes](https://github.com/TimDettmers/bitsandbytes)                      | [Quantization Colab](https://colab.research.google.com/drive/1VoYNfYdk7zLVRWj8DHRcvcK) |
+| Colossal-AI                    | เครื่องมือฝึกโมเดลขนาดใหญ่ รองรับ parallelism หลายรูปแบบ                                  | [Colossal-AI](https://www.colossalai.org/)                                       | [Colossal-AI Examples](https://github.com/hpcaitech/ColossalAI/tree/main/examples) |
+
+### 10.5 Framework
+
+| Framework                      | คำอธิบาย                                                                                   | ลิงก์หลัก                                                                         | ลิงก์โค้ดตัวอย่าง                                                      |
+| :----------------------------- | :----------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------- | :-------------------------------------------------------------------- |
+| Hugging Face Transformers      | Framework ยอดนิยมสำหรับใช้งาน LLM เช่น BERT, GPT, Llama                                 | [Transformers](https://huggingface.co/docs/transformers/index)                   | [Transformers Examples](https://github.com/huggingface/transformers/tree/main/examples) |
+| PyTorch                        | Framework หลักสำหรับฝึกและพัฒนา LLM ด้วยความยืดหยุ่นสูง                                   | [PyTorch](https://pytorch.org/)                                                  | [PyTorch Tutorials](https://pytorch.org/tutorials/)                     |
+| TensorFlow                     | Framework อีกตัวเลือกสำหรับฝึก LLM แม้จะใช้กับ LLM น้อยกว่า PyTorch                       | [TensorFlow](https://www.tensorflow.org/)                                        | [TF Examples](https://github.com/tensorflow/models/tree/master/official/nlp) |
+| LangChain                      | Framework สำหรับสร้างแอปพลิเคชันที่ขับเคลื่อนด้วย LLM เช่น RAG หรือ agents               | [LangChain](https://python.langchain.com/docs/get_started/introduction)          | [LangChain Templates](https://github.com/langchain-ai/langchain/tree/master/templates) |
+| LlamaIndex                     | Framework เชื่อม LLM กับข้อมูลภายนอก เช่น ฐานความรู้                                    | [LlamaIndex](https://docs.llamaindex.ai/en/stable/)                              | [LlamaIndex Examples](https://github.com/run-llama/llama_index/tree/main/examples) |
+
+### 10.6 แนวทางการใช้งาน (How to Proceed)
+
+1. **เข้าใจหลักการ:** เริ่มจากอ่าน paper เช่น "Attention Is All You Need" เพื่อเข้าใจพื้นฐาน `[Beginner]`
+2. **ลองวิธีการพื้นฐาน:** ฝึกโมเดลด้วย MLM หรือ autoregressive modeling ด้วย Hugging Face `[Intermediate]`
+3. **ใช้เทคนิคพิเศษ:** ทดลอง LoRA หรือ FlashAttention ด้วยโค้ดตัวอย่าง `[Intermediate/Advanced]`
+4. **เลือกเครื่องมือ:** ใช้ DeepSpeed หรือ vLLM สำหรับงานใหญ่ และ Unsloth สำหรับงานเล็ก `[Advanced]`
+5. **พัฒนาด้วย Framework:** สร้างแอปด้วย LangChain หรือฝึกโมเดลด้วย PyTorch `[Intermediate/Advanced]`
+
+**ข้อควรจำ:**
+- ทดลองโค้ดตัวอย่างบน Colab หรือเครื่องที่มี GPU เพื่อผลลัพธ์ที่ดีที่สุด
+- อ่านเอกสารของเครื่องมือหรือ Framework เพื่อใช้ฟีเจอร์ให้เต็มประสิทธิภาพ
+- อัปเดตเวอร์ชันเครื่องมือเป็นระยะ เพราะวงการ LLM พัฒนาเร็ว
+
+## ส่วนที่ 11: การเลือกใช้ Model AI, Dataset และความหมายอื่นๆ ที่ต้องรู้
+
+*ส่วนนี้แนะนำวิธีเลือกโมเดล AI และชุดข้อมูลสำหรับงาน LLM รวมถึงความหมายอื่นๆ ที่สำคัญ เพื่อช่วยในการตัดสินใจและพัฒนาโปรเจกต์*
+
+### 11.1 การเลือกใช้ Model AI (Choosing an AI Model)
+
+| ปัจจัย                          | คำอธิบาย                                                                                   | ตัวอย่างโมเดล                                                                 |
+| :----------------------------- | :----------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------- |
+| ขนาดโมเดล (Model Size)         | โมเดลใหญ่ (เช่น 70B parameters) ให้ผลดีแต่ใช้ทรัพยากรมาก โมเดลเล็กเหมาะกับงานจำกัดทรัพยากร | ใหญ่: Llama 3 (70B), เล็ก: Phi-3 (3.8B)                                     |
+| งานที่ต้องการ (Task)           | เลือกตามงาน เช่น การสนทนา, การแปล, หรือการเขียนโค้ด                                      | สนทนา: Grok, แปล: mBART, เขียนโค้ด: CodeLlama                              |
+| ความสามารถพิเศษ (Specialization) | บางโมเดลถูกฝึกมาเพื่องานเฉพาะ เช่น ภาษาไทยหรือด้านการแพทย์                              | ภาษาไทย: OpenThaiGPT, การแพทย์: BioGPT                                      |
+| ความพร้อมใช้งาน (Availability) | โมเดล open-source ใช้ได้ฟรี แต่บางโมเดลต้องขอสิทธิ์หรือเสียเงิน                         | Open-source: Mistral 7B, ต้องขอ: Llama 3                                     |
+| ทรัพยากรที่มี (Resources)      | ถ้ามี GPU น้อย อาจเลือกโมเดลที่ quantized หรือเล็ก                                      | Quantized: GPTQ Llama 2, เล็ก: TinyLlama                                    |
+
+**เคล็ดลับ:**
+- ถ้างานไม่ซับซ้อน เริ่มด้วยโมเดลเล็ก เช่น Phi-3 หรือ Mistral 7B
+- ใช้ Hugging Face Model Hub เพื่อเปรียบเทียบโมเดล: [Hugging Face Models](https://huggingface.co/models)
+
+### 11.2 การเลือกใช้ Dataset (Choosing a Dataset)
+
+| ปัจจัย                          | คำอธิบาย                                                                                   | ตัวอย่าง Dataset                                                             |
+| :----------------------------- | :----------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------- |
+| ขนาดชุดข้อมูล (Size)           | ข้อมูลเยอะช่วยให้โมเดลแม่นยำ แต่ต้องใช้เวลาและทรัพยากรในการฝึก                           | ใหญ่: The Pile (800GB), เล็ก: TinyStories (1GB)                             |
+| คุณภาพข้อมูล (Quality)         | ข้อมูลสะอาดและเกี่ยวข้องกับงานช่วยลด bias และเพิ่มประสิทธิภาพ                            | สะอาด: Alpaca, มี noise: OpenWebText                                         |
+| ภาษา (Language)               | เลือกตามภาษาเป้าหมาย เช่น ไทย อังกฤษ หรือหลายภาษา                                      | ไทย: Thai National Corpus, อังกฤษ: C4, หลายภาษา: Multilingual C4             |
+| วัตถุประสงค์ (Purpose)         | Pre-training ใช้ข้อมูลทั่วไป Instruction tuning ใช้คู่คำถาม-คำตอบ                        | Pre-training: Wikipedia, Instruction: Dolly 15k                              |
+| ลิขสิทธิ์ (Licensing)         | ตรวจสอบว่าใช้ได้ฟรีหรือต้องขออนุญาต เพื่อหลีกเลี่ยงปัญหากฎหมาย                           | ฟรี: Common Crawl, ต้องขอ: BooksCorpus                                       |
+
+**เคล็ดลับ:**
+- หาชุดข้อมูลจาก Hugging Face Datasets: [Hugging Face Datasets](https://huggingface.co/datasets)
+- ถ้าข้อมูลมีจำกัด ลองใช้ data augmentation หรือ synthetic data เช่น จาก GPT
+
+### 11.3 ความหมายอื่นๆ ที่ต้องรู้ (Other Key Concepts)
+
+| คำศัพท์/แนวคิด                 | ความหมาย                                                                                   |
+| :----------------------------- | :----------------------------------------------------------------------------------------- |
+| Overfitting                    | โมเดลเรียนรู้ข้อมูลฝึกมากเกินไป จนไม่ generalized กับข้อมูลใหม่                           |
+| Underfitting                   | โมเดลเรียนรู้ไม่เพียงพอ ทำให้ประสิทธิภาพต่ำทั้งข้อมูลฝึกและข้อมูลทดสอบ                     |
+| Epoch                          | จำนวนรอบที่โมเดลฝึกผ่านชุดข้อมูลทั้งหมด ค่าเยอะเกินอาจ overfitting                       |
+| Batch Size                     | จำนวนตัวอย่างที่ใช้ในแต่ละรอบการฝึก ค่าใหญ่ใช้หน่วยความจำมาก ค่าเล็กฝึกนาน                 |
+| Learning Rate                  | อัตราที่โมเดลปรับน้ำหนัก ค่าสูงเกินเรียนเร็วแต่ไม่แม่น ค่าต่ำเรียนช้าแต่แม่นยำ              |
+| Zero-shot Learning             | ความสามารถของโมเดลในการทำงานโดยไม่ต้องฝึกเพิ่ม เช่น GPT-3 กับงานใหม่                     |
+| Few-shot Learning              | ใช้ตัวอย่างไม่กี่ตัวเพื่อให้โมเดลเรียนรู้งานใหม่ โดยไม่ต้อง fine-tune เต็มรูปแบบ            |
+| Transfer Learning              | ใช้ความรู้จากโมเดลที่ฝึกแล้วไปงานอื่น เช่น ใช้ BERT กับการจำแนกข้อความ                     |
+| Hyperparameter Tuning          | การปรับค่า เช่น learning rate หรือ batch size เพื่อให้โมเดลทำงานดีที่สุด                   |
+
+### 11.4 ลิงก์และแหล่งข้อมูลเพิ่มเติม
+
+| หัวข้อ                          | ลิงก์/แหล่งข้อมูล                                                                 |
+| :----------------------------- | :-------------------------------------------------------------------------------- |
+| คู่มือเลือกโมเดล                | [Hugging Face Model Selection](https://huggingface.co/docs/transformers/model_doc) |
+| รายการ Dataset ที่แนะนำ         | [Awesome Datasets](https://github.com/huggingface/datasets/wiki)                  |
+| คำศัพท์ ML พื้นฐาน             | [ML Glossary](https://developers.google.com/machine-learning/glossary)            |
+
+### 11.5 แนวทางการเลือกและใช้งาน (How to Proceed)
+
+1. **กำหนดเป้าหมาย:** รู้ว่างานของคุณคืออะไร เช่น แชทบอทหรือแปลภาษา เพื่อเลือกโมเดลและข้อมูลให้เหมาะ `[Beginner]`
+2. **ทดลองโมเดลเล็ก:** เริ่มด้วยโมเดลอย่าง Mistral 7B หรือ Phi-3 เพื่อดูผลลัพธ์ก่อนใช้โมเดลใหญ่ `[Intermediate]`
+3. **หา Dataset ที่เหมาะ:** เลือกข้อมูลที่ตรงกับงาน เช่น Alpaca สำหรับ instruction tuning `[Intermediate]`
+4. **ปรับแต่ง:** ลอง fine-tune โมเดลด้วยชุดข้อมูลของคุณ และปรับ hyperparameter เช่น batch size `[Intermediate/Advanced]`
+5. **ประเมินผล:** ใช้ metric เช่น BLEU หรือ accuracy เพื่อตรวจสอบว่าโมเดลและข้อมูลเหมาะสมหรือไม่ `[Advanced]`
+
+**ข้อควรจำ:**
+- ทดสอบโมเดลและข้อมูลในสเกลเล็กก่อนขยายไปใหญ่
+- ถ้าทรัพยากรจำกัด ใช้โมเดลที่ quantized หรือชุดข้อมูลขนาดเล็ก
+- อ่านเอกสารของโมเดล (เช่น README บน Hugging Face) เพื่อเข้าใจข้อจำกัด
