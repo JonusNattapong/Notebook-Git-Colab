@@ -13,21 +13,6 @@
 
 </div>
 
-<div align="center">
-
-![Project Logo](./public/Zom.png)
-
-# 📚 AI LLM Learning Resources
-
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/downloads/)
-[![License](https://img.shields.io/badge/Apache-2.0-green.svg)](LICENSE)
-[![GitHub Package](https://img.shields.io/badge/GitHub-Package-green.svg)](https://github.com/features/packages)
-[![GitHub Stars](https://img.shields.io/github/stars/JonusNattapong/Notebook-Git-Colab.svg?style=social)](https://github.com/JonusNattapong/Notebook-Git-Colab/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/JonusNattapong/Notebook-Git-Colab.svg?style=social)](https://github.com/JonusNattapong/Notebook-Git-Colab/network/members)
-[![GitHub Followers](https://img.shields.io/github/followers/JonusNattapong.svg?style=social)](https://github.com/JonusNattapong/followers)
-
-</div>
-
 # Notebook-Git-Colab อัพเดทข้อมูล เมื่อ วันที่ 7/3/2025
 
 # สำหรับใครที่ยังต้อง Old version สามารถเข้าไปดูได้ที่ READMEOLD ที่ไฟล์ ReadmeCrack
