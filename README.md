@@ -1336,15 +1336,15 @@
 
 - **Scaling test-time compute**  
   การทดลองและ notebooks เพื่อปรับปรุงประสิทธิภาพของโมเดลขนาดเล็กให้เทียบเท่าโมเดลใหญ่  
-  [Link](https://towardsdatascience.com/scaling-test-time-compute-8e8e8e8e8e8e)
+  [Link]()
 
 - **Preference alignment**  
   เทคนิคการปรับโมเดลให้สอดคล้องกับความต้องการของมนุษย์ ลด toxicity และ hallucinations  
-  [Link](https://towardsdatascience.com/preference-alignment-8e8e8e8e8e8e)
+  [Link]()
 
 - **Multimodal Models**  
   การพัฒนาโมเดลที่ประมวลผลข้อมูลหลายประเภท เช่น ภาพและข้อความ มาพร้อมตัวอย่างใน Colab  
-  [Link](https://towardsdatascience.com/multimodal-models-8e8e8e8e8e8e)
+  [Link]()
 
 ### 14.4 ลิงก์และแหล่งข้อมูลเพิ่มเติม
 
