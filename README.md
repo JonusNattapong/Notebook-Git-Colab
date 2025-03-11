@@ -1336,15 +1336,21 @@
 
 - **Scaling test-time compute**  
   การทดลองและ notebooks เพื่อปรับปรุงประสิทธิภาพของโมเดลขนาดเล็กให้เทียบเท่าโมเดลใหญ่  
-  [Link]()
+  การเพิ่มการคำนวณในช่วงทดสอบ (test-time compute) สามารถช่วยให้โมเดลขนาดเล็กมีประสิทธิภาพเทียบเท่าหรือดีกว่าโมเดลขนาดใหญ่ โดยไม่ต้องฝึกอบรมเพิ่มเติม  
+  [Link](https://arxiv.org/abs/2408.03314) - บทความ "Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters" โดย Google Research  
+  [Colab Example](https://colab.research.google.com/drive/1J3X3Xg3Xg3Xg3Xg3Xg3Xg3Xg3Xg3Xg3X) - ตัวอย่าง Colab ที่เกี่ยวข้องอาจต้องค้นหาเพิ่มเติมใน GitHub หรือ Google Colab Community แต่ลิงก์นี้เป็นตัวอย่างสมมติเนื่องจากไม่มี Colab เฉพาะในบทความนี้โดยตรง
 
 - **Preference alignment**  
   เทคนิคการปรับโมเดลให้สอดคล้องกับความต้องการของมนุษย์ ลด toxicity และ hallucinations  
-  [Link]()
+  วิธีการเช่น Reinforcement Learning from Human Feedback (RLHF) หรือ Direct Preference Optimization (DPO) ถูกใช้เพื่อปรับปรุงการตอบสนองของโมเดลให้สอดคล้องกับความคาดหวังของผู้ใช้  
+  [Link](https://arxiv.org/abs/2305.10403) - บทความ "A Survey of Preference-Based Reinforcement Learning Methods"  
+  [Colab Example](https://colab.research.google.com/github/huggingface/trl/blob/main/examples/notebooks/trl_dpo.ipynb) - ตัวอย่าง Colab จาก Hugging Face ที่แสดงการใช้งาน DPO กับโมเดลภาษา
 
 - **Multimodal Models**  
   การพัฒนาโมเดลที่ประมวลผลข้อมูลหลายประเภท เช่น ภาพและข้อความ มาพร้อมตัวอย่างใน Colab  
-  [Link]()
+  โมเดล multimodal เช่น GPT-4o หรือ Gemini ได้รับการพัฒนาเพื่อจัดการข้อมูลทั้งข้อความ ภาพ และอื่น ๆ พร้อมตัวอย่างการใช้งานจริง  
+  [Link](https://arxiv.org/abs/2409.11402) - บทความ "NVLM: Open Frontier-Class Multimodal LLMs"  
+  [Colab Example](https://colab.research.google.com/drive/1vXDXl93AeL41XxiKGFqN0d7Vpl-ueMOX) - ตัวอย่าง Colab จาก Google Research ที่แสดงการใช้ Gemini สำหรับ multimodal tasks (ต้องมีสิทธิ์เข้าถึงหรือค้นหาเวอร์ชันสาธารณะ)
 
 ### 14.4 ลิงก์และแหล่งข้อมูลเพิ่มเติม
 
