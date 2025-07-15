@@ -2350,135 +2350,134 @@
 | [Mistral and MLflow Tracing](third_party/MLflow/mistral-mlflow-tracing.ipynb)                                         | Tracing, Observability          | MLflow     |
 | [Mistral OCR with Gradio](third_party/gradio/MistralOCR.md)                                                           | OCR                             | Gradio     |
 
+
 # Mistral Cookbook
 
-The Mistral Cookbook features examples contributed by Mistralers and our community, as well as our partners. If you have cool examples showcasing Mistral models, feel free to share them by submitting a PR to this repo.
+Mistral Cookbook รวบรวมตัวอย่างการใช้งานที่ถูกส่งเข้ามาโดยสมาชิก Mistral และชุมชน รวมถึงพันธมิตรของเรา หากคุณมีตัวอย่างเจ๋ง ๆ ที่โชว์ศักยภาพของโมเดล Mistral สามารถส่งเข้ามาได้โดยการสร้าง PR ใน repo นี้
 
-## Submission Guidelines:
+## แนวทางการส่งตัวอย่าง:
 
-- File Format: Please submit your example in the .md or .ipynb format.
-- Runnable on Colab: If you're sharing a notebook example, try to make sure it's runnable on Google Colab.
-- Authorship: Kindly include your name, your Github handle, and affiliation at the beginning of the file.
-- Descriptions: Please include your notebook along with its category and descriptions in the table below.
-- Tone: Kindly maintain a neutral tone and minimize any excessive marketing materials.
-- Reproducibility: To ensure others can reproduce your work, kindly tag package versions in your code.
-- Image size: If you have images, please make sure each image's size is below 500KB.
-- Copyright: Always respect copyright and intellectual property laws.
+- รูปแบบไฟล์: กรุณาส่งตัวอย่างในรูปแบบ .md หรือ .ipynb
+- รันบน Colab ได้: ถ้าเป็น notebook ควรตรวจสอบให้รันบน Google Colab ได้
+- ผู้เขียน: กรุณาใส่ชื่อ, Github handle และสังกัดไว้ต้นไฟล์
+- คำอธิบาย: กรุณาใส่ notebook พร้อมหมวดหมู่และคำอธิบายในตารางด้านล่าง
+- โทน: กรุณาใช้โทนกลาง ๆ และลดเนื้อหาเชิงการตลาด
+- การทำซ้ำได้: กรุณา tag เวอร์ชันแพ็กเกจในโค้ดเพื่อให้ผู้อื่นทำซ้ำได้
+- ขนาดภาพ: ถ้ามีภาพ กรุณาให้แต่ละภาพมีขนาดไม่เกิน 500KB
+- ลิขสิทธิ์: เคารพลิขสิทธิ์และกฎหมายทรัพย์สินทางปัญญาเสมอ
 
-Disclaimer: Examples contributed by the community and partners do not represent Mistral's views and opinions.
+หมายเหตุ: ตัวอย่างที่ส่งเข้ามาโดยชุมชนและพันธมิตร ไม่ได้สะท้อนมุมมองหรือความคิดเห็นของ Mistral
 
-## Content Guidelines:
+## แนวทางเนื้อหา:
 
-- Originality: Is your content original and offering a fresh perspective?
-- Clear: Is your content well-structured and clearly written?
-- Value: Is your content valuable to the community? Does the community need it?
+- เนื้อหาต้องสดใหม่และมีมุมมองใหม่
+- โครงสร้างชัดเจน อ่านเข้าใจง่าย
+- มีคุณค่าและตอบโจทย์ชุมชน
 
-## Main Notebooks
+## โน้ตบุ๊กหลัก
 
-| Notebook                                                                       | Category                     | Description                                                                      |
+| โน้ตบุ๊ก                                                                       | หมวดหมู่                     | คำอธิบาย                                                                      |
 |--------------------------------------------------------------------------------|-----------------------------|----------------------------------------------------------------------------------|
-| [quickstart.ipynb](quickstart.ipynb)                                           | chat, embeddings             | Basic quickstart with chat and embeddings with Mistral AI API                    |
-| [prompting_capabilities.ipynb](mistral/prompting/prompting_capabilities.ipynb) | prompting                    | Write prompts for classification, summarization, personalization, and evaluation |
-| [basic_RAG.ipynb](mistral/rag/basic_RAG.ipynb)                                 | RAG                          | RAG from scratch with Mistral AI API                                             |
-| [embeddings.ipynb](mistral/embeddings/embeddings.ipynb)                        | embeddings                   | Use Mistral embeddings API for classification and clustering                     |                                           |
-| [function_calling.ipynb](mistral/function_calling/function_calling.ipynb)      | function calling             | Use Mistral API for function calling                                             |
-| [text_to_SQL.ipynb](mistral/function_calling/text_to_SQL.ipynb)      | function calling             | Use Mistral API for function calling on a multi tables text to SQL usecase                                             |
-| [evaluation.ipynb](mistral/evaluation/evaluation.ipynb)                        | evaluation                   | Evaluate models with Mistral API                                                 |
-| [mistral_finetune_api.ipynb](mistral/fine_tune/mistral_finetune_api.ipynb)     | fine-tuning                  | Finetune a model with Mistral fine-tuning API                                    |
-| [mistral-search-engine.ipynb](mistral/rag/mistral-search-engine.ipynb)         | RAG, function calling        | Search engine built with Mistral API, function calling and RAG                   |
-| [rag_via_function_calling.ipynb](mistral/rag/rag_via_function_calling.ipynb)         | RAG, function calling        | Use function calling as a router for a RAG based on multiple data sources                   |
-| [prefix_use_cases.ipynb](mistral/prompting/prefix_use_cases.ipynb)             | prefix, prompting            | Cool examples with Mistral's prefix feature                                      |
-| [synthetic_data_gen_and_finetune.ipynb](mistral/data_generation/synthetic_data_gen_and_finetune.ipynb) | data generation, fine-tuning | Simple data generation and fine-tuning guide        |
-| [data_generation_refining_news.ipynb](mistral/data_generation/data_generation_refining_news.ipynb) | data generation | Simple data generation to refine news articles                                |
-| [image_description_extraction_pixtral.ipynb](mistral/image_understanding/image_description_extraction_pixtral.ipynb) | image processing, prompting  | Extract structured image descriptions using Mistral's Pixtral model and JSON response formatting |
-| [multimodality meets function calling.ipynb](mistral/image_understanding/multimodality_meets_function_calling.ipynb) | image processing, function calling  | Extract table from image using Mistral's Pixtral model and use for function calling |
-| [mistral-reference-rag.ipynb](mistral/rag/mistral-reference-rag.ipynb) | RAG, function calling, references | Reference RAG with Mistral API |
-| [moderation-explored.ipynb](mistral/moderation/moderation-explored.ipynb) | moderation | Quick exploration on safeguarding and Mistral's moderation API |
-| [system-level-guardrails.ipynb](mistral/moderation/system-level-guardrails.ipynb) | moderation | How to implement System Level Guardrails with Mistral API |
-| [document_understanding.ipynb](mistral/ocr/document_understanding.ipynb) | OCR, function calling | Document Understanding and Tool Usage with OCR |
-| [batch_ocr.ipynb](mistral/ocr/batch_ocr.ipynb) | OCR, batch | Using OCR to extract text data from datasets. |
-| [structured_ocr.ipynb](mistral/ocr/structured_ocr.ipynb) | OCR, structured outputs | Extracting structured outputs from documents. |
+| [quickstart.ipynb](quickstart.ipynb)                                           | แชท, embeddings             | ตัวอย่างเริ่มต้นสำหรับแชทและ embeddings ด้วย Mistral AI API                    |
+| [prompting_capabilities.ipynb](mistral/prompting/prompting_capabilities.ipynb) | การสร้าง prompt             | เขียน prompt สำหรับงาน classification, summarization, personalization, และ evaluation |
+| [basic_RAG.ipynb](mistral/rag/basic_RAG.ipynb)                                 | RAG                          | สร้าง RAG ตั้งแต่เริ่มต้นด้วย Mistral AI API                                   |
+| [embeddings.ipynb](mistral/embeddings/embeddings.ipynb)                        | embeddings                   | ใช้ Mistral embeddings API สำหรับ classification และ clustering                 |
+| [function_calling.ipynb](mistral/function_calling/function_calling.ipynb)      | การเรียกใช้ฟังก์ชัน         | ใช้ Mistral API สำหรับ function calling                                         |
+| [text_to_SQL.ipynb](mistral/function_calling/text_to_SQL.ipynb)                | การเรียกใช้ฟังก์ชัน         | ใช้ Mistral API สำหรับ function calling ในกรณี text to SQL หลายตาราง           |
+| [evaluation.ipynb](mistral/evaluation/evaluation.ipynb)                        | การประเมินผล                 | ประเมินโมเดลด้วย Mistral API                                                    |
+| [mistral_finetune_api.ipynb](mistral/fine_tune/mistral_finetune_api.ipynb)     | การปรับแต่งโมเดล             | ปรับแต่งโมเดลด้วย Mistral fine-tuning API                                       |
+| [mistral-search-engine.ipynb](mistral/rag/mistral-search-engine.ipynb)         | RAG, การเรียกใช้ฟังก์ชัน     | สร้าง search engine ด้วย Mistral API, function calling และ RAG                  |
+| [rag_via_function_calling.ipynb](mistral/rag/rag_via_function_calling.ipynb)   | RAG, การเรียกใช้ฟังก์ชัน     | ใช้ function calling เป็น router สำหรับ RAG ที่ใช้หลายแหล่งข้อมูล               |
+| [prefix_use_cases.ipynb](mistral/prompting/prefix_use_cases.ipynb)             | prefix, การสร้าง prompt      | ตัวอย่างการใช้ฟีเจอร์ prefix ของ Mistral                                       |
+| [synthetic_data_gen_and_finetune.ipynb](mistral/data_generation/synthetic_data_gen_and_finetune.ipynb) | สร้างข้อมูล, ปรับแต่งโมเดล   | ตัวอย่างการสร้างข้อมูลและปรับแต่งโมเดลแบบง่าย ๆ                                |
+| [data_generation_refining_news.ipynb](mistral/data_generation/data_generation_refining_news.ipynb) | สร้างข้อมูล                  | สร้างข้อมูลเพื่อปรับปรุงข่าว                                                    |
+| [image_description_extraction_pixtral.ipynb](mistral/image_understanding/image_description_extraction_pixtral.ipynb) | ประมวลผลภาพ, การสร้าง prompt | ดึงข้อมูลภาพแบบมีโครงสร้างด้วย Pixtral model และ JSON response formatting      |
+| [multimodality meets function calling.ipynb](mistral/image_understanding/multimodality_meets_function_calling.ipynb) | ประมวลผลภาพ, การเรียกใช้ฟังก์ชัน | ดึงตารางจากภาพด้วย Pixtral model และใช้สำหรับ function calling                 |
+| [mistral-reference-rag.ipynb](mistral/rag/mistral-reference-rag.ipynb)         | RAG, การเรียกใช้ฟังก์ชัน, อ้างอิง | Reference RAG ด้วย Mistral API                                                  |
+| [moderation-explored.ipynb](mistral/moderation/moderation-explored.ipynb)      | moderation                    | สำรวจการป้องกันและใช้งาน moderation API ของ Mistral                            |
+| [system-level-guardrails.ipynb](mistral/moderation/system-level-guardrails.ipynb) | moderation                 | วิธีสร้าง System Level Guardrails ด้วย Mistral API                              |
+| [document_understanding.ipynb](mistral/ocr/document_understanding.ipynb)        | OCR, การเรียกใช้ฟังก์ชัน     | เข้าใจเอกสารและใช้งาน OCR tool                                                 |
+| [batch_ocr.ipynb](mistral/ocr/batch_ocr.ipynb)                                 | OCR, batch                   | ใช้ OCR ดึงข้อความจาก dataset                                                  |
+| [structured_ocr.ipynb](mistral/ocr/structured_ocr.ipynb)                       | OCR, structured outputs      | ดึงข้อมูลแบบมีโครงสร้างจากเอกสาร                                              |
+
 
 
 # Advanced + Agentic RAG Cookbooks👨🏻‍💻
-Welcome to the comprehensive collection of advanced + agentic Retrieval-Augmented Generation (RAG) techniques.
+ยินดีต้อนรับสู่คลังรวมเทคนิค Retrieval-Augmented Generation (RAG) ขั้นสูงและแบบ Agentic
 
-## Introduction🚀
-RAG is a popular method that improves accuracy and relevance by finding the right information from reliable sources and transforming it into useful answers. This repository covers the most effective advanced + agentic RAG techniques with clear implementations and explanations.
+## บทนำ🚀
+RAG เป็นวิธีที่ได้รับความนิยมในการเพิ่มความแม่นยำและความเกี่ยวข้องของคำตอบ โดยค้นหาข้อมูลที่ถูกต้องจากแหล่งที่เชื่อถือได้และนำมาสร้างคำตอบที่มีประโยชน์ Repository นี้รวบรวมเทคนิค RAG ขั้นสูงและแบบ Agentic ที่มีตัวอย่างโค้ดและคำอธิบายชัดเจน
 
-The main goal of this repository is to provide a helpful resource for researchers and developers looking to use advanced RAG techniques in their projects. Building these techniques from scratch takes time, and finding proper evaluation methods can be challenging. This repository simplifies the process by offering ready-to-use implementations and guidance on how to evaluate them.
->[!NOTE]
->This repository starts with naive RAG as a foundation and progresses to advanced and agentic techniques. It also includes research papers/references for each RAG technique, which you can explore for further reading.
+เป้าหมายหลักของ repository นี้คือเป็นแหล่งข้อมูลสำหรับนักวิจัยและนักพัฒนาที่ต้องการนำเทคนิค RAG ขั้นสูงไปใช้ในโปรเจกต์ของตน การสร้างเทคนิคเหล่านี้จากศูนย์ใช้เวลามาก และการประเมินผลก็เป็นเรื่องท้าทาย Repository นี้จึงช่วยให้คุณเริ่มต้นได้ง่ายขึ้นด้วยตัวอย่างที่พร้อมใช้งานและคำแนะนำการประเมินผล
+> [!NOTE]
+> Repository นี้เริ่มจาก RAG แบบพื้นฐาน (naive RAG) และค่อย ๆ พัฒนาไปสู่เทคนิคขั้นสูงและ agentic พร้อมแหล่งอ้างอิงงานวิจัยสำหรับแต่ละเทคนิค
 
-## Introduction to RAG💡
-Large Language Models are trained on a fixed dataset, which limits their ability to handle private or recent information. They can sometimes "hallucinate", providing incorrect yet believable answers. Fine-tuning can help but it is expensive and not ideal for retraining again and again on new data. The Retrieval-Augmented Generation (RAG) framework addresses this issue by using external documents to improve the LLM's responses through in-context learning. RAG ensures that the information provided by the LLM is not only contextually relevant but also accurate and up-to-date.
+## บทนำสู่ RAG💡
+Large Language Models (LLMs) ถูกฝึกด้วยข้อมูลชุดคงที่ ทำให้ไม่สามารถตอบคำถามเกี่ยวกับข้อมูลใหม่หรือข้อมูลส่วนตัวได้ดี และอาจเกิด "hallucination" คือให้คำตอบผิดแต่ดูน่าเชื่อถือ การ fine-tune แม้จะช่วยได้แต่มีค่าใช้จ่ายสูงและไม่เหมาะกับการ retrain บ่อย ๆ RAG จึงแก้ปัญหานี้โดยใช้เอกสารภายนอกมาช่วยให้ LLM ตอบคำถามได้แม่นยำและทันสมัยผ่าน in-context learning
 
 ![final diagram](https://github.com/user-attachments/assets/508b3a87-ac46-4bf7-b849-145c5465a6c0)
 
-There are four main components in RAG:
+RAG มี 4 ส่วนหลัก:
 
-**Indexing:** First, documents (in any format) are split into chunks, and embeddings for these chunks are created. These embeddings are then added to a vector store.
+**Indexing:** เอกสาร (ทุกฟอร์แมต) จะถูกแบ่งเป็นชิ้นเล็ก ๆ และสร้าง embedding สำหรับแต่ละชิ้น จากนั้นนำไปเก็บใน vector store
 
-**Retriever:** Then, the retriever finds the most relevant documents based on the user's query, using techniques like vector similarity from the vector store.
+**Retriever:** ส่วน retriever จะค้นหาเอกสารที่เกี่ยวข้องที่สุดจาก vector store ด้วยเทคนิคเช่น vector similarity ตามคำถามของผู้ใช้
 
-**Augment:** After that, the Augment part combines the user's query with the retrieved context into a prompt, ensuring the LLM has the information needed to generate accurate responses.
+**Augment:** นำคำถามของผู้ใช้มารวมกับ context ที่ค้นเจอ สร้าง prompt ที่มีข้อมูลครบถ้วนให้ LLM ตอบได้แม่นยำ
 
-**Generate:** Finally, the combined query and prompt are passed to the model, which then generates the final response to the user's query.
+**Generate:** ส่ง prompt ที่รวม context แล้วไปยังโมเดลเพื่อสร้างคำตอบสุดท้าย
 
-These components of RAG allow the model to access up-to-date, accurate information and generate responses based on external knowledge. However, to ensure RAG systems are functioning effectively, it’s essential to evaluate their performance.
+ส่วนประกอบเหล่านี้ช่วยให้โมเดลเข้าถึงข้อมูลใหม่และตอบได้ถูกต้องตามแหล่งข้อมูลจริง การประเมินผล RAG จึงสำคัญมาก
 
-## RAG Evaluation📊
-Evaluating RAG applications is important for understanding how well these systems work. We can see how effectively they combine information retrieval with generative models by checking their accuracy and relevance. This evaluation helps improve RAG applications in tasks like text summarization, chatbots, and question-answering. It also identifies areas for improvement, ensuring that these systems provide trustworthy responses as information changes. Overall, effective evaluation helps optimize performance and builds confidence in RAG applications for real-world use. These notebooks contain an end-to-end RAG implementation + RAG evaluation part in Athina AI.
+## การประเมินผล RAG📊
+การประเมิน RAG สำคัญเพื่อดูว่าระบบทำงานดีแค่ไหน โดยวัดความแม่นยำและความเกี่ยวข้องของคำตอบ การประเมินนี้ช่วยปรับปรุง RAG ในงานเช่นสรุปข้อความ, chatbot, และถาม-ตอบ รวมถึงช่วยหาจุดที่ต้องปรับปรุงเพื่อให้ระบบตอบสนองต่อข้อมูลใหม่ได้ดี ตัวอย่างในโน้ตบุ๊กนี้มีทั้ง RAG แบบ end-to-end และส่วนประเมินผลใน Athina AI
 
 ![evals diagram](https://github.com/user-attachments/assets/65c2b5af-a931-40c5-b006-87567aef019f)
 
+## เทคนิค RAG ขั้นสูง⚙️
+รายละเอียดเทคนิค RAG ขั้นสูงที่มีใน repository นี้
 
+| เทคนิค                    | เครื่องมือ                        | คำอธิบาย                                                       | โน้ตบุ๊ก |
+|---------------------------|-----------------------------------|--------------------------------------------------------------|-----------|
+| Naive RAG      | LangChain, Pinecone, Athina AI      | รวมข้อมูลที่ค้นเจอเข้ากับ LLM เพื่อสร้างคำตอบแบบง่ายและมีประสิทธิภาพ | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/athina-ai/rag-cookbooks/blob/main/advanced_rag_techniques/naive_rag.ipynb) |
+| Hybrid RAG     | LangChain, Chromadb, Athina AI      | ผสมผสาน vector search กับวิธีดั้งเดิมเช่น BM25 เพื่อค้นหาข้อมูลที่ดีกว่า | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/athina-ai/rag-cookbooks/blob/main/advanced_rag_techniques/hybrid_rag.ipynb) |
+| Hyde RAG       | LangChain, Weaviate, Athina AI      | สร้าง embedding สมมติ (hypothetical) เพื่อค้นหาข้อมูลที่เกี่ยวข้องกับคำถาม | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/athina-ai/rag-cookbooks/blob/main/advanced_rag_techniques/hyde_rag.ipynb) |
+| Parent Document Retriever | LangChain, Chromadb, Athina AI | แบ่งเอกสารใหญ่เป็นส่วนย่อยและค้นคืนเอกสารเต็มถ้าส่วนใดตรงกับคำถาม | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/athina-ai/rag-cookbooks/blob/main/advanced_rag_techniques/parent_document_retriever.ipynb) |
+| RAG fusion     | LangChain, LangSmith, Qdrant, Athina AI | สร้าง sub-query, จัดอันดับเอกสารด้วย Reciprocal Rank Fusion และใช้ผลลัพธ์ที่ดีที่สุด | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/athina-ai/rag-cookbooks/blob/main/advanced_rag_techniques/fusion_rag.ipynb) |
+| Contextual RAG | LangChain, Chromadb, Athina AI      | บีบอัดเอกสารที่ค้นเจอให้เหลือแต่ส่วนสำคัญเพื่อคำตอบที่กระชับและแม่นยำ | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/athina-ai/rag-cookbooks/blob/main/advanced_rag_techniques/contextual_rag.ipynb) |
+| Rewrite Retrieve Read | LangChain, Chromadb, Athina AI   | ปรับปรุง query, ค้นข้อมูลที่ดีกว่า และสร้างคำตอบที่แม่นยำ | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/athina-ai/rag-cookbooks/blob/main/advanced_rag_techniques/rewrite_retrieve_read.ipynb) |
+| Unstructured RAG | LangChain, LangGraph, FAISS, Athina AI, Unstructured | รองรับเอกสารที่มีทั้งข้อความ, ตาราง, และภาพ | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/athina-ai/rag-cookbooks/blob/main/advanced_rag_techniques/basic_unstructured_rag.ipynb) |
 
-## Advanced RAG Techniques⚙️
-Here are the details of all the Advanced RAG techniques covered in this repository.
+## เทคนิค Agentic RAG⚙️
+รายละเอียดเทคนิค Agentic RAG ที่มีใน repository นี้
 
-| Technique                    | Tools                        | Description                                                       | Notebooks |
-|---------------------------------|------------------------------|--------------------------------------------------------------|-----------|
-| Naive RAG      | LangChain, Pinecone, Athina AI                    | Combines retrieved data with LLMs for simple and effective responses.| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/athina-ai/rag-cookbooks/blob/main/advanced_rag_techniques/naive_rag.ipynb) |
-| Hybrid RAG      | LangChain, Chromadb, Athina AI                    | Combines vector search and traditional methods like BM25 for better information retrieval.| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/athina-ai/rag-cookbooks/blob/main/advanced_rag_techniques/hybrid_rag.ipynb) |
-| Hyde RAG      | LangChain, Weaviate, Athina AI                    | Creates hypothetical document embeddings to find relevant information for a query.| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/athina-ai/rag-cookbooks/blob/main/advanced_rag_techniques/hyde_rag.ipynb) |
-| Parent Document Retriever      | LangChain, Chromadb, Athina AI                    | Breaks large documents into small parts and retrieves the full document if a part matches the query.| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/athina-ai/rag-cookbooks/blob/main/advanced_rag_techniques/parent_document_retriever.ipynb) |
-| RAG fusion      | LangChain, LangSmith, Qdrant, Athina AI                    | Generates sub-queries, ranks documents with Reciprocal Rank Fusion, and uses top results for accurate responses.| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/athina-ai/rag-cookbooks/blob/main/advanced_rag_techniques/fusion_rag.ipynb) |
-| Contextual RAG      | LangChain, Chromadb, Athina AI                    | Compresses retrieved documents to keep only relevant details for concise and accurate responses.| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/athina-ai/rag-cookbooks/blob/main/advanced_rag_techniques/contextual_rag.ipynb) |
-| Rewrite Retrieve Read     | LangChain, Chromadb, Athina AI                    | Improves query, retrieves better data, and generates accurate answers.| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/athina-ai/rag-cookbooks/blob/main/advanced_rag_techniques/rewrite_retrieve_read.ipynb) |
-| Unstructured RAG     | LangChain, LangGraph, FAISS, Athina AI, Unstructured                    | This method designed to handle documents that combine text, tables, and images.| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/athina-ai/rag-cookbooks/blob/main/advanced_rag_techniques/basic_unstructured_rag.ipynb) |
+| เทคนิค                    | เครื่องมือ                        | คำอธิบาย                                                       | โน้ตบุ๊ก |
+|---------------------------|-----------------------------------|--------------------------------------------------------------|-----------|
+| Basic Agentic RAG      | LangChain, FAISS, Athina AI      | Agentic RAG ใช้ AI agent ในการค้นหาและสร้างคำตอบโดยใช้ vectordb และค้นเว็บ | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/athina-ai/rag-cookbooks/blob/main/agentic_rag_techniques/basic_agentic_rag.ipynb) |
+| Corrective RAG         | LangChain, LangGraph, Chromadb, Athina AI | ปรับปรุงเอกสารที่เกี่ยวข้อง, ตัดส่วนที่ไม่เกี่ยวข้อง หรือค้นเว็บเพิ่ม | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/athina-ai/rag-cookbooks/blob/main/agentic_rag_techniques/corrective_rag.ipynb) |
+| Self RAG              | LangChain, LangGraph, FAISS, Athina AI | ตรวจสอบข้อมูลที่ค้นเจอเพื่อให้คำตอบถูกต้องและครบถ้วน | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/athina-ai/rag-cookbooks/blob/main/agentic_rag_techniques/self_rag.ipynb) |
+| Adaptive RAG          | LangChain, LangGraph, FAISS, Athina AI | ปรับวิธีค้นคืนตามประเภทคำถาม ใช้ทั้งข้อมูลที่ index และค้นเว็บ | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/athina-ai/rag-cookbooks/blob/main/agentic_rag_techniques/adaptive_rag.ipynb) |
+| ReAct RAG             | LangChain, LangGraph, FAISS, Athina AI | ระบบที่ผสมผสาน reasoning และ retrieval เพื่อคำตอบที่เข้าใจบริบท | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/athina-ai/rag-cookbooks/blob/main/agentic_rag_techniques/react_rag.ipynb) |
 
-## Agentic RAG Techniques⚙️
-Here are the details of all the Agentic RAG techniques covered in this repository.
-
-| Technique                    | Tools                        | Description                                                       | Notebooks |
-|---------------------------------|------------------------------|--------------------------------------------------------------|-----------|
-| Basic Agentic RAG      | LangChain, FAISS, Athina AI                    | Agentic RAG uses AI agents to find and generate answers using tools like vectordb and web searches.| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/athina-ai/rag-cookbooks/blob/main/agentic_rag_techniques/basic_agentic_rag.ipynb) |
-| Corrective RAG      | LangChain, LangGraph, Chromadb, Athina AI                    | Refines relevant documents, removes irrelevant ones or does the web search.| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/athina-ai/rag-cookbooks/blob/main/agentic_rag_techniques/corrective_rag.ipynb) |
-| Self RAG     | LangChain, LangGraph, FAISS, Athina AI                    | Reflects on retrieved data to ensure accurate and complete responses.| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/athina-ai/rag-cookbooks/blob/main/agentic_rag_techniques/self_rag.ipynb) |
-| Adaptive RAG      | LangChain, LangGraph, FAISS, Athina AI                    | Adjusts retrieval methods based on query type, using indexed data or web search.| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/athina-ai/rag-cookbooks/blob/main/agentic_rag_techniques/adaptive_rag.ipynb) |
-| ReAct RAG      | LangChain, LangGraph, FAISS, Athina AI                    |  System combining reasoning and retrieval for context-aware responses| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/athina-ai/rag-cookbooks/blob/main/agentic_rag_techniques/react_rag.ipynb) |
-
-## Demo🎬
-A quick demo of how each notebook works:
+## เดโม🎬
+ตัวอย่างการทำงานของแต่ละโน้ตบุ๊ก:
 
 https://github.com/user-attachments/assets/c6f17961-40a1-4cca-ab1f-2c8fa3d71a7a
 
-## Getting Started🛠️
-First, clone this repository by using the following command:
+## เริ่มต้นใช้งาน🛠️
+เริ่มจาก clone repository นี้ด้วยคำสั่ง:
 ```bash
 git clone https://github.com/athina-ai/rag-cookbooks.git
 ```
-Next, navigate to the project directory:
+จากนั้นเข้าไปที่โฟลเดอร์โปรเจกต์:
 ```bash
 cd rag-cookbooks
 ```
-Once you are in the 'rag-cookbooks' directory, follow the detailed implementation for each technique.
+เมื่ออยู่ในโฟลเดอร์ 'rag-cookbooks' แล้ว ให้ดูรายละเอียดการใช้งานแต่ละเทคนิคในโน้ตบุ๊ก
 
-## Creators + Contributors👨🏻‍💻
+## ผู้สร้างและผู้มีส่วนร่วม👨🏻‍💻
 [![Contributors](https://contrib.rocks/image?repo=athina-ai/cookbooks)](https://github.com/athina-ai/cookbooks/graphs/contributors)
 
-
-## Star History
+## ประวัติการให้ดาว
 
 [![Star History Chart](https://api.star-history.com/svg?repos=JonusNattapong/Notebook-Git-Colab&type=Date)](https://www.star-history.com/#JonusNattapong/Notebook-Git-Colab&Date)
