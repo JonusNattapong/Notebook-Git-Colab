@@ -1,6 +1,6 @@
 <div align="center">
 
-![Project Logo](./public/Zom.png)
+![Project Logo](./public/icon3.png)
 
 # 📚 AI LLM Learning Resources
 # Version 1.1 Update (11/03/2568)
@@ -252,30 +252,18 @@
 
 **ตัวอย่างการใช้งาน**:  
 - **ฝึกโมเดลภาษาไทย**: ใช้ Transformers และ DeepSpeed ฝึกโมเดลจากชุดข้อมูลภาษาไทย  
-- **ทดลองขนาดเล็ก**: ใช้ PyTorch Lightning ฝึกโมเดลบน GPU เดียว
-
----
-
-### 3.2 การปรับแต่ง LLM (Fine-tuning LLMs)
-
-การปรับโมเดลที่มีอยู่ให้เหมาะกับงานเฉพาะ
-
-| **แหล่งข้อมูล**                          | **คำอธิบาย**                                                                                      | **หัวข้อย่อย (Subtopics)**                                      | **ระดับ (Level)**         | **ลิงก์**                                                                                       |
-|:-----------------------------------------|:--------------------------------------------------------------------------------------------------|:---------------------------------------------------------------|:--------------------------|:-----------------------------------------------------------------------------------------------|
-| PEFT Documentation (Hugging Face)        | ไลบรารีสำหรับ fine-tuning แบบประหยัดทรัพยากร เช่น LoRA                                        | LoRA, adapters, prompt tuning                                 | `[Intermediate/Advanced]` | [PEFT Docs](https://huggingface.co/docs/peft/index)                                            |
-| TRL (Transformer Reinforcement Learning) | เครื่องมือ fine-tune LLM ด้วย RLHF (Reinforcement Learning from Human Feedback)               | RLHF, reward modeling, PPO                                    | `[Advanced]`              | [TRL Docs](https://huggingface.co/docs/trl/index)                                              |
-| Fine-tuning Llama 2 Tutorial             | บทเรียน fine-tune Llama 2 บนชุดข้อมูลเฉพาะ                                                   | Dataset prep, LoRA fine-tuning, evaluation                    | `[Intermediate/Advanced]` | [Llama 2 Tutorial](https://huggingface.co/blog/llama2#fine-tuning-with-peft)                   |
-| Colab Fine-tuning Example                | โค้ดตัวอย่าง fine-tune โมเดลด้วย LoRA บน Google Colab                                        | LoRA setup, training, inference                               | `[Intermediate]`          | [Colab Example](https://colab.research.google.com/drive/1VoYNfYDKcKA7EZdXY_FrL0jY17mR3KBZ)    |
-
-**ตัวอย่างการใช้งาน**:  
-- **ปรับโมเดลสำหรับงานแปล**: Fine-tune Llama 2 ด้วย PEFT บนชุดข้อมูลแปลภาษา  
-- **โมเดลช่วยเขียน**: ใช้ TRL ปรับโมเดลด้วย feedback จากมนุษย์
-
----
-
-### 3.3 การ Deploy LLM (Deploying LLMs)
-
-การนำ LLM ไปใช้งานจริงในระบบ production
+<div align="center">
+  <img src="./public/icon3.png" alt="Project Logo" width="160"/>
+  <h1>📚 <span style="color:#4F8A8B">AI LLM Learning Resources</span></h1>
+  <p><b>Version 1.1 Update (11/03/2568)</b></p>
+  <p>
+    <a href="https://www.python.org/downloads/"><img src="https://img.shields.io/badge/Python-3.8%2B-blue.svg"/></a>
+    <a href="LICENSE"><img src="https://img.shields.io/badge/Apache-2.0-green.svg"/></a>
+    <a href="https://github.com/JonusNattapong/Notebook-Git-Colab/stargazers"><img src="https://img.shields.io/github/stars/JonusNattapong/Notebook-Git-Colab.svg?style=social"/></a>
+    <a href="https://github.com/JonusNattapong/Notebook-Git-Colab/network/members"><img src="https://img.shields.io/github/forks/JonusNattapong/Notebook-Git-Colab.svg?style=social"/></a>
+    <a href="https://github.com/JonusNattapong/followers"><img src="https://img.shields.io/github/followers/JonusNattapong.svg?style=social"/></a>
+  </p>
+</div>
 
 | **แหล่งข้อมูล**                          | **คำอธิบาย**                                                                                      | **หัวข้อย่อย (Subtopics)**                                      | **ระดับ (Level)**         | **ลิงก์**                                                                                       |
 |:-----------------------------------------|:--------------------------------------------------------------------------------------------------|:---------------------------------------------------------------|:--------------------------|:-----------------------------------------------------------------------------------------------|
@@ -298,7 +286,6 @@
 
 --
 
-<a name="section4"></a>
 
 ## ส่วนที่ 4: สคริปต์และ Repository ขั้นสูง (Advanced Scripts & Repositories)
 
@@ -307,77 +294,138 @@
 ### 4.1 DeepSeek AI Repositories
 
 *Repositories จาก DeepSeek AI บริษัทวิจัย AI ที่เน้นงาน Open Source*
-
 #### Performance Optimization
 
 | Repository                                  | คำอธิบาย                                                                                                       | ลิงก์                                                                                    |
-| :------------------------------------------ | :------------------------------------------------------------------------------------------------------------ | :---------------------------------------------------------------------------------------- |
 | DeepSpeed-FastGen                          | ระบบ inference รวดเร็วและมีประสิทธิภาพ สร้างบน DeepSpeed เหมาะสำหรับงาน real-time                          | [DeepSpeed-FastGen (GitHub)](https://github.com/DeepSpeed-MII/DeepSpeed-FastGen)             |
 | DeepSpeed-Kernels                           | Custom CUDA kernels สำหรับ DeepSpeed เพิ่มความเร็วในการคำนวณโมเดล LLM                                     | [DeepSpeed-Kernels (GitHub)](https://github.com/microsoft/DeepSpeed-Kernels)                |
-| DeepSpeed-MII                            | ไลบรารีสำหรับ deploy และเพิ่มประสิทธิภาพ LLM ด้วย DeepSpeed เช่น ลดการใช้หน่วยความจำ                          | [DeepSpeed-MII (GitHub)](https://github.com/microsoft/DeepSpeed-MII)                           |
 | DeepSpeed                                     | ไลบรารีจาก Microsoft สำหรับ optimize การฝึกและ inference โมเดลขนาดใหญ่                                   | [DeepSpeed (GitHub)](https://github.com/microsoft/DeepSpeed)                                  |
 | 3FS: Fast, Flexible, and Friendly Sparse Attention    | การใช้งาน Sparse Attention เพื่อเพิ่มประสิทธิภาพการคำนวณ attention                                     | [3FS](https://github.com/DeepSeek-AI/3FS)             |
-| DeepGEMM                                  | GEMM (General Matrix Multiplication) ที่มีประสิทธิภาพสูง ใช้ในงานคำนวณเชิงลึก                            | [DeepGEMM (GitHub)](https://github.com/DeepSeek-AI/DeepGEMM)                                |
 
 #### Model Architectures
 
-| Repository                                       | คำอธิบาย                                                                  | ลิงก์                                                                                           |
 | :----------------------------------------------- | :------------------------------------------------------------------------ | :--------------------------------------------------------------------------------------------- |
 | DeepSeek-LLM                                  | โครงการโอเพนซอร์สสำหรับ DeepSeek LLM โมเดลภาษาขนาดใหญ่                     | [DeepSeek-LLM (GitHub)](https://github.com/deepseek-ai/DeepSeek-LLM)                         |
-| DeepSeek-MoE                                   | โครงการโอเพนซอร์สสำหรับ DeepSeek MoE โมเดลแบบ mixture-of-experts           | [DeepSeek-MoE (GitHub)](https://github.com/deepseek-ai/DeepSeek-MoE)                        |
 | FastMoE                                        | การใช้งาน Mixture of Experts (MoE) ที่รวดเร็ว เหมาะสำหรับโมเดลขนาดใหญ่       | [FastMoE](https://github.com/laekov/fastmoe)                                         |
 
-#### Datasets
-| Repository                                       | คำอธิบาย                                                                  | ลิงก์                                                                                           |
-| :----------------------------------------------- | :------------------------------------------------------------------------ | :--------------------------------------------------------------------------------------------- |
-| UltraFeedback                                  | ชุดข้อมูลขนาดใหญ่สำหรับ preference data ใช้ฝึกโมเดลให้สอดคล้องกับมนุษย์      | [UltraFeedback][https://huggingface.co/datasets/ultrafeedback](https://huggingface.co/datasets/ultrafeedback)
+<div align="center">
+</div>
 
-- 3Blue1Brown: อธิบายคณิตศาสตร์ด้วยภาพเคลื่อนไหว
-- Two Minute Papers: นำเสนอ paper วิจัย AI แบบสั้น
+# 📚 AI LLM Learning Resources
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/downloads/)
+[![License](https://img.shields.io/badge/Apache-2.0-green.svg)](LICENSE)
+[![GitHub Forks](https://img.shields.io/github/forks/JonusNattapong/Notebook-Git-Colab.svg?style=social)](https://github.com/JonusNattapong/Notebook-Git-Colab/network/members)
 
-#### Online Communities
-- Reddit: r/MachineLearning, r/LanguageTechnology
-- Stack Overflow: ถาม-ตอบสำหรับโปรแกรมเมอร์
-- Hugging Face Forums: ฟอรัมสำหรับผู้ใช้ Hugging Face
-- Discord Servers: ค้นหา "LLM Discord" หรือ "AI Discord" เพื่อชุมชนที่เน้น AI และ LLM
 
-<a name="section5"></a>
 
-## ส่วนที่ 5: การประยุกต์ใช้ LLM ในโลกจริงและเทรนด์อนาคต (Applying LLMs in Real-World and Future Trends)
-
-*ส่วนนี้เน้นการนำ LLM ไปใช้ในโปรเจกต์จริง การวัดผล และการติดตามเทรนด์ใหม่ๆ ในวงการ เพื่อให้พร้อมสำหรับการพัฒนาในอนาคต*
-
-### 5.1 โปรเจกต์ตัวอย่างที่ใช้ LLM (Real-World LLM Projects)
-
-| โปรเจกต์                                      | คำอธิบาย                                                                                       | เทคโนโลยีที่ใช้                              | ระดับ (Level)          | ลิงก์                                                                                             |
-| :------------------------------------------- | :----------------------------------------------------------------------------------------------- | :------------------------------------------ | :--------------------- | :----------------------------------------------------------------------------------------------- |
-| Chatbot for Customer Support                 | แชทบอทช่วยตอบคำถามลูกค้า เช่น การแนะนำสินค้าหรือแก้ปัญหาเบื้องต้น                              | LangChain, Llama 3, Gradio                  | `[Intermediate]`       | [Example Repo](https://github.com/langchain-ai/langchain/tree/master/templates)                  |
 | Document Summarization Tool                  | เครื่องมือสรุปเอกสารยาว เช่น รายงานหรือบทความวิชาการ                                          | Hugging Face Transformers, Mistral 7B       | `[Intermediate/Advanced]` | [Hugging Face Tutorial](https://huggingface.co/docs/transformers/tasks/summarization)           |
 | Code Generation Assistant                    | ผู้ช่วยเขียนโค้ด เช่น การสร้างฟังก์ชัน Python หรือแก้ bug                                      | OpenAI API, GitHub Copilot Clone, Streamlit | `[Intermediate/Advanced]` | [Copilot Clone Tutorial](https://www.youtube.com/watch?v=M-D2_UrjR-E)                          |
-| Multilingual Translator                      | ระบบแปลภาษาหลายภาษา เช่น ไทย-อังกฤษ-จีน โดยใช้โมเดล open-source                              | OpenThaiGPT, mBART                          | `[Advanced]`           | [mBART Docs](https://huggingface.co/docs/transformers/model_doc/mbart)                         |
 
 ### 5.2 การวัดผลและปรับปรุง LLM (Evaluation and Improvement)
-
 | แหล่งข้อมูล                                    | คำอธิบาย                                                                                           | หัวข้อย่อย (Subtopics)                           | ระดับ (Level)          | ลิงก์                                                                                             |
 | :------------------------------------------- | :-------------------------------------------------------------------------------------------------- | :---------------------------------------------- | :--------------------- | :----------------------------------------------------------------------------------------------- |
-| Hugging Face Evaluate                        | ไลบรารีสำหรับวัดผลโมเดล เช่น ความแม่นยำ (accuracy) หรือ BLEU score ในงานแปลภาษา                   | Metrics, evaluation datasets, benchmarking      | `[Intermediate]`       | [Evaluate Docs](https://huggingface.co/docs/evaluate/index)                                      |
 | EleutherAI LM Evaluation Harness             | เครื่องมือวัดประสิทธิภาพ LLM ด้วยชุดข้อมูลมาตรฐาน เช่น MMLU หรือ TruthfulQA                       | Task-specific evaluation, zero-shot testing     | `[Advanced]`           | [LM Eval (GitHub)](https://github.com/EleutherAI/lm-evaluation-harness)                         |
 | HumanEval: Evaluating Large Language Models  | Paper อธิบาย HumanEval ชุดข้อมูลสำหรับทดสอบความสามารถเขียนโค้ดของ LLM                             | Code generation metrics, functional correctness | `[Advanced]`           | [HumanEval (Arxiv)](https://arxiv.org/abs/2107.03374)                                           |
 | MT-Bench: A Multi-turn Benchmark            | Paper นำเสนอ MT-Bench ชุดทดสอบสำหรับประเมินการสนทนาหลายรอบของ LLM                                | Multi-turn dialogue, human-like responses       | `[Advanced]`           | [MT-Bench (Arxiv)](https://arxiv.org/abs/2306.05685)                                            |
 
-### 5.3 เทรนด์และนวัตกรรมใหม่ในวงการ LLM (Emerging Trends and Innovations)
 
-| หัวข้อ                                         | คำอธิบาย                                                                                           | แหล่งข้อมูลที่เกี่ยวข้อง                        | ลิงก์                                                                                             |
-| :------------------------------------------- | :-------------------------------------------------------------------------------------------------- | :--------------------------------------------- | :----------------------------------------------------------------------------------------------- |
-| Multimodal LLMs                              | โมเดลที่รวมข้อความ รูปภาพ และข้อมูลอื่นๆ เช่น CLIP-ViT หรือ DALL-E 3                                | Paper: "Flamingo" (Arxiv)                      | [Flamingo (Arxiv)](https://arxiv.org/abs/2204.14198)                                            |
-| Smaller, Efficient Models                    | โมเดลขนาดเล็กแต่ทรงพลัง เช่น Phi-3 (Microsoft) หรือ TinyLlama เหมาะสำหรับอุปกรณ์จำกัดทรัพยากร       | Phi-3 Blog (Microsoft)                         | [Phi-3 Blog](https://azure.microsoft.com/en-us/blog/introducing-phi-3/)                         |
-| AI Agents and Tool Integration               | การพัฒนา AI agents ที่ใช้ LLM ร่วมกับเครื่องมือ เช่น AutoGen หรือ AgentGPT                          | AutoGen (GitHub)                               | [AutoGen (GitHub)](https://github.com/microsoft/autogen)                                        |
-| Ethical AI and Regulation                    | แนวโน้มด้านจริยธรรมและกฎระเบียบ เช่น การลด bias หรือการควบคุมเนื้อหาที่สร้างโดย LLM                 | AI Ethics Guidelines (UNESCO)                  | [UNESCO AI Ethics](https://unesdoc.unesco.org/ark:/48223/pf0000381137)                          |
 
-### 5.4 แนวทางการเรียนรู้ (How to Proceed)
+**Who is this for?** Beginners and practitioners interested in AI, LLMs, and practical applications.
+**How to use:** Start with the basics, then explore advanced topics as needed.
 
-1. **เริ่มต้นด้วยโปรเจกต์ง่ายๆ:** ลองสร้างแอปพื้นฐาน เช่น แชทบอทหรือเครื่องมือสรุปข้อความ โดยใช้ LangChain หรือ Hugging Face `[Intermediate]`
-2. **วัดผลโมเดล:** ใช้เครื่องมืออย่าง Hugging Face Evaluate หรือ LM Evaluation Harness เพื่อทดสอบประสิทธิภาพโมเดลที่พัฒนา `[Intermediate/Advanced]`
+## 📖 Core Concepts
+
+  - Linear Algebra: [3Blue1Brown](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
+  - Probability & Statistics: [Khan Academy](https://www.khanacademy.org/math/statistics-probability)
+  - Glossary of essential LLM and AI terms.
+
+
+
+- **Python Basics:**
+  - [Python Docs](https://docs.python.org/3/)
+- **Data Analysis:**
+  - [Python for Data Analysis](https://wesmckinney.com/book/)
+
+
+
+- **Courses:**
+  - [DeepLearning.AI Specialization](https://www.coursera.org/specializations/deep-learning)
+- **Visual Guides:**
+  - [3Blue1Brown Neural Networks](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
+  - [Hugging Face Quicktour](https://huggingface.co/docs/transformers/quicktour)
+
+
+
+- **Courses & Books:**
+  - [Stanford CS224N](http://web.stanford.edu/class/cs224n/)
+  - [NLTK Book](https://www.nltk.org/book/)
+  - [Hugging Face NLP Course](https://huggingface.co/learn/nlp-course/chapter1/1)
+
+
+- **Frameworks:**
+  - [LlamaIndex](https://docs.llamaindex.ai/en/stable/)
+- **App Building:**
+  - [Streamlit LLM Tutorial](https://github.com/streamlit/llm-examples/blob/main/Chatbot.py)
+
+
+
+- **Performance Optimization:**
+  - [vLLM](https://docs.vllm.ai/en/latest/)
+  - [DeepSpeed](https://www.deepspeed.ai/)
+- **Fine-tuning:**
+  - [PEFT](https://huggingface.co/docs/peft/index)
+  - [TRL](https://huggingface.co/docs/trl/index)
+
+
+## 🛡️ Security & Ethics
+
+- **Security:**
+  - [OWASP LLM Top 10](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
+  - [Garak Security Scanner](https://github.com/leondz/garak)
+- **Ethics:**
+  - [UNESCO AI Ethics](https://unesdoc.unesco.org/ark:/48223/pf0000381137)
+
+
+## ⚙️ Deployment & Production
+
+- **API & Serving:**
+  - [FastAPI Tutorial](https://fastapi.tiangolo.com/tutorial/)
+  - [Ray Serve](https://docs.ray.io/en/latest/serve/index.html)
+- **Cloud & Scaling:**
+  - [Hugging Face Endpoints](https://huggingface.co/docs/inference-endpoints/index)
+  - [Deploy Llama on AWS](https://aws.amazon.com/blogs/machine-learning/deploy-llama-2-on-aws/)
+
+
+## 📝 Project Examples
+
+- **Chatbot for Customer Support:**
+  - [LangChain Templates](https://github.com/langchain-ai/langchain/tree/master/templates)
+- **Document Summarization:**
+  - [Hugging Face Summarization](https://huggingface.co/docs/transformers/tasks/summarization)
+- **Code Generation Assistant:**
+  - [Copilot Clone Tutorial](https://www.youtube.com/watch?v=M-D2_UrjR-E)
+- **Multilingual Translator:**
+  - [mBART Docs](https://huggingface.co/docs/transformers/model_doc/mbart)
+
+
+## 🌐 Community & Further Reading
+
+- **Online Communities:**
+  - Reddit: r/MachineLearning
+  - Stack Overflow
+  - Hugging Face Forums
+- **Research & Trends:**
+  - [Flamingo (Multimodal LLMs)](https://arxiv.org/abs/2204.14198)
+  - [Phi-3 Blog (Efficient Models)](https://azure.microsoft.com/en-us/blog/introducing-phi-3/)
+  - [AutoGen (AI Agents)](https://github.com/microsoft/autogen)
+
+
+**Tips for Success:**
+- Start with the basics and build up.
+- Practice with small projects.
+- Join communities for support.
+- Stay updated with new trends and research.
+
 3. **สำรวจเทรนด์ใหม่:** อ่าน paper เช่น Flamingo หรือติดตามบล็อกจาก Microsoft และ xAI เพื่ออัปเดตเทคโนโลยี เช่น multimodal LLMs `[Advanced]`
 4. **พัฒนาโปรเจกต์ขั้นสูง:** ลองรวม LLM กับเครื่องมืออื่น เช่น สร้าง AI agent ด้วย AutoGen หรือโมเดลขนาดเล็กสำหรับ edge devices `[Advanced]`
 5. **คำนึงถึงจริยธรรม:** ตรวจสอบ bias และความปลอดภัยของโมเดล โดยอิงจากแนวทาง เช่น UNESCO AI Ethics `[All Levels]`
