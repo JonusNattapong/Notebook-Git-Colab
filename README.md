@@ -1,6 +1,6 @@
 <div align="center">
 
-![Project Logo](./public/icon3.png)
+![Project Logo](./public/icon2.png)
 
 # 📚 AI LLM Learning Resources
 # Version 1.1 Update (11/03/2568)
